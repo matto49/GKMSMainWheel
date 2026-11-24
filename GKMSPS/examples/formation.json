@@ -1,0 +1,40 @@
+{
+ "idol": {
+  "id": "i_card-hmsz-3-016",
+  "level_limit_rank": 6,
+  "potential_rank": 1
+ },
+ "supports": [
+  {
+   "id": "s_card-3-0066",
+   "level": 50,
+   "rental": false
+  },
+  {
+   "id": "s_card-3-0099",
+   "level": 55,
+   "rental": false
+  },
+  {
+   "id": "s_card-3-0069",
+   "level": 60,
+   "rental": false
+  },
+  {
+   "id": "s_card-3-0082",
+   "level": 50,
+   "rental": false
+  },
+  {
+   "id": "s_card-2-0007",
+   "level": 50,
+   "rental": false
+  },
+  {
+   "id": "s_card-3-0062",
+   "level": 60,
+   "rental": true
+  }
+ ],
+ "memories": []
+}

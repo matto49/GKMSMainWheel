@@ -1,0 +1,6328 @@
+{
+"enums": {
+"characterpersonalitytypea": [
+"CHARACTER_PERSONALITY_TYPE_A",
+1
+],
+"characterpersonalitytypeb": [
+"CHARACTER_PERSONALITY_TYPE_B",
+2
+],
+"characterpersonalitytypec": [
+"CHARACTER_PERSONALITY_TYPE_C",
+3
+],
+"characterpersonalitytyped": [
+"CHARACTER_PERSONALITY_TYPE_D",
+4
+],
+"characterpersonalitytypeunknown": [
+"CHARACTER_PERSONALITY_TYPE_UNKNOWN",
+0
+],
+"competitionphasetypematchedrivals": [
+"COMPETITION_PHASE_TYPE_MATCHED_RIVALS",
+1
+],
+"competitionphasetypeplaying": [
+"COMPETITION_PHASE_TYPE_PLAYING",
+3
+],
+"competitionphasetyperesult": [
+"COMPETITION_PHASE_TYPE_RESULT",
+4
+],
+"competitionphasetypestart": [
+"COMPETITION_PHASE_TYPE_START",
+2
+],
+"competitionphasetypeunknown": [
+"COMPETITION_PHASE_TYPE_UNKNOWN",
+0
+],
+"competitionseasonstatustypeinplayable": [
+"COMPETITION_SEASON_STATUS_TYPE_IN_PLAYABLE",
+3
+],
+"competitionseasonstatustypenotattended": [
+"COMPETITION_SEASON_STATUS_TYPE_NOT_ATTENDED",
+4
+],
+"competitionseasonstatustypeoutofterm": [
+"COMPETITION_SEASON_STATUS_TYPE_OUT_OF_TERM",
+1
+],
+"competitionseasonstatustypepreparestartterm": [
+"COMPETITION_SEASON_STATUS_TYPE_PREPARE_START_TERM",
+2
+],
+"competitionseasonstatustypeunknown": [
+"COMPETITION_SEASON_STATUS_TYPE_UNKNOWN",
+0
+],
+"conditionminmaxtypemax": [
+"CONDITION_MIN_MAX_TYPE_MAX",
+3
+],
+"conditionminmaxtypemin": [
+"CONDITION_MIN_MAX_TYPE_MIN",
+2
+],
+"conditionminmaxtypeminmax": [
+"CONDITION_MIN_MAX_TYPE_MIN_MAX",
+1
+],
+"conditionminmaxtypeunknown": [
+"CONDITION_MIN_MAX_TYPE_UNKNOWN",
+0
+],
+"examcommandtypecardenchanttrigger": [
+"EXAM_COMMAND_TYPE_CARD_ENCHANT_TRIGGER",
+14
+],
+"examcommandtypeforceplayreview": [
+"EXAM_COMMAND_TYPE_FORCE_PLAY_REVIEW",
+17
+],
+"examcommandtypefusionmemberactivation": [
+"EXAM_COMMAND_TYPE_FUSION_MEMBER_ACTIVATION",
+18
+],
+"examcommandtypemoveplaycard": [
+"EXAM_COMMAND_TYPE_MOVE_PLAY_CARD",
+6
+],
+"examcommandtypenousablecardactivity": [
+"EXAM_COMMAND_TYPE_NO_USABLE_CARD_ACTIVITY",
+11
+],
+"examcommandtypepanic": [
+"EXAM_COMMAND_TYPE_PANIC",
+16
+],
+"examcommandtypephasechange": [
+"EXAM_COMMAND_TYPE_PHASE_CHANGE",
+8
+],
+"examcommandtypeplayeffect": [
+"EXAM_COMMAND_TYPE_PLAY_EFFECT",
+5
+],
+"examcommandtypeseparateactivity": [
+"EXAM_COMMAND_TYPE_SEPARATE_ACTIVITY",
+9
+],
+"examcommandtypeseparatetrigger": [
+"EXAM_COMMAND_TYPE_SEPARATE_TRIGGER",
+10
+],
+"examcommandtypesupportcardupgrade": [
+"EXAM_COMMAND_TYPE_SUPPORT_CARD_UPGRADE",
+15
+],
+"examcommandtypeturncheck": [
+"EXAM_COMMAND_TYPE_TURN_CHECK",
+7
+],
+"examcommandtypeturndraw": [
+"EXAM_COMMAND_TYPE_TURN_DRAW",
+1
+],
+"examcommandtypeturnend": [
+"EXAM_COMMAND_TYPE_TURN_END",
+12
+],
+"examcommandtypeunknown": [
+"EXAM_COMMAND_TYPE_UNKNOWN",
+0
+],
+"examcommandtypeusedrink": [
+"EXAM_COMMAND_TYPE_USE_DRINK",
+3
+],
+"examcommandtypeusehand": [
+"EXAM_COMMAND_TYPE_USE_HAND",
+2
+],
+"examcommandtypeusepool": [
+"EXAM_COMMAND_TYPE_USE_POOL",
+4
+],
+"examcommandtypeusercardaftercheck": [
+"EXAM_COMMAND_TYPE_USER_CARD_AFTER_CHECK",
+13
+],
+"examcosttypeexamcardplayaggressive": [
+"EXAM_COST_TYPE_EXAM_CARD_PLAY_AGGRESSIVE",
+3
+],
+"examcosttypeexamfullpowerpoint": [
+"EXAM_COST_TYPE_EXAM_FULL_POWER_POINT",
+5
+],
+"examcosttypeexamlessonbuff": [
+"EXAM_COST_TYPE_EXAM_LESSON_BUFF",
+1
+],
+"examcosttypeexamparameterbuff": [
+"EXAM_COST_TYPE_EXAM_PARAMETER_BUFF",
+4
+],
+"examcosttypeexamparameterbuffmultipleperturn": [
+"EXAM_COST_TYPE_EXAM_PARAMETER_BUFF_MULTIPLE_PER_TURN",
+6
+],
+"examcosttypeexamreview": [
+"EXAM_COST_TYPE_EXAM_REVIEW",
+2
+],
+"examcosttypeunknown": [
+"EXAM_COST_TYPE_UNKNOWN",
+0
+],
+"examdescriptiontypecustomizecostvalue": [
+"EXAM_DESCRIPTION_TYPE_CUSTOMIZE_COST_VALUE",
+9
+],
+"examdescriptiontypecustomizeeffectadd": [
+"EXAM_DESCRIPTION_TYPE_CUSTOMIZE_EFFECT_ADD",
+7
+],
+"examdescriptiontypecustomizeeffectcount": [
+"EXAM_DESCRIPTION_TYPE_CUSTOMIZE_EFFECT_COUNT",
+3
+],
+"examdescriptiontypecustomizeeffectvalue1": [
+"EXAM_DESCRIPTION_TYPE_CUSTOMIZE_EFFECT_VALUE1",
+1
+],
+"examdescriptiontypecustomizeeffectvalue2": [
+"EXAM_DESCRIPTION_TYPE_CUSTOMIZE_EFFECT_VALUE2",
+2
+],
+"examdescriptiontypecustomizeeffectvaluepercent1": [
+"EXAM_DESCRIPTION_TYPE_CUSTOMIZE_EFFECT_VALUE_PERCENT1",
+20
+],
+"examdescriptiontypecustomizeeffectvaluepercent2": [
+"EXAM_DESCRIPTION_TYPE_CUSTOMIZE_EFFECT_VALUE_PERCENT2",
+21
+],
+"examdescriptiontypecustomizeinitialadd": [
+"EXAM_DESCRIPTION_TYPE_CUSTOMIZE_INITIAL_ADD",
+5
+],
+"examdescriptiontypecustomizelessoncountadd": [
+"EXAM_DESCRIPTION_TYPE_CUSTOMIZE_LESSON_COUNT_ADD",
+8
+],
+"examdescriptiontypecustomizeplaymovepositionlost": [
+"EXAM_DESCRIPTION_TYPE_CUSTOMIZE_PLAY_MOVE_POSITION_LOST",
+6
+],
+"examdescriptiontypecustomizeturn": [
+"EXAM_DESCRIPTION_TYPE_CUSTOMIZE_TURN",
+4
+],
+"examdescriptiontypeexamcardcreatesearchturntimerproducecardname": [
+"EXAM_DESCRIPTION_TYPE_EXAM_CARD_CREATE_SEARCH_TURN_TIMER_PRODUCE_CARD_NAME",
+15
+],
+"examdescriptiontypeexamcount": [
+"EXAM_DESCRIPTION_TYPE_EXAM_COUNT",
+14
+],
+"examdescriptiontypeexamendturntimer": [
+"EXAM_DESCRIPTION_TYPE_EXAM_END_TURN_TIMER",
+22
+],
+"examdescriptiontypeexamproducecardsearch": [
+"EXAM_DESCRIPTION_TYPE_EXAM_PRODUCE_CARD_SEARCH",
+17
+],
+"examdescriptiontypeexamproduceexameffect": [
+"EXAM_DESCRIPTION_TYPE_EXAM_PRODUCE_EXAM_EFFECT",
+16
+],
+"examdescriptiontypeexamturn": [
+"EXAM_DESCRIPTION_TYPE_EXAM_TURN",
+12
+],
+"examdescriptiontypeexamturnminus": [
+"EXAM_DESCRIPTION_TYPE_EXAM_TURN_MINUS",
+23
+],
+"examdescriptiontypeexamturntimer": [
+"EXAM_DESCRIPTION_TYPE_EXAM_TURN_TIMER",
+13
+],
+"examdescriptiontypeexamvalue": [
+"EXAM_DESCRIPTION_TYPE_EXAM_VALUE",
+10
+],
+"examdescriptiontypeexamvalue2": [
+"EXAM_DESCRIPTION_TYPE_EXAM_VALUE2",
+11
+],
+"examdescriptiontypeunknown": [
+"EXAM_DESCRIPTION_TYPE_UNKNOWN",
+0
+],
+"examidolstatustypeconcentration": [
+"EXAM_IDOL_STATUS_TYPE_CONCENTRATION",
+1
+],
+"examidolstatustypefullpower": [
+"EXAM_IDOL_STATUS_TYPE_FULL_POWER",
+3
+],
+"examidolstatustypeoverpreservation": [
+"EXAM_IDOL_STATUS_TYPE_OVER_PRESERVATION",
+4
+],
+"examidolstatustypepreservation": [
+"EXAM_IDOL_STATUS_TYPE_PRESERVATION",
+2
+],
+"examidolstatustypeunknown": [
+"EXAM_IDOL_STATUS_TYPE_UNKNOWN",
+0
+],
+"examphasetypeexamcardfusion": [
+"EXAM_PHASE_TYPE_EXAM_CARD_FUSION",
+8
+],
+"examphasetypeexamcardfusionafter": [
+"EXAM_PHASE_TYPE_EXAM_CARD_FUSION_AFTER",
+9
+],
+"examphasetypeexamend": [
+"EXAM_PHASE_TYPE_EXAM_END",
+7
+],
+"examphasetypeexamstandby": [
+"EXAM_PHASE_TYPE_EXAM_STAND_BY",
+1
+],
+"examphasetypemain": [
+"EXAM_PHASE_TYPE_MAIN",
+5
+],
+"examphasetypeturnend": [
+"EXAM_PHASE_TYPE_TURN_END",
+6
+],
+"examphasetypeturnstart": [
+"EXAM_PHASE_TYPE_TURN_START",
+2
+],
+"examphasetypeturnstartafter": [
+"EXAM_PHASE_TYPE_TURN_START_AFTER",
+3
+],
+"examphasetypeturnstartdraw": [
+"EXAM_PHASE_TYPE_TURN_START_DRAW",
+4
+],
+"examphasetypeunknown": [
+"EXAM_PHASE_TYPE_UNKNOWN",
+0
+],
+"exchangetypedaily": [
+"EXCHANGE_TYPE_DAILY",
+1
+],
+"exchangetypeevent": [
+"EXCHANGE_TYPE_EVENT",
+3
+],
+"exchangetypeitem": [
+"EXCHANGE_TYPE_ITEM",
+2
+],
+"exchangetypeunknown": [
+"EXCHANGE_TYPE_UNKNOWN",
+0
+],
+"friendstatustypefollow": [
+"FRIEND_STATUS_TYPE_FOLLOW",
+3
+],
+"friendstatustypefollower": [
+"FRIEND_STATUS_TYPE_FOLLOWER",
+4
+],
+"friendstatustypemutualfollow": [
+"FRIEND_STATUS_TYPE_MUTUAL_FOLLOW",
+2
+],
+"friendstatustypenone": [
+"FRIEND_STATUS_TYPE_NONE",
+1
+],
+"friendstatustypeunknown": [
+"FRIEND_STATUS_TYPE_UNKNOWN",
+0
+],
+"guildmissionphasetypecleared": [
+"GUILD_MISSION_PHASE_TYPE_CLEARED",
+99
+],
+"guildmissionphasetypeproduceconditionset1unlocked": [
+"GUILD_MISSION_PHASE_TYPE_PRODUCE_CONDITION_SET1_UNLOCKED",
+1
+],
+"guildmissionphasetypeproduceconditionset2unlocked": [
+"GUILD_MISSION_PHASE_TYPE_PRODUCE_CONDITION_SET2_UNLOCKED",
+2
+],
+"guildmissionphasetypeproduceconditionset3unlocked": [
+"GUILD_MISSION_PHASE_TYPE_PRODUCE_CONDITION_SET3_UNLOCKED",
+3
+],
+"guildmissionphasetypeunknown": [
+"GUILD_MISSION_PHASE_TYPE_UNKNOWN",
+0
+],
+"idolcardlevellimiteffecttypeproducecardupgrade": [
+"IDOL_CARD_LEVEL_LIMIT_EFFECT_TYPE_PRODUCE_CARD_UPGRADE",
+1
+],
+"idolcardlevellimiteffecttypeproduceitemupgrade": [
+"IDOL_CARD_LEVEL_LIMIT_EFFECT_TYPE_PRODUCE_ITEM_UPGRADE",
+6
+],
+"idolcardlevellimiteffecttypeproduceskill": [
+"IDOL_CARD_LEVEL_LIMIT_EFFECT_TYPE_PRODUCE_SKILL",
+4
+],
+"idolcardlevellimiteffecttypeproducestamina": [
+"IDOL_CARD_LEVEL_LIMIT_EFFECT_TYPE_PRODUCE_STAMINA",
+3
+],
+"idolcardlevellimiteffecttypeproducevodavi": [
+"IDOL_CARD_LEVEL_LIMIT_EFFECT_TYPE_PRODUCE_VO_DA_VI",
+2
+],
+"idolcardlevellimiteffecttypesecondproducecardupgrade": [
+"IDOL_CARD_LEVEL_LIMIT_EFFECT_TYPE_SECOND_PRODUCE_CARD_UPGRADE",
+5
+],
+"idolcardlevellimiteffecttypeunknown": [
+"IDOL_CARD_LEVEL_LIMIT_EFFECT_TYPE_UNKNOWN",
+0
+],
+"idolcardlevellimitrank1": [
+"IDOL_CARD_LEVEL_LIMIT_RANK_1",
+1
+],
+"idolcardlevellimitrank2": [
+"IDOL_CARD_LEVEL_LIMIT_RANK_2",
+2
+],
+"idolcardlevellimitrank3": [
+"IDOL_CARD_LEVEL_LIMIT_RANK_3",
+3
+],
+"idolcardlevellimitrank4": [
+"IDOL_CARD_LEVEL_LIMIT_RANK_4",
+4
+],
+"idolcardlevellimitrank5": [
+"IDOL_CARD_LEVEL_LIMIT_RANK_5",
+5
+],
+"idolcardlevellimitrank6": [
+"IDOL_CARD_LEVEL_LIMIT_RANK_6",
+6
+],
+"idolcardlevellimitrank7": [
+"IDOL_CARD_LEVEL_LIMIT_RANK_7",
+7
+],
+"idolcardlevellimitrank8": [
+"IDOL_CARD_LEVEL_LIMIT_RANK_8",
+8
+],
+"idolcardlevellimitrank9": [
+"IDOL_CARD_LEVEL_LIMIT_RANK_9",
+9
+],
+"idolcardlevellimitrankunknown": [
+"IDOL_CARD_LEVEL_LIMIT_RANK_UNKNOWN",
+0
+],
+"idolcardpotentialeffecttypeinitialproduceitemchange": [
+"IDOL_CARD_POTENTIAL_EFFECT_TYPE_INITIAL_PRODUCE_ITEM_CHANGE",
+3
+],
+"idolcardpotentialeffecttypeproduceskill": [
+"IDOL_CARD_POTENTIAL_EFFECT_TYPE_PRODUCE_SKILL",
+4
+],
+"idolcardpotentialeffecttypeproducestamina": [
+"IDOL_CARD_POTENTIAL_EFFECT_TYPE_PRODUCE_STAMINA",
+2
+],
+"idolcardpotentialeffecttypeproducevodavigrowthratepermil": [
+"IDOL_CARD_POTENTIAL_EFFECT_TYPE_PRODUCE_VO_DA_VI_GROWTH_RATE_PERMIL",
+1
+],
+"idolcardpotentialeffecttypeunknown": [
+"IDOL_CARD_POTENTIAL_EFFECT_TYPE_UNKNOWN",
+0
+],
+"idolcardpotentialrank1": [
+"IDOL_CARD_POTENTIAL_RANK_1",
+1
+],
+"idolcardpotentialrank2": [
+"IDOL_CARD_POTENTIAL_RANK_2",
+2
+],
+"idolcardpotentialrank3": [
+"IDOL_CARD_POTENTIAL_RANK_3",
+3
+],
+"idolcardpotentialrank4": [
+"IDOL_CARD_POTENTIAL_RANK_4",
+4
+],
+"idolcardpotentialrankunknown": [
+"IDOL_CARD_POTENTIAL_RANK_UNKNOWN",
+0
+],
+"idolcardproduceitemtypeafterpotentialandafterlevellimit7": [
+"IDOL_CARD_PRODUCE_ITEM_TYPE_AFTER_POTENTIAL_AND_AFTER_LEVEL_LIMIT7",
+4
+],
+"idolcardproduceitemtypeafterpotentialandbeforelevellimit7": [
+"IDOL_CARD_PRODUCE_ITEM_TYPE_AFTER_POTENTIAL_AND_BEFORE_LEVEL_LIMIT7",
+3
+],
+"idolcardproduceitemtypebeforepotentialandafterlevellimit7": [
+"IDOL_CARD_PRODUCE_ITEM_TYPE_BEFORE_POTENTIAL_AND_AFTER_LEVEL_LIMIT7",
+2
+],
+"idolcardproduceitemtypebeforepotentialandbeforelevellimit7": [
+"IDOL_CARD_PRODUCE_ITEM_TYPE_BEFORE_POTENTIAL_AND_BEFORE_LEVEL_LIMIT7",
+1
+],
+"idolcardproduceitemtypeunknown": [
+"IDOL_CARD_PRODUCE_ITEM_TYPE_UNKNOWN",
+0
+],
+"idolcardrarityr": [
+"IDOL_CARD_RARITY_R",
+1
+],
+"idolcardraritysr": [
+"IDOL_CARD_RARITY_SR",
+2
+],
+"idolcardrarityssr": [
+"IDOL_CARD_RARITY_SSR",
+3
+],
+"idolcardrarityunknown": [
+"IDOL_CARD_RARITY_UNKNOWN",
+0
+],
+"itemrarityn": [
+"ITEM_RARITY_N",
+1
+],
+"itemrarityr": [
+"ITEM_RARITY_R",
+2
+],
+"itemraritysr": [
+"ITEM_RARITY_SR",
+3
+],
+"itemrarityssr": [
+"ITEM_RARITY_SSR",
+4
+],
+"itemrarityunknown": [
+"ITEM_RARITY_UNKNOWN",
+0
+],
+"itemtypeactionpointrecovery": [
+"ITEM_TYPE_ACTION_POINT_RECOVERY",
+4
+],
+"itemtypecoin": [
+"ITEM_TYPE_COIN",
+8
+],
+"itemtypecompetitioncoin": [
+"ITEM_TYPE_COMPETITION_COIN",
+21
+],
+"itemtypedearnessstoryunlock": [
+"ITEM_TYPE_DEARNESS_STORY_UNLOCK",
+20
+],
+"itemtypeexchangematerial": [
+"ITEM_TYPE_EXCHANGE_MATERIAL",
+9
+],
+"itemtypeexchangeticket": [
+"ITEM_TYPE_EXCHANGE_TICKET",
+15
+],
+"itemtypefriendcoin": [
+"ITEM_TYPE_FRIEND_COIN",
+12
+],
+"itemtypegashaticket": [
+"ITEM_TYPE_GASHA_TICKET",
+7
+],
+"itemtypeidolcardcharacterpiece": [
+"ITEM_TYPE_IDOL_CARD_CHARACTER_PIECE",
+22
+],
+"itemtypeidolcardlevellimitmaterial": [
+"ITEM_TYPE_IDOL_CARD_LEVEL_LIMIT_MATERIAL",
+5
+],
+"itemtypeidolcardpiece": [
+"ITEM_TYPE_IDOL_CARD_PIECE",
+11
+],
+"itemtypeidolcardpotentialrankupgrade": [
+"ITEM_TYPE_IDOL_CARD_POTENTIAL_RANK_UPGRADE",
+17
+],
+"itemtypemedal": [
+"ITEM_TYPE_MEDAL",
+10
+],
+"itemtypememoryinherit": [
+"ITEM_TYPE_MEMORY_INHERIT",
+19
+],
+"itemtypemoney": [
+"ITEM_TYPE_MONEY",
+1
+],
+"itemtypeproduceboostrewardidolcardlevellimitmaterial": [
+"ITEM_TYPE_PRODUCE_BOOST_REWARD_IDOL_CARD_LEVEL_LIMIT_MATERIAL",
+103
+],
+"itemtypeproduceboostrewardsupportcardenhancepoint": [
+"ITEM_TYPE_PRODUCE_BOOST_REWARD_SUPPORT_CARD_ENHANCE_POINT",
+102
+],
+"itemtypeproducecontinue": [
+"ITEM_TYPE_PRODUCE_CONTINUE",
+2
+],
+"itemtypeproduceliveunlockitem": [
+"ITEM_TYPE_PRODUCE_LIVE_UNLOCK_ITEM",
+16
+],
+"itemtypeproducererollmemory": [
+"ITEM_TYPE_PRODUCE_REROLL_MEMORY",
+6
+],
+"itemtypepvpratecoin": [
+"ITEM_TYPE_PVP_RATE_COIN",
+13
+],
+"itemtyperefineexchange": [
+"ITEM_TYPE_REFINE_EXCHANGE",
+24
+],
+"itemtypestoryunlockkey": [
+"ITEM_TYPE_STORY_UNLOCK_KEY",
+14
+],
+"itemtypesupportcardenhancepoint": [
+"ITEM_TYPE_SUPPORT_CARD_ENHANCE_POINT",
+3
+],
+"itemtypesupportcardlevellimitrankupgrade": [
+"ITEM_TYPE_SUPPORT_CARD_LEVEL_LIMIT_RANK_UPGRADE",
+18
+],
+"itemtypeunitstoryunlock": [
+"ITEM_TYPE_UNIT_STORY_UNLOCK",
+23
+],
+"itemtypeunknown": [
+"ITEM_TYPE_UNKNOWN",
+0
+],
+"producecardcategoryactiveskill": [
+"PRODUCE_CARD_CATEGORY_ACTIVE_SKILL",
+1
+],
+"producecardcategoryderive": [
+"PRODUCE_CARD_CATEGORY_DERIVE",
+4
+],
+"producecardcategorymentalskill": [
+"PRODUCE_CARD_CATEGORY_MENTAL_SKILL",
+2
+],
+"producecardcategorytrouble": [
+"PRODUCE_CARD_CATEGORY_TROUBLE",
+3
+],
+"producecardcategoryunknown": [
+"PRODUCE_CARD_CATEGORY_UNKNOWN",
+0
+],
+"producecardgroweffecttypeaggressiveadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_AGGRESSIVE_ADD",
+22
+],
+"producecardgroweffecttypeaggressivereduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_AGGRESSIVE_REDUCE",
+23
+],
+"producecardgroweffecttypeblockadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_BLOCK_ADD",
+5
+],
+"producecardgroweffecttypeblockreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_BLOCK_REDUCE",
+6
+],
+"producecardgroweffecttypecarddrawadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_CARD_DRAW_ADD",
+24
+],
+"producecardgroweffecttypecarddrawreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_CARD_DRAW_REDUCE",
+25
+],
+"producecardgroweffecttypecardstatusenchantchange": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_CARD_STATUS_ENCHANT_CHANGE",
+35
+],
+"producecardgroweffecttypecostadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_ADD",
+13
+],
+"producecardgroweffecttypecostaggressiveadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_AGGRESSIVE_ADD",
+45
+],
+"producecardgroweffecttypecostaggressivereduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_AGGRESSIVE_REDUCE",
+44
+],
+"producecardgroweffecttypecostbuffadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_BUFF_ADD",
+11
+],
+"producecardgroweffecttypecostbuffreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_BUFF_REDUCE",
+10
+],
+"producecardgroweffecttypecostfullpowerpointadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_FULL_POWER_POINT_ADD",
+49
+],
+"producecardgroweffecttypecostfullpowerpointreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_FULL_POWER_POINT_REDUCE",
+48
+],
+"producecardgroweffecttypecostlessonbuffadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_LESSON_BUFF_ADD",
+41
+],
+"producecardgroweffecttypecostlessonbuffreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_LESSON_BUFF_REDUCE",
+40
+],
+"producecardgroweffecttypecostparameterbuffadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_PARAMETER_BUFF_ADD",
+47
+],
+"producecardgroweffecttypecostparameterbuffmultipleperturnadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_PARAMETER_BUFF_MULTIPLE_PER_TURN_ADD",
+53
+],
+"producecardgroweffecttypecostparameterbuffmultipleperturnreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_PARAMETER_BUFF_MULTIPLE_PER_TURN_REDUCE",
+54
+],
+"producecardgroweffecttypecostparameterbuffreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_PARAMETER_BUFF_REDUCE",
+46
+],
+"producecardgroweffecttypecostpenetrateadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_PENETRATE_ADD",
+15
+],
+"producecardgroweffecttypecostpenetratereduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_PENETRATE_REDUCE",
+14
+],
+"producecardgroweffecttypecostreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_REDUCE",
+12
+],
+"producecardgroweffecttypecostreviewadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_REVIEW_ADD",
+43
+],
+"producecardgroweffecttypecostreviewreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_COST_REVIEW_REDUCE",
+42
+],
+"producecardgroweffecttypeeffectadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_EFFECT_ADD",
+32
+],
+"producecardgroweffecttypeeffectchange": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_EFFECT_CHANGE",
+34
+],
+"producecardgroweffecttypeeffectdelete": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_EFFECT_DELETE",
+33
+],
+"producecardgroweffecttypefullpowerpointadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_FULL_POWER_POINT_ADD",
+7
+],
+"producecardgroweffecttypefullpowerpointreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_FULL_POWER_POINT_REDUCE",
+8
+],
+"producecardgroweffecttypeinitialadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_INITIAL_ADD",
+39
+],
+"producecardgroweffecttypelessonadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_LESSON_ADD",
+1
+],
+"producecardgroweffecttypelessonbuffadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_LESSON_BUFF_ADD",
+18
+],
+"producecardgroweffecttypelessonbuffreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_LESSON_BUFF_REDUCE",
+19
+],
+"producecardgroweffecttypelessoncountadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_LESSON_COUNT_ADD",
+3
+],
+"producecardgroweffecttypelessoncountreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_LESSON_COUNT_REDUCE",
+4
+],
+"producecardgroweffecttypelessondependblockadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_LESSON_DEPEND_BLOCK_ADD",
+50
+],
+"producecardgroweffecttypelessondependexamcardplayaggressiveadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_LESSON_DEPEND_EXAM_CARD_PLAY_AGGRESSIVE_ADD",
+51
+],
+"producecardgroweffecttypelessondependexamreviewadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_LESSON_DEPEND_EXAM_REVIEW_ADD",
+52
+],
+"producecardgroweffecttypelessonreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_LESSON_REDUCE",
+2
+],
+"producecardgroweffecttypemoveeffectchange": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_MOVE_EFFECT_CHANGE",
+55
+],
+"producecardgroweffecttypeparameterbuffmultipleperturnadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_PARAMETER_BUFF_MULTIPLE_PER_TURN_ADD",
+26
+],
+"producecardgroweffecttypeparameterbuffmultipleperturnreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_PARAMETER_BUFF_MULTIPLE_PER_TURN_REDUCE",
+27
+],
+"producecardgroweffecttypeparameterbuffturnadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_PARAMETER_BUFF_TURN_ADD",
+16
+],
+"producecardgroweffecttypeparameterbuffturnreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_PARAMETER_BUFF_TURN_REDUCE",
+17
+],
+"producecardgroweffecttypeplayeffecttriggerchange": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_PLAY_EFFECT_TRIGGER_CHANGE",
+37
+],
+"producecardgroweffecttypeplaymovepositiontypechange": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_PLAY_MOVE_POSITION_TYPE_CHANGE",
+38
+],
+"producecardgroweffecttypeplaytriggerchange": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_PLAY_TRIGGER_CHANGE",
+36
+],
+"producecardgroweffecttypereviewadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_REVIEW_ADD",
+20
+],
+"producecardgroweffecttypereviewreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_REVIEW_REDUCE",
+21
+],
+"producecardgroweffecttypestaminaconsumptionaddturnadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_STAMINA_CONSUMPTION_ADD_TURN_ADD",
+30
+],
+"producecardgroweffecttypestaminaconsumptionaddturnreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_STAMINA_CONSUMPTION_ADD_TURN_REDUCE",
+31
+],
+"producecardgroweffecttypestaminaconsumptiondownturnadd": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_STAMINA_CONSUMPTION_DOWN_TURN_ADD",
+28
+],
+"producecardgroweffecttypestaminaconsumptiondownturnreduce": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_STAMINA_CONSUMPTION_DOWN_TURN_REDUCE",
+29
+],
+"producecardgroweffecttypeunknown": [
+"PRODUCE_CARD_GROW_EFFECT_TYPE_UNKNOWN",
+0
+],
+"producecardmoveeffecttriggertypedraw": [
+"PRODUCE_CARD_MOVE_EFFECT_TRIGGER_TYPE_DRAW",
+3
+],
+"producecardmoveeffecttriggertypegrave": [
+"PRODUCE_CARD_MOVE_EFFECT_TRIGGER_TYPE_GRAVE",
+2
+],
+"producecardmoveeffecttriggertypehand": [
+"PRODUCE_CARD_MOVE_EFFECT_TRIGGER_TYPE_HAND",
+5
+],
+"producecardmoveeffecttriggertypehold": [
+"PRODUCE_CARD_MOVE_EFFECT_TRIGGER_TYPE_HOLD",
+4
+],
+"producecardmoveeffecttriggertypelost": [
+"PRODUCE_CARD_MOVE_EFFECT_TRIGGER_TYPE_LOST",
+1
+],
+"producecardmoveeffecttriggertyperemove": [
+"PRODUCE_CARD_MOVE_EFFECT_TRIGGER_TYPE_REMOVE",
+6
+],
+"producecardmoveeffecttriggertypeunknown": [
+"PRODUCE_CARD_MOVE_EFFECT_TRIGGER_TYPE_UNKNOWN",
+0
+],
+"producecardmovepositiontypedeckfirst": [
+"PRODUCE_CARD_MOVE_POSITION_TYPE_DECK_FIRST",
+2
+],
+"producecardmovepositiontypedecklast": [
+"PRODUCE_CARD_MOVE_POSITION_TYPE_DECK_LAST",
+3
+],
+"producecardmovepositiontypedeckrandom": [
+"PRODUCE_CARD_MOVE_POSITION_TYPE_DECK_RANDOM",
+4
+],
+"producecardmovepositiontypegrave": [
+"PRODUCE_CARD_MOVE_POSITION_TYPE_GRAVE",
+5
+],
+"producecardmovepositiontypehand": [
+"PRODUCE_CARD_MOVE_POSITION_TYPE_HAND",
+1
+],
+"producecardmovepositiontypehold": [
+"PRODUCE_CARD_MOVE_POSITION_TYPE_HOLD",
+7
+],
+"producecardmovepositiontypelost": [
+"PRODUCE_CARD_MOVE_POSITION_TYPE_LOST",
+6
+],
+"producecardmovepositiontyperemove": [
+"PRODUCE_CARD_MOVE_POSITION_TYPE_REMOVE",
+8
+],
+"producecardmovepositiontypeunknown": [
+"PRODUCE_CARD_MOVE_POSITION_TYPE_UNKNOWN",
+0
+],
+"producecardordertypefirst": [
+"PRODUCE_CARD_ORDER_TYPE_FIRST",
+1
+],
+"producecardordertypelast": [
+"PRODUCE_CARD_ORDER_TYPE_LAST",
+2
+],
+"producecardordertyperandom": [
+"PRODUCE_CARD_ORDER_TYPE_RANDOM",
+3
+],
+"producecardordertypeunknown": [
+"PRODUCE_CARD_ORDER_TYPE_UNKNOWN",
+0
+],
+"producecardpickfusiontypedistincttop": [
+"PRODUCE_CARD_PICK_FUSION_TYPE_DISTINCT_TOP",
+2
+],
+"producecardpickfusiontypenormal": [
+"PRODUCE_CARD_PICK_FUSION_TYPE_NORMAL",
+1
+],
+"producecardpickfusiontypeunknown": [
+"PRODUCE_CARD_PICK_FUSION_TYPE_UNKNOWN",
+0
+],
+"producecardplan4grouptypegroup1": [
+"PRODUCE_CARD_PLAN4_GROUP_TYPE_GROUP1",
+1
+],
+"producecardplan4grouptypegroup2": [
+"PRODUCE_CARD_PLAN4_GROUP_TYPE_GROUP2",
+2
+],
+"producecardplan4grouptypegroup3": [
+"PRODUCE_CARD_PLAN4_GROUP_TYPE_GROUP3",
+3
+],
+"producecardplan4grouptypegroup4": [
+"PRODUCE_CARD_PLAN4_GROUP_TYPE_GROUP4",
+4
+],
+"producecardplan4grouptypeunknown": [
+"PRODUCE_CARD_PLAN4_GROUP_TYPE_UNKNOWN",
+0
+],
+"producecardpositiontypedeck": [
+"PRODUCE_CARD_POSITION_TYPE_DECK",
+3
+],
+"producecardpositiontypedeckall": [
+"PRODUCE_CARD_POSITION_TYPE_DECK_ALL",
+6
+],
+"producecardpositiontypedeckgrave": [
+"PRODUCE_CARD_POSITION_TYPE_DECK_GRAVE",
+14
+],
+"producecardpositiontypegrave": [
+"PRODUCE_CARD_POSITION_TYPE_GRAVE",
+4
+],
+"producecardpositiontypehand": [
+"PRODUCE_CARD_POSITION_TYPE_HAND",
+2
+],
+"producecardpositiontypehold": [
+"PRODUCE_CARD_POSITION_TYPE_HOLD",
+13
+],
+"producecardpositiontypelost": [
+"PRODUCE_CARD_POSITION_TYPE_LOST",
+5
+],
+"producecardpositiontypenone": [
+"PRODUCE_CARD_POSITION_TYPE_NONE",
+1
+],
+"producecardpositiontypenotlost": [
+"PRODUCE_CARD_POSITION_TYPE_NOT_LOST",
+15
+],
+"producecardpositiontypeplayhand": [
+"PRODUCE_CARD_POSITION_TYPE_PLAY_HAND",
+9
+],
+"producecardpositiontypeplaying": [
+"PRODUCE_CARD_POSITION_TYPE_PLAYING",
+8
+],
+"producecardpositiontypeplayingfusiontop": [
+"PRODUCE_CARD_POSITION_TYPE_PLAYING_FUSION_TOP",
+16
+],
+"producecardpositiontyperandompool": [
+"PRODUCE_CARD_POSITION_TYPE_RANDOM_POOL",
+7
+],
+"producecardpositiontyperemove": [
+"PRODUCE_CARD_POSITION_TYPE_REMOVE",
+17
+],
+"producecardpositiontypeself": [
+"PRODUCE_CARD_POSITION_TYPE_SELF",
+12
+],
+"producecardpositiontypetarget": [
+"PRODUCE_CARD_POSITION_TYPE_TARGET",
+11
+],
+"producecardpositiontypeunknown": [
+"PRODUCE_CARD_POSITION_TYPE_UNKNOWN",
+0
+],
+"producecardraritylegend": [
+"PRODUCE_CARD_RARITY_LEGEND",
+100
+],
+"producecardrarityn": [
+"PRODUCE_CARD_RARITY_N",
+1
+],
+"producecardrarityr": [
+"PRODUCE_CARD_RARITY_R",
+2
+],
+"producecardraritysr": [
+"PRODUCE_CARD_RARITY_SR",
+3
+],
+"producecardrarityssr": [
+"PRODUCE_CARD_RARITY_SSR",
+4
+],
+"producecardrarityunknown": [
+"PRODUCE_CARD_RARITY_UNKNOWN",
+0
+],
+"producecardsearchstatustypeendturnlost": [
+"PRODUCE_CARD_SEARCH_STATUS_TYPE_END_TURN_LOST",
+2
+],
+"producecardsearchstatustypegraveplay": [
+"PRODUCE_CARD_SEARCH_STATUS_TYPE_GRAVE_PLAY",
+6
+],
+"producecardsearchstatustypeinitial": [
+"PRODUCE_CARD_SEARCH_STATUS_TYPE_INITIAL",
+4
+],
+"producecardsearchstatustypelostplay": [
+"PRODUCE_CARD_SEARCH_STATUS_TYPE_LOST_PLAY",
+1
+],
+"producecardsearchstatustyperestrict": [
+"PRODUCE_CARD_SEARCH_STATUS_TYPE_RESTRICT",
+5
+],
+"producecardsearchstatustypeunknown": [
+"PRODUCE_CARD_SEARCH_STATUS_TYPE_UNKNOWN",
+0
+],
+"producedescriptiontypedifftext": [
+"PRODUCE_DESCRIPTION_TYPE_DIFF_TEXT",
+5
+],
+"producedescriptiontypeexam": [
+"PRODUCE_DESCRIPTION_TYPE_EXAM",
+6
+],
+"producedescriptiontypeexamcardcreatesearchturntimerproducecardname": [
+"PRODUCE_DESCRIPTION_TYPE_EXAM_CARD_CREATE_SEARCH_TURN_TIMER_PRODUCE_CARD_NAME",
+35
+],
+"producedescriptiontypeexamcount": [
+"PRODUCE_DESCRIPTION_TYPE_EXAM_COUNT",
+34
+],
+"producedescriptiontypeexamproducecardsearch": [
+"PRODUCE_DESCRIPTION_TYPE_EXAM_PRODUCE_CARD_SEARCH",
+37
+],
+"producedescriptiontypeexamproduceexameffect": [
+"PRODUCE_DESCRIPTION_TYPE_EXAM_PRODUCE_EXAM_EFFECT",
+36
+],
+"producedescriptiontypeexamturn": [
+"PRODUCE_DESCRIPTION_TYPE_EXAM_TURN",
+32
+],
+"producedescriptiontypeexamturntimer": [
+"PRODUCE_DESCRIPTION_TYPE_EXAM_TURN_TIMER",
+33
+],
+"producedescriptiontypeexamvalue": [
+"PRODUCE_DESCRIPTION_TYPE_EXAM_VALUE",
+30
+],
+"producedescriptiontypeexamvalue2": [
+"PRODUCE_DESCRIPTION_TYPE_EXAM_VALUE2",
+31
+],
+"producedescriptiontypeiconasset": [
+"PRODUCE_DESCRIPTION_TYPE_ICON_ASSET",
+50
+],
+"producedescriptiontypeplaintext": [
+"PRODUCE_DESCRIPTION_TYPE_PLAIN_TEXT",
+1
+],
+"producedescriptiontypeproducecard": [
+"PRODUCE_DESCRIPTION_TYPE_PRODUCE_CARD",
+12
+],
+"producedescriptiontypeproducecardanyupgradecount": [
+"PRODUCE_DESCRIPTION_TYPE_PRODUCE_CARD_ANY_UPGRADE_COUNT",
+13
+],
+"producedescriptiontypeproducecardcategory": [
+"PRODUCE_DESCRIPTION_TYPE_PRODUCE_CARD_CATEGORY",
+3
+],
+"producedescriptiontypeproducecardgroweffecttype": [
+"PRODUCE_DESCRIPTION_TYPE_PRODUCE_CARD_GROW_EFFECT_TYPE",
+7
+],
+"producedescriptiontypeproducedescription": [
+"PRODUCE_DESCRIPTION_TYPE_PRODUCE_DESCRIPTION",
+10
+],
+"producedescriptiontypeproducedescriptionname": [
+"PRODUCE_DESCRIPTION_TYPE_PRODUCE_DESCRIPTION_NAME",
+11
+],
+"producedescriptiontypeproducedrink": [
+"PRODUCE_DESCRIPTION_TYPE_PRODUCE_DRINK",
+15
+],
+"producedescriptiontypeproduceexameffecttype": [
+"PRODUCE_DESCRIPTION_TYPE_PRODUCE_EXAM_EFFECT_TYPE",
+2
+],
+"producedescriptiontypeproduceitem": [
+"PRODUCE_DESCRIPTION_TYPE_PRODUCE_ITEM",
+14
+],
+"producedescriptiontypeproducestepbusinesstype": [
+"PRODUCE_DESCRIPTION_TYPE_PRODUCE_STEP_BUSINESS_TYPE",
+9
+],
+"producedescriptiontypeproducesteptype": [
+"PRODUCE_DESCRIPTION_TYPE_PRODUCE_STEP_TYPE",
+8
+],
+"producedescriptiontypeunknown": [
+"PRODUCE_DESCRIPTION_TYPE_UNKNOWN",
+0
+],
+"producedrinkrarityn": [
+"PRODUCE_DRINK_RARITY_N",
+1
+],
+"producedrinkrarityr": [
+"PRODUCE_DRINK_RARITY_R",
+2
+],
+"producedrinkraritysr": [
+"PRODUCE_DRINK_RARITY_SR",
+3
+],
+"producedrinkrarityssr": [
+"PRODUCE_DRINK_RARITY_SSR",
+4
+],
+"producedrinkrarityunknown": [
+"PRODUCE_DRINK_RARITY_UNKNOWN",
+0
+],
+"produceeffecttypeauditionnpcenhance": [
+"PRODUCE_EFFECT_TYPE_AUDITION_NPC_ENHANCE",
+97
+],
+"produceeffecttypeauditionnpcweaken": [
+"PRODUCE_EFFECT_TYPE_AUDITION_NPC_WEAKEN",
+128
+],
+"produceeffecttypeauditionparameterbonusmultiple": [
+"PRODUCE_EFFECT_TYPE_AUDITION_PARAMETER_BONUS_MULTIPLE",
+53
+],
+"produceeffecttypeauditionvotecountdown": [
+"PRODUCE_EFFECT_TYPE_AUDITION_VOTE_COUNT_DOWN",
+120
+],
+"produceeffecttypeauditionvotecountup": [
+"PRODUCE_EFFECT_TYPE_AUDITION_VOTE_COUNT_UP",
+119
+],
+"produceeffecttypebeforeauditionrefreshstaminadown": [
+"PRODUCE_EFFECT_TYPE_BEFORE_AUDITION_REFRESH_STAMINA_DOWN",
+108
+],
+"produceeffecttypebeforeauditionrefreshstaminaup": [
+"PRODUCE_EFFECT_TYPE_BEFORE_AUDITION_REFRESH_STAMINA_UP",
+107
+],
+"produceeffecttypecustomizeproducecardcountup": [
+"PRODUCE_EFFECT_TYPE_CUSTOMIZE_PRODUCE_CARD_COUNT_UP",
+111
+],
+"produceeffecttypecustomizeproducecardproducepointdownmultiple": [
+"PRODUCE_EFFECT_TYPE_CUSTOMIZE_PRODUCE_CARD_PRODUCE_POINT_DOWN_MULTIPLE",
+113
+],
+"produceeffecttypecustomizeproducecardproducepointupmultiple": [
+"PRODUCE_EFFECT_TYPE_CUSTOMIZE_PRODUCE_CARD_PRODUCE_POINT_UP_MULTIPLE",
+112
+],
+"produceeffecttypedanceaddition": [
+"PRODUCE_EFFECT_TYPE_DANCE_ADDITION",
+2
+],
+"produceeffecttypedancedown": [
+"PRODUCE_EFFECT_TYPE_DANCE_DOWN",
+5
+],
+"produceeffecttypedancegrowthrateaddition": [
+"PRODUCE_EFFECT_TYPE_DANCE_GROWTH_RATE_ADDITION",
+8
+],
+"produceeffecttypedancegrowthratedown": [
+"PRODUCE_EFFECT_TYPE_DANCE_GROWTH_RATE_DOWN",
+11
+],
+"produceeffecttypedancelimitup": [
+"PRODUCE_EFFECT_TYPE_DANCE_LIMIT_UP",
+92
+],
+"produceeffecttypedancepermiladdition": [
+"PRODUCE_EFFECT_TYPE_DANCE_PERMIL_ADDITION",
+136
+],
+"produceeffecttypedancepermildown": [
+"PRODUCE_EFFECT_TYPE_DANCE_PERMIL_DOWN",
+139
+],
+"produceeffecttypeeventactivityproducepointdown": [
+"PRODUCE_EFFECT_TYPE_EVENT_ACTIVITY_PRODUCE_POINT_DOWN",
+106
+],
+"produceeffecttypeeventactivityproducepointup": [
+"PRODUCE_EFFECT_TYPE_EVENT_ACTIVITY_PRODUCE_POINT_UP",
+105
+],
+"produceeffecttypeeventbusinessexcellentpermildown": [
+"PRODUCE_EFFECT_TYPE_EVENT_BUSINESS_EXCELLENT_PERMIL_DOWN",
+118
+],
+"produceeffecttypeeventbusinessexcellentpermilup": [
+"PRODUCE_EFFECT_TYPE_EVENT_BUSINESS_EXCELLENT_PERMIL_UP",
+117
+],
+"produceeffecttypeeventbusinessvotecountdown": [
+"PRODUCE_EFFECT_TYPE_EVENT_BUSINESS_VOTE_COUNT_DOWN",
+116
+],
+"produceeffecttypeeventbusinessvotecountup": [
+"PRODUCE_EFFECT_TYPE_EVENT_BUSINESS_VOTE_COUNT_UP",
+115
+],
+"produceeffecttypeeventschoolstaminadown": [
+"PRODUCE_EFFECT_TYPE_EVENT_SCHOOL_STAMINA_DOWN",
+104
+],
+"produceeffecttypeeventschoolstaminaup": [
+"PRODUCE_EFFECT_TYPE_EVENT_SCHOOL_STAMINA_UP",
+103
+],
+"produceeffecttypeexampermanentauditionstatusenchant": [
+"PRODUCE_EFFECT_TYPE_EXAM_PERMANENT_AUDITION_STATUS_ENCHANT",
+127
+],
+"produceeffecttypeexampermanentlessonstatusenchant": [
+"PRODUCE_EFFECT_TYPE_EXAM_PERMANENT_LESSON_STATUS_ENCHANT",
+126
+],
+"produceeffecttypeexamstatusenchant": [
+"PRODUCE_EFFECT_TYPE_EXAM_STATUS_ENCHANT",
+60
+],
+"produceeffecttypeexamturndown": [
+"PRODUCE_EFFECT_TYPE_EXAM_TURN_DOWN",
+96
+],
+"produceeffecttypeexamturnup": [
+"PRODUCE_EFFECT_TYPE_EXAM_TURN_UP",
+95
+],
+"produceeffecttypehighscoregoldaddition": [
+"PRODUCE_EFFECT_TYPE_HIGH_SCORE_GOLD_ADDITION",
+123
+],
+"produceeffecttypeidolcardproducecardcustomizeenable": [
+"PRODUCE_EFFECT_TYPE_IDOL_CARD_PRODUCE_CARD_CUSTOMIZE_ENABLE",
+124
+],
+"produceeffecttypelegendproducecardcountaddition": [
+"PRODUCE_EFFECT_TYPE_LEGEND_PRODUCE_CARD_COUNT_ADDITION",
+125
+],
+"produceeffecttypelessondancespchangeratepermiladdition": [
+"PRODUCE_EFFECT_TYPE_LESSON_DANCE_SP_CHANGE_RATE_PERMIL_ADDITION",
+56
+],
+"produceeffecttypelessonlimitup": [
+"PRODUCE_EFFECT_TYPE_LESSON_LIMIT_UP",
+89
+],
+"produceeffecttypelessonpresentproducecardrewardcountdown": [
+"PRODUCE_EFFECT_TYPE_LESSON_PRESENT_PRODUCE_CARD_REWARD_COUNT_DOWN",
+62
+],
+"produceeffecttypelessonpresentproducecardrewardcountup": [
+"PRODUCE_EFFECT_TYPE_LESSON_PRESENT_PRODUCE_CARD_REWARD_COUNT_UP",
+61
+],
+"produceeffecttypelessonpresentproducepointdown": [
+"PRODUCE_EFFECT_TYPE_LESSON_PRESENT_PRODUCE_POINT_DOWN",
+85
+],
+"produceeffecttypelessonpresentproducepointup": [
+"PRODUCE_EFFECT_TYPE_LESSON_PRESENT_PRODUCE_POINT_UP",
+84
+],
+"produceeffecttypelessonpresentsearchproducecardrewardcountup": [
+"PRODUCE_EFFECT_TYPE_LESSON_PRESENT_SEARCH_PRODUCE_CARD_REWARD_COUNT_UP",
+63
+],
+"produceeffecttypelessonspchangeratepermiladdition": [
+"PRODUCE_EFFECT_TYPE_LESSON_SP_CHANGE_RATE_PERMIL_ADDITION",
+54
+],
+"produceeffecttypelessonspchangeratepermildown": [
+"PRODUCE_EFFECT_TYPE_LESSON_SP_CHANGE_RATE_PERMIL_DOWN",
+58
+],
+"produceeffecttypelessonvisualspchangeratepermiladdition": [
+"PRODUCE_EFFECT_TYPE_LESSON_VISUAL_SP_CHANGE_RATE_PERMIL_ADDITION",
+57
+],
+"produceeffecttypelessonvocalspchangeratepermiladdition": [
+"PRODUCE_EFFECT_TYPE_LESSON_VOCAL_SP_CHANGE_RATE_PERMIL_ADDITION",
+55
+],
+"produceeffecttypemaxstaminaaddition": [
+"PRODUCE_EFFECT_TYPE_MAX_STAMINA_ADDITION",
+23
+],
+"produceeffecttypemaxstaminareducefix": [
+"PRODUCE_EFFECT_TYPE_MAX_STAMINA_REDUCE_FIX",
+24
+],
+"produceeffecttypemaxstaminareducemultiple": [
+"PRODUCE_EFFECT_TYPE_MAX_STAMINA_REDUCE_MULTIPLE",
+25
+],
+"produceeffecttypeparameterlimitup": [
+"PRODUCE_EFFECT_TYPE_PARAMETER_LIMIT_UP",
+90
+],
+"produceeffecttypeproducecardchange": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_CARD_CHANGE",
+36
+],
+"produceeffecttypeproducecardchangeselect": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_CARD_CHANGE_SELECT",
+132
+],
+"produceeffecttypeproducecardchangeupgrade": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_CARD_CHANGE_UPGRADE",
+37
+],
+"produceeffecttypeproducecarddelete": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_CARD_DELETE",
+38
+],
+"produceeffecttypeproducecardduplicate": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_CARD_DUPLICATE",
+34
+],
+"produceeffecttypeproducecardduplicateupgrade": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_CARD_DUPLICATE_UPGRADE",
+35
+],
+"produceeffecttypeproducecardexcludecountup": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_CARD_EXCLUDE_COUNT_UP",
+110
+],
+"produceeffecttypeproducecardfreecustomize": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_CARD_FREE_CUSTOMIZE",
+141
+],
+"produceeffecttypeproducecardselectrerollcountup": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_CARD_SELECT_REROLL_COUNT_UP",
+87
+],
+"produceeffecttypeproducecardupgrade": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_CARD_UPGRADE",
+33
+],
+"produceeffecttypeproducecustomizeitemupgrade": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_CUSTOMIZE_ITEM_UPGRADE",
+129
+],
+"produceeffecttypeproducedrinkgetdisable": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_DRINK_GET_DISABLE",
+42
+],
+"produceeffecttypeproducedrinkpossesslimitup": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_DRINK_POSSESS_LIMIT_UP",
+133
+],
+"produceeffecttypeproduceitemgetdisable": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_ITEM_GET_DISABLE",
+41
+],
+"produceeffecttypeproducepointaddition": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_POINT_ADDITION",
+39
+],
+"produceeffecttypeproducepointadditiondisabletrigger": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_POINT_ADDITION_DISABLE_TRIGGER",
+88
+],
+"produceeffecttypeproducepointadditionvaluedown": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_POINT_ADDITION_VALUE_DOWN",
+30
+],
+"produceeffecttypeproducepointadditionvalueup": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_POINT_ADDITION_VALUE_UP",
+29
+],
+"produceeffecttypeproducepointgetdisable": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_POINT_GET_DISABLE",
+40
+],
+"produceeffecttypeproducepointreducefix": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_POINT_REDUCE_FIX",
+26
+],
+"produceeffecttypeproducepointreducemultiple": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_POINT_REDUCE_MULTIPLE",
+27
+],
+"produceeffecttypeproducepointreducevaluedown": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_POINT_REDUCE_VALUE_DOWN",
+32
+],
+"produceeffecttypeproducepointreducevalueup": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_POINT_REDUCE_VALUE_UP",
+31
+],
+"produceeffecttypeproducepointspecify": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_POINT_SPECIFY",
+28
+],
+"produceeffecttypeproduceresultrewardmoneyup": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_RESULT_REWARD_MONEY_UP",
+77
+],
+"produceeffecttypeproduceresultrewardsupportcardenhancepointup": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_RESULT_REWARD_SUPPORT_CARD_ENHANCE_POINT_UP",
+79
+],
+"produceeffecttypeproducereward": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_REWARD",
+43
+],
+"produceeffecttypeproducerewardset": [
+"PRODUCE_EFFECT_TYPE_PRODUCE_REWARD_SET",
+44
+],
+"produceeffecttypeselflessonstaminadown": [
+"PRODUCE_EFFECT_TYPE_SELF_LESSON_STAMINA_DOWN",
+122
+],
+"produceeffecttypeselflessonstaminaup": [
+"PRODUCE_EFFECT_TYPE_SELF_LESSON_STAMINA_UP",
+121
+],
+"produceeffecttypeshoppricediscountmultiple": [
+"PRODUCE_EFFECT_TYPE_SHOP_PRICE_DISCOUNT_MULTIPLE",
+65
+],
+"produceeffecttypeshoppriceupmultiple": [
+"PRODUCE_EFFECT_TYPE_SHOP_PRICE_UP_MULTIPLE",
+98
+],
+"produceeffecttypeshopproducecarddeletepricediscountmultiple": [
+"PRODUCE_EFFECT_TYPE_SHOP_PRODUCE_CARD_DELETE_PRICE_DISCOUNT_MULTIPLE",
+71
+],
+"produceeffecttypeshopproducecarddeletepricespecify": [
+"PRODUCE_EFFECT_TYPE_SHOP_PRODUCE_CARD_DELETE_PRICE_SPECIFY",
+72
+],
+"produceeffecttypeshopproducecarddeletepriceupmultiple": [
+"PRODUCE_EFFECT_TYPE_SHOP_PRODUCE_CARD_DELETE_PRICE_UP_MULTIPLE",
+102
+],
+"produceeffecttypeshopproducecardpricediscountmultiple": [
+"PRODUCE_EFFECT_TYPE_SHOP_PRODUCE_CARD_PRICE_DISCOUNT_MULTIPLE",
+66
+],
+"produceeffecttypeshopproducecardpricediscountmultiplepermanent": [
+"PRODUCE_EFFECT_TYPE_SHOP_PRODUCE_CARD_PRICE_DISCOUNT_MULTIPLE_PERMANENT",
+134
+],
+"produceeffecttypeshopproducecardpriceupmultiple": [
+"PRODUCE_EFFECT_TYPE_SHOP_PRODUCE_CARD_PRICE_UP_MULTIPLE",
+99
+],
+"produceeffecttypeshopproducecardupgradepricediscountmultiple": [
+"PRODUCE_EFFECT_TYPE_SHOP_PRODUCE_CARD_UPGRADE_PRICE_DISCOUNT_MULTIPLE",
+69
+],
+"produceeffecttypeshopproducecardupgradepricespecify": [
+"PRODUCE_EFFECT_TYPE_SHOP_PRODUCE_CARD_UPGRADE_PRICE_SPECIFY",
+70
+],
+"produceeffecttypeshopproducecardupgradepriceupmultiple": [
+"PRODUCE_EFFECT_TYPE_SHOP_PRODUCE_CARD_UPGRADE_PRICE_UP_MULTIPLE",
+101
+],
+"produceeffecttypeshopproducedrinkpricediscountmultiple": [
+"PRODUCE_EFFECT_TYPE_SHOP_PRODUCE_DRINK_PRICE_DISCOUNT_MULTIPLE",
+68
+],
+"produceeffecttypeshopproducedrinkpriceupmultiple": [
+"PRODUCE_EFFECT_TYPE_SHOP_PRODUCE_DRINK_PRICE_UP_MULTIPLE",
+100
+],
+"produceeffecttypeshoprerollcountup": [
+"PRODUCE_EFFECT_TYPE_SHOP_REROLL_COUNT_UP",
+109
+],
+"produceeffecttypestaminarecoverdisable": [
+"PRODUCE_EFFECT_TYPE_STAMINA_RECOVER_DISABLE",
+22
+],
+"produceeffecttypestaminarecoverfix": [
+"PRODUCE_EFFECT_TYPE_STAMINA_RECOVER_FIX",
+13
+],
+"produceeffecttypestaminarecovermultiple": [
+"PRODUCE_EFFECT_TYPE_STAMINA_RECOVER_MULTIPLE",
+14
+],
+"produceeffecttypestaminarecovervaluedown": [
+"PRODUCE_EFFECT_TYPE_STAMINA_RECOVER_VALUE_DOWN",
+19
+],
+"produceeffecttypestaminarecovervalueup": [
+"PRODUCE_EFFECT_TYPE_STAMINA_RECOVER_VALUE_UP",
+18
+],
+"produceeffecttypestaminareducefix": [
+"PRODUCE_EFFECT_TYPE_STAMINA_REDUCE_FIX",
+15
+],
+"produceeffecttypestaminareducemultiple": [
+"PRODUCE_EFFECT_TYPE_STAMINA_REDUCE_MULTIPLE",
+16
+],
+"produceeffecttypestaminareducevaluedown": [
+"PRODUCE_EFFECT_TYPE_STAMINA_REDUCE_VALUE_DOWN",
+21
+],
+"produceeffecttypestaminareducevalueup": [
+"PRODUCE_EFFECT_TYPE_STAMINA_REDUCE_VALUE_UP",
+20
+],
+"produceeffecttypestaminaspecify": [
+"PRODUCE_EFFECT_TYPE_STAMINA_SPECIFY",
+17
+],
+"produceeffecttypestaraddition": [
+"PRODUCE_EFFECT_TYPE_STAR_ADDITION",
+131
+],
+"produceeffecttypestarpermilup": [
+"PRODUCE_EFFECT_TYPE_STAR_PERMIL_UP",
+130
+],
+"produceeffecttypesupportcardeventparameteradditionvalueup": [
+"PRODUCE_EFFECT_TYPE_SUPPORT_CARD_EVENT_PARAMETER_ADDITION_VALUE_UP",
+82
+],
+"produceeffecttypesupportcardeventprobabilityup": [
+"PRODUCE_EFFECT_TYPE_SUPPORT_CARD_EVENT_PROBABILITY_UP",
+83
+],
+"produceeffecttypesupportcardeventproducecardupgrade": [
+"PRODUCE_EFFECT_TYPE_SUPPORT_CARD_EVENT_PRODUCE_CARD_UPGRADE",
+94
+],
+"produceeffecttypesupportcardeventproducepointadditionvalueup": [
+"PRODUCE_EFFECT_TYPE_SUPPORT_CARD_EVENT_PRODUCE_POINT_ADDITION_VALUE_UP",
+81
+],
+"produceeffecttypesupportcardeventstaminarecoverup": [
+"PRODUCE_EFFECT_TYPE_SUPPORT_CARD_EVENT_STAMINA_RECOVER_UP",
+80
+],
+"produceeffecttypesupportcardproducecardupgradeprobabilityup": [
+"PRODUCE_EFFECT_TYPE_SUPPORT_CARD_PRODUCE_CARD_UPGRADE_PROBABILITY_UP",
+86
+],
+"produceeffecttypeunknown": [
+"PRODUCE_EFFECT_TYPE_UNKNOWN",
+0
+],
+"produceeffecttypevisualaddition": [
+"PRODUCE_EFFECT_TYPE_VISUAL_ADDITION",
+3
+],
+"produceeffecttypevisualdown": [
+"PRODUCE_EFFECT_TYPE_VISUAL_DOWN",
+6
+],
+"produceeffecttypevisualgrowthrateaddition": [
+"PRODUCE_EFFECT_TYPE_VISUAL_GROWTH_RATE_ADDITION",
+9
+],
+"produceeffecttypevisualgrowthratedown": [
+"PRODUCE_EFFECT_TYPE_VISUAL_GROWTH_RATE_DOWN",
+12
+],
+"produceeffecttypevisuallimitup": [
+"PRODUCE_EFFECT_TYPE_VISUAL_LIMIT_UP",
+93
+],
+"produceeffecttypevisualpermiladdition": [
+"PRODUCE_EFFECT_TYPE_VISUAL_PERMIL_ADDITION",
+137
+],
+"produceeffecttypevisualpermildown": [
+"PRODUCE_EFFECT_TYPE_VISUAL_PERMIL_DOWN",
+140
+],
+"produceeffecttypevocaladdition": [
+"PRODUCE_EFFECT_TYPE_VOCAL_ADDITION",
+1
+],
+"produceeffecttypevocaldown": [
+"PRODUCE_EFFECT_TYPE_VOCAL_DOWN",
+4
+],
+"produceeffecttypevocalgrowthrateaddition": [
+"PRODUCE_EFFECT_TYPE_VOCAL_GROWTH_RATE_ADDITION",
+7
+],
+"produceeffecttypevocalgrowthratedown": [
+"PRODUCE_EFFECT_TYPE_VOCAL_GROWTH_RATE_DOWN",
+10
+],
+"produceeffecttypevocallimitup": [
+"PRODUCE_EFFECT_TYPE_VOCAL_LIMIT_UP",
+91
+],
+"produceeffecttypevocalpermiladdition": [
+"PRODUCE_EFFECT_TYPE_VOCAL_PERMIL_ADDITION",
+135
+],
+"produceeffecttypevocalpermildown": [
+"PRODUCE_EFFECT_TYPE_VOCAL_PERMIL_DOWN",
+138
+],
+"produceeffecttypevotecountaddition": [
+"PRODUCE_EFFECT_TYPE_VOTE_COUNT_ADDITION",
+114
+],
+"produceeventcharactertypeafterauditionfinal": [
+"PRODUCE_EVENT_CHARACTER_TYPE_AFTER_AUDITION_FINAL",
+9
+],
+"produceeventcharactertypeafterauditionmid1": [
+"PRODUCE_EVENT_CHARACTER_TYPE_AFTER_AUDITION_MID1",
+4
+],
+"produceeventcharactertypeafterauditionmid2": [
+"PRODUCE_EVENT_CHARACTER_TYPE_AFTER_AUDITION_MID2",
+7
+],
+"produceeventcharactertypeafterstep1": [
+"PRODUCE_EVENT_CHARACTER_TYPE_AFTER_STEP1",
+2
+],
+"produceeventcharactertypeafterstep2": [
+"PRODUCE_EVENT_CHARACTER_TYPE_AFTER_STEP2",
+5
+],
+"produceeventcharactertypeafterstepbeforeauditionfinal": [
+"PRODUCE_EVENT_CHARACTER_TYPE_AFTER_STEP_BEFORE_AUDITION_FINAL",
+14
+],
+"produceeventcharactertypeafterstepbeforeauditionmid1": [
+"PRODUCE_EVENT_CHARACTER_TYPE_AFTER_STEP_BEFORE_AUDITION_MID1",
+12
+],
+"produceeventcharactertypeafterstepbeforeauditionmid2": [
+"PRODUCE_EVENT_CHARACTER_TYPE_AFTER_STEP_BEFORE_AUDITION_MID2",
+13
+],
+"produceeventcharactertypebeforeauditionfinal": [
+"PRODUCE_EVENT_CHARACTER_TYPE_BEFORE_AUDITION_FINAL",
+8
+],
+"produceeventcharactertypebeforeauditionmid1": [
+"PRODUCE_EVENT_CHARACTER_TYPE_BEFORE_AUDITION_MID1",
+3
+],
+"produceeventcharactertypebeforeauditionmid2": [
+"PRODUCE_EVENT_CHARACTER_TYPE_BEFORE_AUDITION_MID2",
+6
+],
+"produceeventcharactertypeending": [
+"PRODUCE_EVENT_CHARACTER_TYPE_ENDING",
+11
+],
+"produceeventcharactertypefailure": [
+"PRODUCE_EVENT_CHARACTER_TYPE_FAILURE",
+10
+],
+"produceeventcharactertypeopening": [
+"PRODUCE_EVENT_CHARACTER_TYPE_OPENING",
+1
+],
+"produceeventcharactertypeunknown": [
+"PRODUCE_EVENT_CHARACTER_TYPE_UNKNOWN",
+0
+],
+"produceeventsuggestiontypeprimary": [
+"PRODUCE_EVENT_SUGGESTION_TYPE_PRIMARY",
+1
+],
+"produceeventsuggestiontypesecondary": [
+"PRODUCE_EVENT_SUGGESTION_TYPE_SECONDARY",
+2
+],
+"produceeventsuggestiontypeunknown": [
+"PRODUCE_EVENT_SUGGESTION_TYPE_UNKNOWN",
+0
+],
+"produceeventtypeactivity": [
+"PRODUCE_EVENT_TYPE_ACTIVITY",
+1
+],
+"produceeventtypebusiness": [
+"PRODUCE_EVENT_TYPE_BUSINESS",
+7
+],
+"produceeventtypecharacter": [
+"PRODUCE_EVENT_TYPE_CHARACTER",
+3
+],
+"produceeventtypecharactergrowth": [
+"PRODUCE_EVENT_TYPE_CHARACTER_GROWTH",
+4
+],
+"produceeventtypeidolcard": [
+"PRODUCE_EVENT_TYPE_IDOL_CARD",
+5
+],
+"produceeventtypeschool": [
+"PRODUCE_EVENT_TYPE_SCHOOL",
+2
+],
+"produceeventtypesupportcard": [
+"PRODUCE_EVENT_TYPE_SUPPORT_CARD",
+6
+],
+"produceeventtypeunknown": [
+"PRODUCE_EVENT_TYPE_UNKNOWN",
+0
+],
+"produceexameffecttypeexamaddgroweffect": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_ADD_GROW_EFFECT",
+156
+],
+"produceexameffecttypeexamaggressiveadditive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_AGGRESSIVE_ADDITIVE",
+176
+],
+"produceexameffecttypeexamaggressiveadditivefix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_AGGRESSIVE_ADDITIVE_FIX",
+212
+],
+"produceexameffecttypeexamaggressivedependreview": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_AGGRESSIVE_DEPEND_REVIEW",
+169
+],
+"produceexameffecttypeexamaggressivepersearchcount": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_AGGRESSIVE_PER_SEARCH_COUNT",
+160
+],
+"produceexameffecttypeexamaggressivereduce": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_AGGRESSIVE_REDUCE",
+152
+],
+"produceexameffecttypeexamaggressivereducecancellable": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_AGGRESSIVE_REDUCE_CANCELLABLE",
+205
+],
+"produceexameffecttypeexamaggressivevaluemultiple": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_AGGRESSIVE_VALUE_MULTIPLE",
+149
+],
+"produceexameffecttypeexamantidebuff": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_ANTI_DEBUFF",
+66
+],
+"produceexameffecttypeexamblock": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BLOCK",
+3
+],
+"produceexameffecttypeexamblockadddown": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BLOCK_ADD_DOWN",
+73
+],
+"produceexameffecttypeexamblockadddownrestriction": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BLOCK_ADD_DOWN_RESTRICTION",
+74
+],
+"produceexameffecttypeexamblockaddmultipleaggressive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BLOCK_ADD_MULTIPLE_AGGRESSIVE",
+143
+],
+"produceexameffecttypeexamblockdependblockconsumptionsum": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BLOCK_DEPEND_BLOCK_CONSUMPTION_SUM",
+188
+],
+"produceexameffecttypeexamblockdependexamreview": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BLOCK_DEPEND_EXAM_REVIEW",
+127
+],
+"produceexameffecttypeexamblockdown": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BLOCK_DOWN",
+122
+],
+"produceexameffecttypeexamblockfix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BLOCK_FIX",
+119
+],
+"produceexameffecttypeexamblockpersearchcount": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BLOCK_PER_SEARCH_COUNT",
+161
+],
+"produceexameffecttypeexamblockperusecardcount": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BLOCK_PER_USE_CARD_COUNT",
+133
+],
+"produceexameffecttypeexamblockrestriction": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BLOCK_RESTRICTION",
+18
+],
+"produceexameffecttypeexamblockvaluemultiple": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BLOCK_VALUE_MULTIPLE",
+13
+],
+"produceexameffecttypeexambuffconsumptionadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BUFF_CONSUMPTION_ADD",
+199
+],
+"produceexameffecttypeexambuffconsumptionaddfix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BUFF_CONSUMPTION_ADD_FIX",
+242
+],
+"produceexameffecttypeexambuffconsumptiondown": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BUFF_CONSUMPTION_DOWN",
+198
+],
+"produceexameffecttypeexambuffconsumptiondownfix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_BUFF_CONSUMPTION_DOWN_FIX",
+241
+],
+"produceexameffecttypeexamcardcreateid": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_CREATE_ID",
+6
+],
+"produceexameffecttypeexamcardcreatesearch": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_CREATE_SEARCH",
+21
+],
+"produceexameffecttypeexamcarddraw": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_DRAW",
+4
+],
+"produceexameffecttypeexamcardduplicate": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_DUPLICATE",
+30
+],
+"produceexameffecttypeexamcardmove": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_MOVE",
+9
+],
+"produceexameffecttypeexamcardmovefusionset": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_MOVE_FUSION_SET",
+232
+],
+"produceexameffecttypeexamcardplayaggressive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_PLAY_AGGRESSIVE",
+42
+],
+"produceexameffecttypeexamcardsearcheffectplaycountbuff": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_SEARCH_EFFECT_PLAY_COUNT_BUFF",
+38
+],
+"produceexameffecttypeexamcardshuffledeckgrave": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_SHUFFLE_DECK_GRAVE",
+194
+],
+"produceexameffecttypeexamcardshuffledecklost": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_SHUFFLE_DECK_LOST",
+217
+],
+"produceexameffecttypeexamcardstaminaconsumptionchange": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_STAMINA_CONSUMPTION_CHANGE",
+17
+],
+"produceexameffecttypeexamcardstaminaconsumptiondownspecify": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_STAMINA_CONSUMPTION_DOWN_SPECIFY",
+26
+],
+"produceexameffecttypeexamcardstaminaconsumptionreduce": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_STAMINA_CONSUMPTION_REDUCE",
+33
+],
+"produceexameffecttypeexamcardstatusenchant": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_STATUS_ENCHANT",
+121
+],
+"produceexameffecttypeexamcardupgrade": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CARD_UPGRADE",
+11
+],
+"produceexameffecttypeexamchaineffect": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CHAIN_EFFECT",
+140
+],
+"produceexameffecttypeexamchaineffectperpassedturn": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CHAIN_EFFECT_PER_PASSED_TURN",
+145
+],
+"produceexameffecttypeexamchaineffectperremainturn": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CHAIN_EFFECT_PER_REMAIN_TURN",
+146
+],
+"produceexameffecttypeexamconcentration": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CONCENTRATION",
+45
+],
+"produceexameffecttypeexamconcentrationlessonmultipleadditive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_CONCENTRATION_LESSON_MULTIPLE_ADDITIVE",
+173
+],
+"produceexameffecttypeexamdebuffrecover": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_DEBUFF_RECOVER",
+148
+],
+"produceexameffecttypeexameffectpersearchcount": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_EFFECT_PER_SEARCH_COUNT",
+166
+],
+"produceexameffecttypeexameffecttimer": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_EFFECT_TIMER",
+103
+],
+"produceexameffecttypeexameffecttimerendturn": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_EFFECT_TIMER_END_TURN",
+190
+],
+"produceexameffecttypeexamenthusiasticadditive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_ENTHUSIASTIC_ADDITIVE",
+170
+],
+"produceexameffecttypeexamenthusiasticmultiple": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_ENTHUSIASTIC_MULTIPLE",
+171
+],
+"produceexameffecttypeexamenthusiasticturnadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_ENTHUSIASTIC_TURN_ADD",
+189
+],
+"produceexameffecttypeexamextraturn": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_EXTRA_TURN",
+63
+],
+"produceexameffecttypeexamforceplaycardsearch": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_FORCE_PLAY_CARD_SEARCH",
+24
+],
+"produceexameffecttypeexamforceplaycardsearchwithcost": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_FORCE_PLAY_CARD_SEARCH_WITH_COST",
+187
+],
+"produceexameffecttypeexamforecast": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_FORECAST",
+50
+],
+"produceexameffecttypeexamfullpower": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_FULL_POWER",
+47
+],
+"produceexameffecttypeexamfullpowerlessonmultipleadditive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_FULL_POWER_LESSON_MULTIPLE_ADDITIVE",
+172
+],
+"produceexameffecttypeexamfullpowerpoint": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_FULL_POWER_POINT",
+49
+],
+"produceexameffecttypeexamfullpowerpointadditive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_FULL_POWER_POINT_ADDITIVE",
+178
+],
+"produceexameffecttypeexamfullpowerpointadditivefix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_FULL_POWER_POINT_ADDITIVE_FIX",
+214
+],
+"produceexameffecttypeexamfullpowerpointdependfullpowerpointgetsum": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_FULL_POWER_POINT_DEPEND_FULL_POWER_POINT_GET_SUM",
+218
+],
+"produceexameffecttypeexamfullpowerpointpersearchcount": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_FULL_POWER_POINT_PER_SEARCH_COUNT",
+162
+],
+"produceexameffecttypeexamfullpowerpointreduce": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_FULL_POWER_POINT_REDUCE",
+51
+],
+"produceexameffecttypeexamfullpowerpointreducecancellable": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_FULL_POWER_POINT_REDUCE_CANCELLABLE",
+207
+],
+"produceexameffecttypeexamgetcardupgrade": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_GET_CARD_UPGRADE",
+90
+],
+"produceexameffecttypeexamgimmickenthusiastic": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_GIMMICK_ENTHUSIASTIC",
+109
+],
+"produceexameffecttypeexamgimmicklessondebuff": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_GIMMICK_LESSON_DEBUFF",
+105
+],
+"produceexameffecttypeexamgimmickparameterdebuff": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_GIMMICK_PARAMETER_DEBUFF",
+106
+],
+"produceexameffecttypeexamgimmickplaycardlimit": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_GIMMICK_PLAY_CARD_LIMIT",
+113
+],
+"produceexameffecttypeexamgimmicksleepy": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_GIMMICK_SLEEPY",
+107
+],
+"produceexameffecttypeexamgimmickslump": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_GIMMICK_SLUMP",
+114
+],
+"produceexameffecttypeexamgimmickstartturncarddrawdown": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_GIMMICK_START_TURN_CARD_DRAW_DOWN",
+115
+],
+"produceexameffecttypeexamgroweffectlessonaddadditive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_GROW_EFFECT_LESSON_ADD_ADDITIVE",
+179
+],
+"produceexameffecttypeexamhandgravecountcardadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_HAND_GRAVE_COUNT_CARD_ADD",
+99
+],
+"produceexameffecttypeexamhandgravecountcarddraw": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_HAND_GRAVE_COUNT_CARD_DRAW",
+98
+],
+"produceexameffecttypeexamhandhold": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_HAND_HOLD",
+82
+],
+"produceexameffecttypeexamitemfirelimitadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_ITEM_FIRE_LIMIT_ADD",
+150
+],
+"produceexameffecttypeexamlesson": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON",
+1
+],
+"produceexameffecttypeexamlessonaddblock": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_ADD_BLOCK",
+52
+],
+"produceexameffecttypeexamlessonaddmultiplelessonbuff": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_ADD_MULTIPLE_LESSON_BUFF",
+120
+],
+"produceexameffecttypeexamlessonaddmultipleparameterbuff": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_ADD_MULTIPLE_PARAMETER_BUFF",
+132
+],
+"produceexameffecttypeexamlessonbuff": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_BUFF",
+10
+],
+"produceexameffecttypeexamlessonbuffadditive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_BUFF_ADDITIVE",
+174
+],
+"produceexameffecttypeexamlessonbuffadditivefix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_BUFF_ADDITIVE_FIX",
+211
+],
+"produceexameffecttypeexamlessonbuffdependparameterbuff": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_BUFF_DEPEND_PARAMETER_BUFF",
+130
+],
+"produceexameffecttypeexamlessonbuffmultiple": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_BUFF_MULTIPLE",
+15
+],
+"produceexameffecttypeexamlessonbuffpersearchcount": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_BUFF_PER_SEARCH_COUNT",
+158
+],
+"produceexameffecttypeexamlessonbuffreduce": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_BUFF_REDUCE",
+153
+],
+"produceexameffecttypeexamlessonbuffreducecancellable": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_BUFF_REDUCE_CANCELLABLE",
+203
+],
+"produceexameffecttypeexamlessonchangespecifylessthan": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_CHANGE_SPECIFY_LESS_THAN",
+81
+],
+"produceexameffecttypeexamlessonchangespecifymorethan": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_CHANGE_SPECIFY_MORE_THAN",
+123
+],
+"produceexameffecttypeexamlessondependaggressiveandsearchcount": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_DEPEND_AGGRESSIVE_AND_SEARCH_COUNT",
+164
+],
+"produceexameffecttypeexamlessondependblock": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_DEPEND_BLOCK",
+19
+],
+"produceexameffecttypeexamlessondependblockandsearchcount": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_DEPEND_BLOCK_AND_SEARCH_COUNT",
+163
+],
+"produceexameffecttypeexamlessondependblockconsumptionsum": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_DEPEND_BLOCK_CONSUMPTION_SUM",
+186
+],
+"produceexameffecttypeexamlessondependenthusiasticgetsum": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_DEPEND_ENTHUSIASTIC_GET_SUM",
+216
+],
+"produceexameffecttypeexamlessondependexamcardplayaggressive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_DEPEND_EXAM_CARD_PLAY_AGGRESSIVE",
+125
+],
+"produceexameffecttypeexamlessondependexamreview": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_DEPEND_EXAM_REVIEW",
+124
+],
+"produceexameffecttypeexamlessondependlessonbuff": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_DEPEND_LESSON_BUFF",
+240
+],
+"produceexameffecttypeexamlessondependparameterbuff": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_DEPEND_PARAMETER_BUFF",
+131
+],
+"produceexameffecttypeexamlessondependplaycardcountsum": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_DEPEND_PLAY_CARD_COUNT_SUM",
+147
+],
+"produceexameffecttypeexamlessondependreviewandsearchcount": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_DEPEND_REVIEW_AND_SEARCH_COUNT",
+165
+],
+"produceexameffecttypeexamlessondependstamina": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_DEPEND_STAMINA",
+142
+],
+"produceexameffecttypeexamlessondependstaminaconsumptionsum": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_DEPEND_STAMINA_CONSUMPTION_SUM",
+144
+],
+"produceexameffecttypeexamlessonfix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_FIX",
+29
+],
+"produceexameffecttypeexamlessonfullpowerpoint": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_FULL_POWER_POINT",
+56
+],
+"produceexameffecttypeexamlessonpersearchcount": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_PER_SEARCH_COUNT",
+118
+],
+"produceexameffecttypeexamlessonvaluechangeperplay": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_VALUE_CHANGE_PER_PLAY",
+32
+],
+"produceexameffecttypeexamlessonvaluemultiple": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_VALUE_MULTIPLE",
+39
+],
+"produceexameffecttypeexamlessonvaluemultipledependrevieworaggressive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_VALUE_MULTIPLE_DEPEND_REVIEW_OR_AGGRESSIVE",
+181
+],
+"produceexameffecttypeexamlessonvaluemultipledown": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_LESSON_VALUE_MULTIPLE_DOWN",
+155
+],
+"produceexameffecttypeexammetamorphose": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_METAMORPHOSE",
+237
+],
+"produceexameffecttypeexammetamorphoseafter": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_METAMORPHOSE_AFTER",
+238
+],
+"produceexameffecttypeexammovegroweffect": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_MOVE_GROW_EFFECT",
+215
+],
+"produceexameffecttypeexammultipleconcentrationlesson": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_MULTIPLE_CONCENTRATION_LESSON",
+184
+],
+"produceexameffecttypeexammultipleenthusiasticlesson": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_MULTIPLE_ENTHUSIASTIC_LESSON",
+183
+],
+"produceexameffecttypeexammultiplefullpowerlesson": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_MULTIPLE_FULL_POWER_LESSON",
+185
+],
+"produceexameffecttypeexammultiplelessonbufflesson": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_MULTIPLE_LESSON_BUFF_LESSON",
+23
+],
+"produceexameffecttypeexamoverpreservation": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_OVER_PRESERVATION",
+167
+],
+"produceexameffecttypeexampanic": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PANIC",
+78
+],
+"produceexameffecttypeexamparameterbuff": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PARAMETER_BUFF",
+2
+],
+"produceexameffecttypeexamparameterbuffadditive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PARAMETER_BUFF_ADDITIVE",
+175
+],
+"produceexameffecttypeexamparameterbuffadditivefix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PARAMETER_BUFF_ADDITIVE_FIX",
+210
+],
+"produceexameffecttypeexamparameterbuffdependlessonbuff": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PARAMETER_BUFF_DEPEND_LESSON_BUFF",
+168
+],
+"produceexameffecttypeexamparameterbuffmultipleperturn": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PARAMETER_BUFF_MULTIPLE_PER_TURN",
+129
+],
+"produceexameffecttypeexamparameterbuffmultipleperturnreduce": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PARAMETER_BUFF_MULTIPLE_PER_TURN_REDUCE",
+180
+],
+"produceexameffecttypeexamparameterbuffpersearchcount": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PARAMETER_BUFF_PER_SEARCH_COUNT",
+157
+],
+"produceexameffecttypeexamparameterbuffreduce": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PARAMETER_BUFF_REDUCE",
+154
+],
+"produceexameffecttypeexamparameterbuffreducecancellable": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PARAMETER_BUFF_REDUCE_CANCELLABLE",
+204
+],
+"produceexameffecttypeexamparameterbuffturnendreducelock": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PARAMETER_BUFF_TURN_END_REDUCE_LOCK",
+197
+],
+"produceexameffecttypeexamplan4group1": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP1",
+220
+],
+"produceexameffecttypeexamplan4group1change": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP1_CHANGE",
+233
+],
+"produceexameffecttypeexamplan4group1fusionlimitadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP1_FUSION_LIMIT_ADD",
+224
+],
+"produceexameffecttypeexamplan4group1fusionlimitreduce": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP1_FUSION_LIMIT_REDUCE",
+228
+],
+"produceexameffecttypeexamplan4group2": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP2",
+221
+],
+"produceexameffecttypeexamplan4group2change": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP2_CHANGE",
+234
+],
+"produceexameffecttypeexamplan4group2fusionlimitadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP2_FUSION_LIMIT_ADD",
+225
+],
+"produceexameffecttypeexamplan4group2fusionlimitreduce": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP2_FUSION_LIMIT_REDUCE",
+229
+],
+"produceexameffecttypeexamplan4group3": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP3",
+222
+],
+"produceexameffecttypeexamplan4group3change": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP3_CHANGE",
+235
+],
+"produceexameffecttypeexamplan4group3fusionlimitadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP3_FUSION_LIMIT_ADD",
+226
+],
+"produceexameffecttypeexamplan4group3fusionlimitreduce": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP3_FUSION_LIMIT_REDUCE",
+230
+],
+"produceexameffecttypeexamplan4group4": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP4",
+223
+],
+"produceexameffecttypeexamplan4group4change": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP4_CHANGE",
+236
+],
+"produceexameffecttypeexamplan4group4fusionlimitadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP4_FUSION_LIMIT_ADD",
+227
+],
+"produceexameffecttypeexamplan4group4fusionlimitreduce": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAN4_GROUP4_FUSION_LIMIT_REDUCE",
+231
+],
+"produceexameffecttypeexamplayablevalueadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAYABLE_VALUE_ADD",
+14
+],
+"produceexameffecttypeexamplaycardlimitplayablevalueadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PLAY_CARD_LIMIT_PLAYABLE_VALUE_ADD",
+201
+],
+"produceexameffecttypeexampreservation": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_PRESERVATION",
+46
+],
+"produceexameffecttypeexamreview": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW",
+31
+],
+"produceexameffecttypeexamreviewadditive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW_ADDITIVE",
+177
+],
+"produceexameffecttypeexamreviewadditivefix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW_ADDITIVE_FIX",
+213
+],
+"produceexameffecttypeexamreviewcountadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW_COUNT_ADD",
+195
+],
+"produceexameffecttypeexamreviewdependexamblock": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW_DEPEND_EXAM_BLOCK",
+126
+],
+"produceexameffecttypeexamreviewdependexamcardplayaggressive": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW_DEPEND_EXAM_CARD_PLAY_AGGRESSIVE",
+128
+],
+"produceexameffecttypeexamreviewdependreviewconsumptionsum": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW_DEPEND_REVIEW_CONSUMPTION_SUM",
+202
+],
+"produceexameffecttypeexamreviewforceplay": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW_FORCE_PLAY",
+243
+],
+"produceexameffecttypeexamreviewmultiple": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW_MULTIPLE",
+182
+],
+"produceexameffecttypeexamreviewpersearchcount": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW_PER_SEARCH_COUNT",
+159
+],
+"produceexameffecttypeexamreviewreduce": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW_REDUCE",
+151
+],
+"produceexameffecttypeexamreviewreducecancellable": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW_REDUCE_CANCELLABLE",
+206
+],
+"produceexameffecttypeexamreviewturnendreducelock": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW_TURN_END_REDUCE_LOCK",
+196
+],
+"produceexameffecttypeexamreviewvaluemultiple": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_REVIEW_VALUE_MULTIPLE",
+36
+],
+"produceexameffecttypeexamsearchplaycardbuffconsumptionchange": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_SEARCH_PLAY_CARD_BUFF_CONSUMPTION_CHANGE",
+200
+],
+"produceexameffecttypeexamsearchplaycardstaminaconsumptionchange": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_SEARCH_PLAY_CARD_STAMINA_CONSUMPTION_CHANGE",
+59
+],
+"produceexameffecttypeexamstaminaconsumptionadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_CONSUMPTION_ADD",
+69
+],
+"produceexameffecttypeexamstaminaconsumptionadddown": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_CONSUMPTION_ADD_DOWN",
+85
+],
+"produceexameffecttypeexamstaminaconsumptionaddfix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_CONSUMPTION_ADD_FIX",
+84
+],
+"produceexameffecttypeexamstaminaconsumptiondown": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_CONSUMPTION_DOWN",
+5
+],
+"produceexameffecttypeexamstaminaconsumptiondownadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_CONSUMPTION_DOWN_ADD",
+89
+],
+"produceexameffecttypeexamstaminaconsumptiondownfix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_CONSUMPTION_DOWN_FIX",
+93
+],
+"produceexameffecttypeexamstaminadamage": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_DAMAGE",
+27
+],
+"produceexameffecttypeexamstaminadamagefix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_DAMAGE_FIX",
+244
+],
+"produceexameffecttypeexamstaminarecoveradd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_RECOVER_ADD",
+76
+],
+"produceexameffecttypeexamstaminarecoverfix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_RECOVER_FIX",
+28
+],
+"produceexameffecttypeexamstaminarecovermultiple": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_RECOVER_MULTIPLE",
+117
+],
+"produceexameffecttypeexamstaminarecoverrestriction": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_RECOVER_RESTRICTION",
+86
+],
+"produceexameffecttypeexamstaminareduce": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_REDUCE",
+60
+],
+"produceexameffecttypeexamstaminareducechange": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_REDUCE_CHANGE",
+77
+],
+"produceexameffecttypeexamstaminareducefix": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_REDUCE_FIX",
+7
+],
+"produceexameffecttypeexamstaminareducefixaffected": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STAMINA_REDUCE_FIX_AFFECTED",
+245
+],
+"produceexameffecttypeexamstancelockconcentration": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STANCE_LOCK_CONCENTRATION",
+191
+],
+"produceexameffecttypeexamstancelockfullpower": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STANCE_LOCK_FULL_POWER",
+192
+],
+"produceexameffecttypeexamstancelockpreservation": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STANCE_LOCK_PRESERVATION",
+193
+],
+"produceexameffecttypeexamstancereset": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STANCE_RESET",
+48
+],
+"produceexameffecttypeexamstatusenchant": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STATUS_ENCHANT",
+22
+],
+"produceexameffecttypeexamstatusenchantcountadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STATUS_ENCHANT_COUNT_ADD",
+209
+],
+"produceexameffecttypeexamstatusenchantencore": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STATUS_ENCHANT_ENCORE",
+219
+],
+"produceexameffecttypeexamstatusenchantturnadd": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_STATUS_ENCHANT_TURN_ADD",
+208
+],
+"produceexameffecttypeexamthresholddown": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_THRESHOLD_DOWN",
+70
+],
+"produceexameffecttypeexamuplifting": [
+"PRODUCE_EXAM_EFFECT_TYPE_EXAM_UPLIFTING",
+62
+],
+"produceexameffecttypestancelock": [
+"PRODUCE_EXAM_EFFECT_TYPE_STANCE_LOCK",
+141
+],
+"produceexameffecttypeunknown": [
+"PRODUCE_EXAM_EFFECT_TYPE_UNKNOWN",
+0
+],
+"produceexamfieldstatustypeblockadddown": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_BLOCK_ADD_DOWN",
+39
+],
+"produceexamfieldstatustypeblockup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_BLOCK_UP",
+34
+],
+"produceexamfieldstatustypecardplayaggressiveup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_CARD_PLAY_AGGRESSIVE_UP",
+42
+],
+"produceexamfieldstatustypecardsearchcountup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_CARD_SEARCH_COUNT_UP",
+51
+],
+"produceexamfieldstatustypeconcentrationchangecountup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_CONCENTRATION_CHANGE_COUNT_UP",
+48
+],
+"produceexamfieldstatustypeconcentrationup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_CONCENTRATION_UP",
+11
+],
+"produceexamfieldstatustypeconditionthresholdmultiple": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_CONDITION_THRESHOLD_MULTIPLE",
+27
+],
+"produceexamfieldstatustypeconditionthresholdmultipledown": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_CONDITION_THRESHOLD_MULTIPLE_DOWN",
+28
+],
+"produceexamfieldstatustypedebuffcountup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_DEBUFF_COUNT_UP",
+58
+],
+"produceexamfieldstatustypedeckcardallnoduplicate": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_DECK_CARD_ALL_NO_DUPLICATE",
+57
+],
+"produceexamfieldstatustypeenchantcountup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_ENCHANT_COUNT_UP",
+55
+],
+"produceexamfieldstatustypeenthusiasticup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_ENTHUSIASTIC_UP",
+54
+],
+"produceexamfieldstatustypefullpowerchangecountup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_FULL_POWER_CHANGE_COUNT_UP",
+50
+],
+"produceexamfieldstatustypefullpowerpointgetsumup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_FULL_POWER_POINT_GET_SUM_UP",
+45
+],
+"produceexamfieldstatustypefullpowerpointup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_FULL_POWER_POINT_UP",
+44
+],
+"produceexamfieldstatustypefullpowerup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_FULL_POWER_UP",
+13
+],
+"produceexamfieldstatustypegimmicklessondebuffup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_GIMMICK_LESSON_DEBUFF_UP",
+36
+],
+"produceexamfieldstatustypegimmickparameterdebuff": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_GIMMICK_PARAMETER_DEBUFF",
+40
+],
+"produceexamfieldstatustypegimmicksleepyup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_GIMMICK_SLEEPY_UP",
+37
+],
+"produceexamfieldstatustypelessonbuffup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_LESSON_BUFF_UP",
+33
+],
+"produceexamfieldstatustypenoblock": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_NO_BLOCK",
+18
+],
+"produceexamfieldstatustypenostance": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_NO_STANCE",
+46
+],
+"produceexamfieldstatustypeparameterbuff": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_PARAMETER_BUFF",
+1
+],
+"produceexamfieldstatustypeparameterbuffmultipleperturnup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_PARAMETER_BUFF_MULTIPLE_PER_TURN_UP",
+53
+],
+"produceexamfieldstatustypeparameterbuffup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_PARAMETER_BUFF_UP",
+38
+],
+"produceexamfieldstatustypeparameterlessthan": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_PARAMETER_LESS_THAN",
+43
+],
+"produceexamfieldstatustypeplaycardlesson": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_PLAY_CARD_LESSON",
+20
+],
+"produceexamfieldstatustypeplaycardrestriction": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_PLAY_CARD_RESTRICTION",
+16
+],
+"produceexamfieldstatustypeplaycardsearch": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_PLAY_CARD_SEARCH",
+52
+],
+"produceexamfieldstatustypeplaycardskill": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_PLAY_CARD_SKILL",
+19
+],
+"produceexamfieldstatustypeplaycardsupport": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_PLAY_CARD_SUPPORT",
+21
+],
+"produceexamfieldstatustypepreservationchangecountup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_PRESERVATION_CHANGE_COUNT_UP",
+49
+],
+"produceexamfieldstatustypepreservationup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_PRESERVATION_UP",
+12
+],
+"produceexamfieldstatustyperemainingturn": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_REMAINING_TURN",
+41
+],
+"produceexamfieldstatustypereviewup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_REVIEW_UP",
+35
+],
+"produceexamfieldstatustypestaminaconsumptiondown": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_STAMINA_CONSUMPTION_DOWN",
+9
+],
+"produceexamfieldstatustypestaminalessmultiple": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_STAMINA_LESS_MULTIPLE",
+5
+],
+"produceexamfieldstatustypestaminaupmultiple": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_STAMINA_UP_MULTIPLE",
+4
+],
+"produceexamfieldstatustypestancechangecountup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_STANCE_CHANGE_COUNT_UP",
+47
+],
+"produceexamfieldstatustypeturncardremoveup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_TURN_CARD_REMOVE_UP",
+59
+],
+"produceexamfieldstatustypeturnplaycardcountup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_TURN_PLAY_CARD_COUNT_UP",
+56
+],
+"produceexamfieldstatustypeturnprogressup": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_TURN_PROGRESS_UP",
+22
+],
+"produceexamfieldstatustypeunknown": [
+"PRODUCE_EXAM_FIELD_STATUS_TYPE_UNKNOWN",
+0
+],
+"produceexamphasetypeexamaggressiveupinterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_AGGRESSIVE_UP_INTERVAL",
+53
+],
+"produceexamphasetypeexambuffconsume": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_BUFF_CONSUME",
+34
+],
+"produceexamphasetypeexamcardadd": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_ADD",
+8
+],
+"produceexamphasetypeexamcarddraw": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_DRAW",
+1
+],
+"produceexamphasetypeexamcarddrawinterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_DRAW_INTERVAL",
+59
+],
+"produceexamphasetypeexamcardfusion": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_FUSION",
+60
+],
+"produceexamphasetypeexamcardfusionafter": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_FUSION_AFTER",
+61
+],
+"produceexamphasetypeexamcardmove": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_MOVE",
+7
+],
+"produceexamphasetypeexamcardmovegrave": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_MOVE_GRAVE",
+30
+],
+"produceexamphasetypeexamcardmovehand": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_MOVE_HAND",
+29
+],
+"produceexamphasetypeexamcardmovelost": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_MOVE_LOST",
+31
+],
+"produceexamphasetypeexamcardmoveremove": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_MOVE_REMOVE",
+62
+],
+"produceexamphasetypeexamcardplay": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_PLAY",
+2
+],
+"produceexamphasetypeexamcardplayafter": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_PLAY_AFTER",
+3
+],
+"produceexamphasetypeexamcardupgrade": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_UPGRADE",
+48
+],
+"produceexamphasetypeexamcardupgradeinterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_CARD_UPGRADE_INTERVAL",
+58
+],
+"produceexamphasetypeexamendturn": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_END_TURN",
+5
+],
+"produceexamphasetypeexamendturninterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_END_TURN_INTERVAL",
+43
+],
+"produceexamphasetypeexamendturntimer": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_END_TURN_TIMER",
+42
+],
+"produceexamphasetypeexamforecast": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_FORECAST",
+10
+],
+"produceexamphasetypeexamfullpowerpointupinterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_FULL_POWER_POINT_UP_INTERVAL",
+54
+],
+"produceexamphasetypeexamgetpoint": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_GET_POINT",
+18
+],
+"produceexamphasetypeexamlesson": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_LESSON",
+9
+],
+"produceexamphasetypeexamlessonbuffupinterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_LESSON_BUFF_UP_INTERVAL",
+51
+],
+"produceexamphasetypeexamlessonparameterup": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_LESSON_PARAMETER_UP",
+33
+],
+"produceexamphasetypeexamparameterbuffupinterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_PARAMETER_BUFF_UP_INTERVAL",
+50
+],
+"produceexamphasetypeexamplaycardmovegrave": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_PLAY_CARD_MOVE_GRAVE",
+49
+],
+"produceexamphasetypeexamplaycountinterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_PLAY_COUNT_INTERVAL",
+23
+],
+"produceexamphasetypeexamplaycountintervalafter": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_PLAY_COUNT_INTERVAL_AFTER",
+44
+],
+"produceexamphasetypeexamplayturncountinterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_PLAY_TURN_COUNT_INTERVAL",
+25
+],
+"produceexamphasetypeexamreviewupinterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_REVIEW_UP_INTERVAL",
+52
+],
+"produceexamphasetypeexamsearchcardplay": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_SEARCH_CARD_PLAY",
+11
+],
+"produceexamphasetypeexamshuffle": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_SHUFFLE",
+19
+],
+"produceexamphasetypeexamstaminareduce": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STAMINA_REDUCE",
+20
+],
+"produceexamphasetypeexamstaminareducecard": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STAMINA_REDUCE_CARD",
+24
+],
+"produceexamphasetypeexamstancechange": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STANCE_CHANGE",
+12
+],
+"produceexamphasetypeexamstancechangeconcentration": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STANCE_CHANGE_CONCENTRATION",
+37
+],
+"produceexamphasetypeexamstancechangeconcentrationinterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STANCE_CHANGE_CONCENTRATION_INTERVAL",
+56
+],
+"produceexamphasetypeexamstancechangecount": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STANCE_CHANGE_COUNT",
+36
+],
+"produceexamphasetypeexamstancechangecountinterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STANCE_CHANGE_COUNT_INTERVAL",
+35
+],
+"produceexamphasetypeexamstancechangefromconcentration": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STANCE_CHANGE_FROM_CONCENTRATION",
+45
+],
+"produceexamphasetypeexamstancechangefromfullpower": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STANCE_CHANGE_FROM_FULL_POWER",
+47
+],
+"produceexamphasetypeexamstancechangefrompreservation": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STANCE_CHANGE_FROM_PRESERVATION",
+46
+],
+"produceexamphasetypeexamstancechangefullpower": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STANCE_CHANGE_FULL_POWER",
+39
+],
+"produceexamphasetypeexamstancechangefullpowerinterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STANCE_CHANGE_FULL_POWER_INTERVAL",
+57
+],
+"produceexamphasetypeexamstancechangepreservation": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STANCE_CHANGE_PRESERVATION",
+38
+],
+"produceexamphasetypeexamstancechangepreservationinterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STANCE_CHANGE_PRESERVATION_INTERVAL",
+55
+],
+"produceexamphasetypeexamstancereset": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STANCE_RESET",
+40
+],
+"produceexamphasetypeexamstartexam": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_START_EXAM",
+6
+],
+"produceexamphasetypeexamstartturn": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_START_TURN",
+4
+],
+"produceexamphasetypeexamstatuschange": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_STATUS_CHANGE",
+13
+],
+"produceexamphasetypeexamturncheck": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_TURN_CHECK",
+16
+],
+"produceexamphasetypeexamturninterval": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_TURN_INTERVAL",
+22
+],
+"produceexamphasetypeexamturnskip": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_TURN_SKIP",
+41
+],
+"produceexamphasetypeexamturntimer": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_TURN_TIMER",
+21
+],
+"produceexamphasetypeexamusedrink": [
+"PRODUCE_EXAM_PHASE_TYPE_EXAM_USE_DRINK",
+17
+],
+"produceexamphasetypenone": [
+"PRODUCE_EXAM_PHASE_TYPE_NONE",
+999
+],
+"produceexamphasetypestartexamplay": [
+"PRODUCE_EXAM_PHASE_TYPE_START_EXAM_PLAY",
+28
+],
+"produceexamphasetypestartplay": [
+"PRODUCE_EXAM_PHASE_TYPE_START_PLAY",
+27
+],
+"produceexamphasetypeunknown": [
+"PRODUCE_EXAM_PHASE_TYPE_UNKNOWN",
+0
+],
+"produceexampickfusionexchangetypeall": [
+"PRODUCE_EXAM_PICK_FUSION_EXCHANGE_TYPE_ALL",
+2
+],
+"produceexampickfusionexchangetypenormal": [
+"PRODUCE_EXAM_PICK_FUSION_EXCHANGE_TYPE_NORMAL",
+1
+],
+"produceexampickfusionexchangetypeunknown": [
+"PRODUCE_EXAM_PICK_FUSION_EXCHANGE_TYPE_UNKNOWN",
+0
+],
+"produceexamtriggerchecktypenot": [
+"PRODUCE_EXAM_TRIGGER_CHECK_TYPE_NOT",
+1
+],
+"produceexamtriggerchecktypeunknown": [
+"PRODUCE_EXAM_TRIGGER_CHECK_TYPE_UNKNOWN",
+0
+],
+"produceitemeffecttypeexamstatusenchant": [
+"PRODUCE_ITEM_EFFECT_TYPE_EXAM_STATUS_ENCHANT",
+2
+],
+"produceitemeffecttypeproduceeffect": [
+"PRODUCE_ITEM_EFFECT_TYPE_PRODUCE_EFFECT",
+1
+],
+"produceitemeffecttypeunknown": [
+"PRODUCE_ITEM_EFFECT_TYPE_UNKNOWN",
+0
+],
+"produceitemrarityn": [
+"PRODUCE_ITEM_RARITY_N",
+1
+],
+"produceitemrarityr": [
+"PRODUCE_ITEM_RARITY_R",
+2
+],
+"produceitemraritysr": [
+"PRODUCE_ITEM_RARITY_SR",
+3
+],
+"produceitemrarityssr": [
+"PRODUCE_ITEM_RARITY_SSR",
+4
+],
+"produceitemrarityunknown": [
+"PRODUCE_ITEM_RARITY_UNKNOWN",
+0
+],
+"producelivetypea": [
+"PRODUCE_LIVE_TYPE_A",
+2
+],
+"producelivetypeb": [
+"PRODUCE_LIVE_TYPE_B",
+3
+],
+"producelivetypec": [
+"PRODUCE_LIVE_TYPE_C",
+4
+],
+"producelivetyped": [
+"PRODUCE_LIVE_TYPE_D",
+5
+],
+"producelivetypee": [
+"PRODUCE_LIVE_TYPE_E",
+6
+],
+"producelivetypetrueend": [
+"PRODUCE_LIVE_TYPE_TRUE_END",
+1
+],
+"producelivetypeunknown": [
+"PRODUCE_LIVE_TYPE_UNKNOWN",
+0
+],
+"producememoryproducecardphasetypeendauditionmid": [
+"PRODUCE_MEMORY_PRODUCE_CARD_PHASE_TYPE_END_AUDITION_MID",
+2
+],
+"producememoryproducecardphasetypeproducestart": [
+"PRODUCE_MEMORY_PRODUCE_CARD_PHASE_TYPE_PRODUCE_START",
+1
+],
+"producememoryproducecardphasetypeunknown": [
+"PRODUCE_MEMORY_PRODUCE_CARD_PHASE_TYPE_UNKNOWN",
+0
+],
+"produceparametertypedance": [
+"PRODUCE_PARAMETER_TYPE_DANCE",
+2
+],
+"produceparametertypeunknown": [
+"PRODUCE_PARAMETER_TYPE_UNKNOWN",
+0
+],
+"produceparametertypevisual": [
+"PRODUCE_PARAMETER_TYPE_VISUAL",
+3
+],
+"produceparametertypevocal": [
+"PRODUCE_PARAMETER_TYPE_VOCAL",
+1
+],
+"producephasetypebuyshopitem": [
+"PRODUCE_PHASE_TYPE_BUY_SHOP_ITEM",
+52
+],
+"producephasetypebuyshopitemdeleteproducecard": [
+"PRODUCE_PHASE_TYPE_BUY_SHOP_ITEM_DELETE_PRODUCE_CARD",
+57
+],
+"producephasetypebuyshopitemproducecard": [
+"PRODUCE_PHASE_TYPE_BUY_SHOP_ITEM_PRODUCE_CARD",
+53
+],
+"producephasetypebuyshopitemproducedrink": [
+"PRODUCE_PHASE_TYPE_BUY_SHOP_ITEM_PRODUCE_DRINK",
+54
+],
+"producephasetypebuyshopitemproduceitem": [
+"PRODUCE_PHASE_TYPE_BUY_SHOP_ITEM_PRODUCE_ITEM",
+55
+],
+"producephasetypebuyshopitemupgradeproducecard": [
+"PRODUCE_PHASE_TYPE_BUY_SHOP_ITEM_UPGRADE_PRODUCE_CARD",
+56
+],
+"producephasetypechangeproducecard": [
+"PRODUCE_PHASE_TYPE_CHANGE_PRODUCE_CARD",
+25
+],
+"producephasetypecustomizeproducecard": [
+"PRODUCE_PHASE_TYPE_CUSTOMIZE_PRODUCE_CARD",
+3
+],
+"producephasetypedeleteproducecard": [
+"PRODUCE_PHASE_TYPE_DELETE_PRODUCE_CARD",
+11
+],
+"producephasetypeendaudition": [
+"PRODUCE_PHASE_TYPE_END_AUDITION",
+51
+],
+"producephasetypeendauditionfinal": [
+"PRODUCE_PHASE_TYPE_END_AUDITION_FINAL",
+50
+],
+"producephasetypeendauditionmid": [
+"PRODUCE_PHASE_TYPE_END_AUDITION_MID",
+47
+],
+"producephasetypeendauditionmid1": [
+"PRODUCE_PHASE_TYPE_END_AUDITION_MID1",
+48
+],
+"producephasetypeendauditionmid2": [
+"PRODUCE_PHASE_TYPE_END_AUDITION_MID2",
+49
+],
+"producephasetypeendbeforeauditionrefresh": [
+"PRODUCE_PHASE_TYPE_END_BEFORE_AUDITION_REFRESH",
+27
+],
+"producephasetypeendlesson": [
+"PRODUCE_PHASE_TYPE_END_LESSON",
+20
+],
+"producephasetypeendlessonbeforepresent": [
+"PRODUCE_PHASE_TYPE_END_LESSON_BEFORE_PRESENT",
+19
+],
+"producephasetypeendpresent": [
+"PRODUCE_PHASE_TYPE_END_PRESENT",
+58
+],
+"producephasetypeendshop": [
+"PRODUCE_PHASE_TYPE_END_SHOP",
+59
+],
+"producephasetypeendstepeventactivity": [
+"PRODUCE_PHASE_TYPE_END_STEP_EVENT_ACTIVITY",
+22
+],
+"producephasetypeendstepeventbusiness": [
+"PRODUCE_PHASE_TYPE_END_STEP_EVENT_BUSINESS",
+26
+],
+"producephasetypeendstepeventcharacteropening": [
+"PRODUCE_PHASE_TYPE_END_STEP_EVENT_CHARACTER_OPENING",
+24
+],
+"producephasetypeendstepeventschool": [
+"PRODUCE_PHASE_TYPE_END_STEP_EVENT_SCHOOL",
+23
+],
+"producephasetypefailedlesson": [
+"PRODUCE_PHASE_TYPE_FAILED_LESSON",
+21
+],
+"producephasetypegetproducecard": [
+"PRODUCE_PHASE_TYPE_GET_PRODUCE_CARD",
+9
+],
+"producephasetypegetproducedrink": [
+"PRODUCE_PHASE_TYPE_GET_PRODUCE_DRINK",
+7
+],
+"producephasetypegetproduceitem": [
+"PRODUCE_PHASE_TYPE_GET_PRODUCE_ITEM",
+6
+],
+"producephasetypegetproducepoint": [
+"PRODUCE_PHASE_TYPE_GET_PRODUCE_POINT",
+4
+],
+"producephasetypeproducestart": [
+"PRODUCE_PHASE_TYPE_PRODUCE_START",
+12
+],
+"producephasetyperecoverystamina": [
+"PRODUCE_PHASE_TYPE_RECOVERY_STAMINA",
+1
+],
+"producephasetypesectionstart": [
+"PRODUCE_PHASE_TYPE_SECTION_START",
+2
+],
+"producephasetypestartaudition": [
+"PRODUCE_PHASE_TYPE_START_AUDITION",
+46
+],
+"producephasetypestartauditionfinal": [
+"PRODUCE_PHASE_TYPE_START_AUDITION_FINAL",
+45
+],
+"producephasetypestartauditionmid": [
+"PRODUCE_PHASE_TYPE_START_AUDITION_MID",
+42
+],
+"producephasetypestartauditionmid1": [
+"PRODUCE_PHASE_TYPE_START_AUDITION_MID1",
+43
+],
+"producephasetypestartauditionmid2": [
+"PRODUCE_PHASE_TYPE_START_AUDITION_MID2",
+44
+],
+"producephasetypestartcustomize": [
+"PRODUCE_PHASE_TYPE_START_CUSTOMIZE",
+14
+],
+"producephasetypestartlesson": [
+"PRODUCE_PHASE_TYPE_START_LESSON",
+18
+],
+"producephasetypestartpresent": [
+"PRODUCE_PHASE_TYPE_START_PRESENT",
+17
+],
+"producephasetypestartrefresh": [
+"PRODUCE_PHASE_TYPE_START_REFRESH",
+16
+],
+"producephasetypestartshop": [
+"PRODUCE_PHASE_TYPE_START_SHOP",
+15
+],
+"producephasetypestartstep": [
+"PRODUCE_PHASE_TYPE_START_STEP",
+13
+],
+"producephasetypeunknown": [
+"PRODUCE_PHASE_TYPE_UNKNOWN",
+0
+],
+"producephasetypeupgradeproducecard": [
+"PRODUCE_PHASE_TYPE_UPGRADE_PRODUCE_CARD",
+10
+],
+"producephasetypeuseproducedrink": [
+"PRODUCE_PHASE_TYPE_USE_PRODUCE_DRINK",
+8
+],
+"producepickcounttypenormal": [
+"PRODUCE_PICK_COUNT_TYPE_NORMAL",
+1
+],
+"producepickcounttypeover": [
+"PRODUCE_PICK_COUNT_TYPE_OVER",
+3
+],
+"producepickcounttypeshortage": [
+"PRODUCE_PICK_COUNT_TYPE_SHORTAGE",
+2
+],
+"producepickcounttypeunknown": [
+"PRODUCE_PICK_COUNT_TYPE_UNKNOWN",
+0
+],
+"producepickrangetypeall": [
+"PRODUCE_PICK_RANGE_TYPE_ALL",
+3
+],
+"producepickrangetyperandom": [
+"PRODUCE_PICK_RANGE_TYPE_RANDOM",
+2
+],
+"producepickrangetypeselect": [
+"PRODUCE_PICK_RANGE_TYPE_SELECT",
+1
+],
+"producepickrangetypeunknown": [
+"PRODUCE_PICK_RANGE_TYPE_UNKNOWN",
+0
+],
+"produceplantypecommon": [
+"PRODUCE_PLAN_TYPE_COMMON",
+1
+],
+"produceplantypeplan1": [
+"PRODUCE_PLAN_TYPE_PLAN1",
+2
+],
+"produceplantypeplan2": [
+"PRODUCE_PLAN_TYPE_PLAN2",
+3
+],
+"produceplantypeplan3": [
+"PRODUCE_PLAN_TYPE_PLAN3",
+4
+],
+"produceplantypeplan4": [
+"PRODUCE_PLAN_TYPE_PLAN4",
+5
+],
+"produceplantypeunknown": [
+"PRODUCE_PLAN_TYPE_UNKNOWN",
+0
+],
+"produceprogressauditionstatustypeexambattlefailure": [
+"PRODUCE_PROGRESS_AUDITION_STATUS_TYPE_EXAM_BATTLE_FAILURE",
+4
+],
+"produceprogressauditionstatustypeexambattlesuccess": [
+"PRODUCE_PROGRESS_AUDITION_STATUS_TYPE_EXAM_BATTLE_SUCCESS",
+3
+],
+"produceprogressauditionstatustypeinprogressexambattle": [
+"PRODUCE_PROGRESS_AUDITION_STATUS_TYPE_IN_PROGRESS_EXAM_BATTLE",
+2
+],
+"produceprogressauditionstatustypereadyforexambattle": [
+"PRODUCE_PROGRESS_AUDITION_STATUS_TYPE_READY_FOR_EXAM_BATTLE",
+1
+],
+"produceprogressauditionstatustypeunknown": [
+"PRODUCE_PROGRESS_AUDITION_STATUS_TYPE_UNKNOWN",
+0
+],
+"produceresourcetypecardchange": [
+"PRODUCE_RESOURCE_TYPE_CARD_CHANGE",
+994
+],
+"produceresourcetypecardcustomize": [
+"PRODUCE_RESOURCE_TYPE_CARD_CUSTOMIZE",
+995
+],
+"produceresourcetypecarddelete": [
+"PRODUCE_RESOURCE_TYPE_CARD_DELETE",
+998
+],
+"produceresourcetypecardupgrade": [
+"PRODUCE_RESOURCE_TYPE_CARD_UPGRADE",
+997
+],
+"produceresourcetypehighscoregold": [
+"PRODUCE_RESOURCE_TYPE_HIGH_SCORE_GOLD",
+100
+],
+"produceresourcetypeidolcardproducecard": [
+"PRODUCE_RESOURCE_TYPE_IDOL_CARD_PRODUCE_CARD",
+15
+],
+"produceresourcetypeidolcardproduceitem": [
+"PRODUCE_RESOURCE_TYPE_IDOL_CARD_PRODUCE_ITEM",
+17
+],
+"produceresourcetypemaxstamina": [
+"PRODUCE_RESOURCE_TYPE_MAX_STAMINA",
+13
+],
+"produceresourcetypeparameterdance": [
+"PRODUCE_RESOURCE_TYPE_PARAMETER_DANCE",
+7
+],
+"produceresourcetypeparametervisual": [
+"PRODUCE_RESOURCE_TYPE_PARAMETER_VISUAL",
+8
+],
+"produceresourcetypeparametervocal": [
+"PRODUCE_RESOURCE_TYPE_PARAMETER_VOCAL",
+6
+],
+"produceresourcetypeproducecard": [
+"PRODUCE_RESOURCE_TYPE_PRODUCE_CARD",
+1
+],
+"produceresourcetypeproducecustomizeitem": [
+"PRODUCE_RESOURCE_TYPE_PRODUCE_CUSTOMIZE_ITEM",
+11
+],
+"produceresourcetypeproducedrink": [
+"PRODUCE_RESOURCE_TYPE_PRODUCE_DRINK",
+3
+],
+"produceresourcetypeproduceitem": [
+"PRODUCE_RESOURCE_TYPE_PRODUCE_ITEM",
+2
+],
+"produceresourcetypeproducepoint": [
+"PRODUCE_RESOURCE_TYPE_PRODUCE_POINT",
+4
+],
+"produceresourcetyperefinepark": [
+"PRODUCE_RESOURCE_TYPE_REFINE_PARK",
+12
+],
+"produceresourcetyperewardreroll": [
+"PRODUCE_RESOURCE_TYPE_REWARD_REROLL",
+14
+],
+"produceresourcetypeset": [
+"PRODUCE_RESOURCE_TYPE_SET",
+999
+],
+"produceresourcetypestamina": [
+"PRODUCE_RESOURCE_TYPE_STAMINA",
+5
+],
+"produceresourcetypestar": [
+"PRODUCE_RESOURCE_TYPE_STAR",
+10
+],
+"produceresourcetypesupportcardproducecard": [
+"PRODUCE_RESOURCE_TYPE_SUPPORT_CARD_PRODUCE_CARD",
+16
+],
+"produceresourcetypesupportcardproduceitem": [
+"PRODUCE_RESOURCE_TYPE_SUPPORT_CARD_PRODUCE_ITEM",
+18
+],
+"produceresourcetypeunknown": [
+"PRODUCE_RESOURCE_TYPE_UNKNOWN",
+0
+],
+"produceresourcetypevote": [
+"PRODUCE_RESOURCE_TYPE_VOTE",
+9
+],
+"produceselectscreenordertypefirst": [
+"PRODUCE_SELECT_SCREEN_ORDER_TYPE_FIRST",
+1
+],
+"produceselectscreenordertypesecond": [
+"PRODUCE_SELECT_SCREEN_ORDER_TYPE_SECOND",
+2
+],
+"produceselectscreenordertypeunknown": [
+"PRODUCE_SELECT_SCREEN_ORDER_TYPE_UNKNOWN",
+0
+],
+"producesplittypefinal": [
+"PRODUCE_SPLIT_TYPE_FINAL",
+2
+],
+"producesplittypeselection": [
+"PRODUCE_SPLIT_TYPE_SELECTION",
+1
+],
+"producesplittypeunknown": [
+"PRODUCE_SPLIT_TYPE_UNKNOWN",
+0
+],
+"producestepauditiontypefinaleasy": [
+"PRODUCE_STEP_AUDITION_TYPE_FINAL_EASY",
+7
+],
+"producestepauditiontypefinalhard": [
+"PRODUCE_STEP_AUDITION_TYPE_FINAL_HARD",
+9
+],
+"producestepauditiontypefinalnormal": [
+"PRODUCE_STEP_AUDITION_TYPE_FINAL_NORMAL",
+8
+],
+"producestepauditiontypefinalveryhard": [
+"PRODUCE_STEP_AUDITION_TYPE_FINAL_VERY_HARD",
+10
+],
+"producestepauditiontypemid1easy": [
+"PRODUCE_STEP_AUDITION_TYPE_MID1_EASY",
+1
+],
+"producestepauditiontypemid1hard": [
+"PRODUCE_STEP_AUDITION_TYPE_MID1_HARD",
+3
+],
+"producestepauditiontypemid1normal": [
+"PRODUCE_STEP_AUDITION_TYPE_MID1_NORMAL",
+2
+],
+"producestepauditiontypemid2easy": [
+"PRODUCE_STEP_AUDITION_TYPE_MID2_EASY",
+4
+],
+"producestepauditiontypemid2hard": [
+"PRODUCE_STEP_AUDITION_TYPE_MID2_HARD",
+6
+],
+"producestepauditiontypemid2normal": [
+"PRODUCE_STEP_AUDITION_TYPE_MID2_NORMAL",
+5
+],
+"producestepauditiontypeunknown": [
+"PRODUCE_STEP_AUDITION_TYPE_UNKNOWN",
+0
+],
+"producestepbusinesstypeproducecard": [
+"PRODUCE_STEP_BUSINESS_TYPE_PRODUCE_CARD",
+1
+],
+"producestepbusinesstypeproducedrink": [
+"PRODUCE_STEP_BUSINESS_TYPE_PRODUCE_DRINK",
+2
+],
+"producestepbusinesstypeproducepoint": [
+"PRODUCE_STEP_BUSINESS_TYPE_PRODUCE_POINT",
+3
+],
+"producestepbusinesstypestamina": [
+"PRODUCE_STEP_BUSINESS_TYPE_STAMINA",
+4
+],
+"producestepbusinesstypeunknown": [
+"PRODUCE_STEP_BUSINESS_TYPE_UNKNOWN",
+0
+],
+"producesteplessontypelesson": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON",
+1
+],
+"producesteplessontypelessondance": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_DANCE",
+6
+],
+"producesteplessontypelessondancehard": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_DANCE_HARD",
+13
+],
+"producesteplessontypelessondancenormal": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_DANCE_NORMAL",
+11
+],
+"producesteplessontypelessondancesp": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_DANCE_SP",
+12
+],
+"producesteplessontypelessonhard": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_HARD",
+4
+],
+"producesteplessontypelessonnormal": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_NORMAL",
+2
+],
+"producesteplessontypelessonsp": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_SP",
+3
+],
+"producesteplessontypelessonvisual": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_VISUAL",
+7
+],
+"producesteplessontypelessonvisualhard": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_VISUAL_HARD",
+16
+],
+"producesteplessontypelessonvisualnormal": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_VISUAL_NORMAL",
+14
+],
+"producesteplessontypelessonvisualsp": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_VISUAL_SP",
+15
+],
+"producesteplessontypelessonvocal": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_VOCAL",
+5
+],
+"producesteplessontypelessonvocalhard": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_VOCAL_HARD",
+10
+],
+"producesteplessontypelessonvocalnormal": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_VOCAL_NORMAL",
+8
+],
+"producesteplessontypelessonvocalsp": [
+"PRODUCE_STEP_LESSON_TYPE_LESSON_VOCAL_SP",
+9
+],
+"producesteplessontypeunknown": [
+"PRODUCE_STEP_LESSON_TYPE_UNKNOWN",
+0
+],
+"producestepphasetypeafter": [
+"PRODUCE_STEP_PHASE_TYPE_AFTER",
+2
+],
+"producestepphasetypebefore": [
+"PRODUCE_STEP_PHASE_TYPE_BEFORE",
+1
+],
+"producestepphasetypeunknown": [
+"PRODUCE_STEP_PHASE_TYPE_UNKNOWN",
+0
+],
+"producesteptypeauditionfinal": [
+"PRODUCE_STEP_TYPE_AUDITION_FINAL",
+18
+],
+"producesteptypeauditionmid1": [
+"PRODUCE_STEP_TYPE_AUDITION_MID1",
+16
+],
+"producesteptypeauditionmid2": [
+"PRODUCE_STEP_TYPE_AUDITION_MID2",
+17
+],
+"producesteptypebusiness": [
+"PRODUCE_STEP_TYPE_BUSINESS",
+25
+],
+"producesteptypecustomize": [
+"PRODUCE_STEP_TYPE_CUSTOMIZE",
+28
+],
+"producesteptypeevent": [
+"PRODUCE_STEP_TYPE_EVENT",
+10
+],
+"producesteptypeeventactivity": [
+"PRODUCE_STEP_TYPE_EVENT_ACTIVITY",
+11
+],
+"producesteptypeeventbusiness": [
+"PRODUCE_STEP_TYPE_EVENT_BUSINESS",
+26
+],
+"producesteptypeeventschool": [
+"PRODUCE_STEP_TYPE_EVENT_SCHOOL",
+12
+],
+"producesteptypeeventschooldance": [
+"PRODUCE_STEP_TYPE_EVENT_SCHOOL_DANCE",
+49
+],
+"producesteptypeeventschoolvisual": [
+"PRODUCE_STEP_TYPE_EVENT_SCHOOL_VISUAL",
+50
+],
+"producesteptypeeventschoolvocal": [
+"PRODUCE_STEP_TYPE_EVENT_SCHOOL_VOCAL",
+48
+],
+"producesteptypefanpresent": [
+"PRODUCE_STEP_TYPE_FAN_PRESENT",
+27
+],
+"producesteptypeinterval": [
+"PRODUCE_STEP_TYPE_INTERVAL",
+47
+],
+"producesteptypelegendlessondancenormal": [
+"PRODUCE_STEP_TYPE_LEGEND_LESSON_DANCE_NORMAL",
+31
+],
+"producesteptypelegendlessondancesp": [
+"PRODUCE_STEP_TYPE_LEGEND_LESSON_DANCE_SP",
+32
+],
+"producesteptypelegendlessonvisualnormal": [
+"PRODUCE_STEP_TYPE_LEGEND_LESSON_VISUAL_NORMAL",
+33
+],
+"producesteptypelegendlessonvisualsp": [
+"PRODUCE_STEP_TYPE_LEGEND_LESSON_VISUAL_SP",
+34
+],
+"producesteptypelegendlessonvocalnormal": [
+"PRODUCE_STEP_TYPE_LEGEND_LESSON_VOCAL_NORMAL",
+29
+],
+"producesteptypelegendlessonvocalsp": [
+"PRODUCE_STEP_TYPE_LEGEND_LESSON_VOCAL_SP",
+30
+],
+"producesteptypelessondancehard": [
+"PRODUCE_STEP_TYPE_LESSON_DANCE_HARD",
+6
+],
+"producesteptypelessondancenormal": [
+"PRODUCE_STEP_TYPE_LESSON_DANCE_NORMAL",
+4
+],
+"producesteptypelessondancesp": [
+"PRODUCE_STEP_TYPE_LESSON_DANCE_SP",
+5
+],
+"producesteptypelessonvisualhard": [
+"PRODUCE_STEP_TYPE_LESSON_VISUAL_HARD",
+9
+],
+"producesteptypelessonvisualnormal": [
+"PRODUCE_STEP_TYPE_LESSON_VISUAL_NORMAL",
+7
+],
+"producesteptypelessonvisualsp": [
+"PRODUCE_STEP_TYPE_LESSON_VISUAL_SP",
+8
+],
+"producesteptypelessonvocalhard": [
+"PRODUCE_STEP_TYPE_LESSON_VOCAL_HARD",
+3
+],
+"producesteptypelessonvocalnormal": [
+"PRODUCE_STEP_TYPE_LESSON_VOCAL_NORMAL",
+1
+],
+"producesteptypelessonvocalsp": [
+"PRODUCE_STEP_TYPE_LESSON_VOCAL_SP",
+2
+],
+"producesteptypeopenlessondancenormal": [
+"PRODUCE_STEP_TYPE_OPEN_LESSON_DANCE_NORMAL",
+39
+],
+"producesteptypeopenlessondancenormalstar": [
+"PRODUCE_STEP_TYPE_OPEN_LESSON_DANCE_NORMAL_STAR",
+41
+],
+"producesteptypeopenlessondancesp": [
+"PRODUCE_STEP_TYPE_OPEN_LESSON_DANCE_SP",
+40
+],
+"producesteptypeopenlessondancespstar": [
+"PRODUCE_STEP_TYPE_OPEN_LESSON_DANCE_SP_STAR",
+42
+],
+"producesteptypeopenlessonvisualnormal": [
+"PRODUCE_STEP_TYPE_OPEN_LESSON_VISUAL_NORMAL",
+43
+],
+"producesteptypeopenlessonvisualnormalstar": [
+"PRODUCE_STEP_TYPE_OPEN_LESSON_VISUAL_NORMAL_STAR",
+45
+],
+"producesteptypeopenlessonvisualsp": [
+"PRODUCE_STEP_TYPE_OPEN_LESSON_VISUAL_SP",
+44
+],
+"producesteptypeopenlessonvisualspstar": [
+"PRODUCE_STEP_TYPE_OPEN_LESSON_VISUAL_SP_STAR",
+46
+],
+"producesteptypeopenlessonvocalnormal": [
+"PRODUCE_STEP_TYPE_OPEN_LESSON_VOCAL_NORMAL",
+35
+],
+"producesteptypeopenlessonvocalnormalstar": [
+"PRODUCE_STEP_TYPE_OPEN_LESSON_VOCAL_NORMAL_STAR",
+37
+],
+"producesteptypeopenlessonvocalsp": [
+"PRODUCE_STEP_TYPE_OPEN_LESSON_VOCAL_SP",
+36
+],
+"producesteptypeopenlessonvocalspstar": [
+"PRODUCE_STEP_TYPE_OPEN_LESSON_VOCAL_SP_STAR",
+38
+],
+"producesteptypepresent": [
+"PRODUCE_STEP_TYPE_PRESENT",
+15
+],
+"producesteptyperefresh": [
+"PRODUCE_STEP_TYPE_REFRESH",
+14
+],
+"producesteptypeselflessondancenormal": [
+"PRODUCE_STEP_TYPE_SELF_LESSON_DANCE_NORMAL",
+21
+],
+"producesteptypeselflessondancesp": [
+"PRODUCE_STEP_TYPE_SELF_LESSON_DANCE_SP",
+22
+],
+"producesteptypeselflessonvisualnormal": [
+"PRODUCE_STEP_TYPE_SELF_LESSON_VISUAL_NORMAL",
+23
+],
+"producesteptypeselflessonvisualsp": [
+"PRODUCE_STEP_TYPE_SELF_LESSON_VISUAL_SP",
+24
+],
+"producesteptypeselflessonvocalnormal": [
+"PRODUCE_STEP_TYPE_SELF_LESSON_VOCAL_NORMAL",
+19
+],
+"producesteptypeselflessonvocalsp": [
+"PRODUCE_STEP_TYPE_SELF_LESSON_VOCAL_SP",
+20
+],
+"producesteptypeshop": [
+"PRODUCE_STEP_TYPE_SHOP",
+13
+],
+"producesteptypeunknown": [
+"PRODUCE_STEP_TYPE_UNKNOWN",
+0
+],
+"producestorytypecampaign": [
+"PRODUCE_STORY_TYPE_CAMPAIGN",
+8
+],
+"producestorytypecharacter": [
+"PRODUCE_STORY_TYPE_CHARACTER",
+2
+],
+"producestorytypecharactergrowth": [
+"PRODUCE_STORY_TYPE_CHARACTER_GROWTH",
+3
+],
+"producestorytypedearness": [
+"PRODUCE_STORY_TYPE_DEARNESS",
+1
+],
+"producestorytypeidolcard": [
+"PRODUCE_STORY_TYPE_IDOL_CARD",
+4
+],
+"producestorytypestepactivityevent": [
+"PRODUCE_STORY_TYPE_STEP_ACTIVITY_EVENT",
+6
+],
+"producestorytypestepbusinessevent": [
+"PRODUCE_STORY_TYPE_STEP_BUSINESS_EVENT",
+9
+],
+"producestorytypestepschoolevent": [
+"PRODUCE_STORY_TYPE_STEP_SCHOOL_EVENT",
+7
+],
+"producestorytypesupportcard": [
+"PRODUCE_STORY_TYPE_SUPPORT_CARD",
+5
+],
+"producestorytypeunknown": [
+"PRODUCE_STORY_TYPE_UNKNOWN",
+0
+],
+"producetypefirststar": [
+"PRODUCE_TYPE_FIRST_STAR",
+1
+],
+"producetypehatsuboshiidolfestival": [
+"PRODUCE_TYPE_HATSUBOSHI_IDOL_FESTIVAL",
+3
+],
+"producetypenextidolaudition": [
+"PRODUCE_TYPE_NEXT_IDOL_AUDITION",
+2
+],
+"producetypeunknown": [
+"PRODUCE_TYPE_UNKNOWN",
+0
+],
+"purchasetransactionstatustypechargefailed": [
+"PURCHASE_TRANSACTION_STATUS_TYPE_CHARGE_FAILED",
+4
+],
+"purchasetransactionstatustypecompleted": [
+"PURCHASE_TRANSACTION_STATUS_TYPE_COMPLETED",
+999
+],
+"purchasetransactionstatustypeinitialized": [
+"PURCHASE_TRANSACTION_STATUS_TYPE_INITIALIZED",
+2
+],
+"purchasetransactionstatustypeinvalidmasterdata": [
+"PURCHASE_TRANSACTION_STATUS_TYPE_INVALID_MASTER_DATA",
+3
+],
+"purchasetransactionstatustypenone": [
+"PURCHASE_TRANSACTION_STATUS_TYPE_NONE",
+1
+],
+"purchasetransactionstatustypeprovidebonusfailed": [
+"PURCHASE_TRANSACTION_STATUS_TYPE_PROVIDE_BONUS_FAILED",
+5
+],
+"purchasetransactionstatustypeunknown": [
+"PURCHASE_TRANSACTION_STATUS_TYPE_UNKNOWN",
+0
+],
+"pvpratephasetypebeforefirststage": [
+"PVP_RATE_PHASE_TYPE_BEFORE_FIRST_STAGE",
+2
+],
+"pvpratephasetypebeforesecondstage": [
+"PVP_RATE_PHASE_TYPE_BEFORE_SECOND_STAGE",
+3
+],
+"pvpratephasetypebeforethirdstage": [
+"PVP_RATE_PHASE_TYPE_BEFORE_THIRD_STAGE",
+4
+],
+"pvpratephasetypematchedrivals": [
+"PVP_RATE_PHASE_TYPE_MATCHED_RIVALS",
+1
+],
+"pvpratephasetyperesult": [
+"PVP_RATE_PHASE_TYPE_RESULT",
+5
+],
+"pvpratephasetypeunknown": [
+"PVP_RATE_PHASE_TYPE_UNKNOWN",
+0
+],
+"pvprateseasonstatustypeinterm": [
+"PVP_RATE_SEASON_STATUS_TYPE_IN_TERM",
+4
+],
+"pvprateseasonstatustypenotattended": [
+"PVP_RATE_SEASON_STATUS_TYPE_NOT_ATTENDED",
+3
+],
+"pvprateseasonstatustypeoutofterm": [
+"PVP_RATE_SEASON_STATUS_TYPE_OUT_OF_TERM",
+1
+],
+"pvprateseasonstatustypepreparestartterm": [
+"PVP_RATE_SEASON_STATUS_TYPE_PREPARE_START_TERM",
+2
+],
+"pvprateseasonstatustypeunknown": [
+"PVP_RATE_SEASON_STATUS_TYPE_UNKNOWN",
+0
+],
+"resourcetypeactionpoint": [
+"RESOURCE_TYPE_ACTION_POINT",
+8
+],
+"resourcetypebadge": [
+"RESOURCE_TYPE_BADGE",
+24
+],
+"resourcetypecompetitionplaycount": [
+"RESOURCE_TYPE_COMPETITION_PLAY_COUNT",
+25
+],
+"resourcetypecostume": [
+"RESOURCE_TYPE_COSTUME",
+14
+],
+"resourcetypecostumehead": [
+"RESOURCE_TYPE_COSTUME_HEAD",
+13
+],
+"resourcetypedearnesspoint": [
+"RESOURCE_TYPE_DEARNESS_POINT",
+23
+],
+"resourcetypefancount": [
+"RESOURCE_TYPE_FAN_COUNT",
+10
+],
+"resourcetypefriendfollowlimitcount": [
+"RESOURCE_TYPE_FRIEND_FOLLOW_LIMIT_COUNT",
+11
+],
+"resourcetypeidolcardskin": [
+"RESOURCE_TYPE_IDOL_CARD_SKIN",
+5
+],
+"resourcetypeinvitationpoint": [
+"RESOURCE_TYPE_INVITATION_POINT",
+17
+],
+"resourcetypeitem": [
+"RESOURCE_TYPE_ITEM",
+2
+],
+"resourcetypejewelpaidonly": [
+"RESOURCE_TYPE_JEWEL_PAID_ONLY",
+1101
+],
+"resourcetypejeweltotal": [
+"RESOURCE_TYPE_JEWEL_TOTAL",
+1100
+],
+"resourcetypemeishibaseasset": [
+"RESOURCE_TYPE_MEISHI_BASE_ASSET",
+15
+],
+"resourcetypemeishiillustrationasset": [
+"RESOURCE_TYPE_MEISHI_ILLUSTRATION_ASSET",
+16
+],
+"resourcetypememory": [
+"RESOURCE_TYPE_MEMORY",
+3
+],
+"resourcetypemissionpasspoint": [
+"RESOURCE_TYPE_MISSION_PASS_POINT",
+6
+],
+"resourcetypemissionpasspremiumpass": [
+"RESOURCE_TYPE_MISSION_PASS_PREMIUM_PASS",
+7
+],
+"resourcetypemusic": [
+"RESOURCE_TYPE_MUSIC",
+12
+],
+"resourcetypephotobackground": [
+"RESOURCE_TYPE_PHOTO_BACKGROUND",
+21
+],
+"resourcetypephotopose": [
+"RESOURCE_TYPE_PHOTO_POSE",
+22
+],
+"resourcetypeproducecard": [
+"RESOURCE_TYPE_PRODUCE_CARD",
+1
+],
+"resourcetypeproducecardconversion": [
+"RESOURCE_TYPE_PRODUCE_CARD_CONVERSION",
+26
+],
+"resourcetypeproducecardskin": [
+"RESOURCE_TYPE_PRODUCE_CARD_SKIN",
+27
+],
+"resourcetypepvprateplaycount": [
+"RESOURCE_TYPE_PVP_RATE_PLAY_COUNT",
+20
+],
+"resourcetypeset": [
+"RESOURCE_TYPE_SET",
+9999
+],
+"resourcetypestory": [
+"RESOURCE_TYPE_STORY",
+18
+],
+"resourcetypestoryeventpoint": [
+"RESOURCE_TYPE_STORY_EVENT_POINT",
+19
+],
+"resourcetypesupportcard": [
+"RESOURCE_TYPE_SUPPORT_CARD",
+4
+],
+"resourcetypeunknown": [
+"RESOURCE_TYPE_UNKNOWN",
+0
+],
+"resourcetypeuserexp": [
+"RESOURCE_TYPE_USER_EXP",
+9
+],
+"resultgradea": [
+"RESULT_GRADE_A",
+8
+],
+"resultgradeaplus": [
+"RESULT_GRADE_A_PLUS",
+9
+],
+"resultgradeb": [
+"RESULT_GRADE_B",
+6
+],
+"resultgradebplus": [
+"RESULT_GRADE_B_PLUS",
+7
+],
+"resultgradec": [
+"RESULT_GRADE_C",
+4
+],
+"resultgradecplus": [
+"RESULT_GRADE_C_PLUS",
+5
+],
+"resultgraded": [
+"RESULT_GRADE_D",
+3
+],
+"resultgradee": [
+"RESULT_GRADE_E",
+2
+],
+"resultgradef": [
+"RESULT_GRADE_F",
+1
+],
+"resultgrades": [
+"RESULT_GRADE_S",
+10
+],
+"resultgradesplus": [
+"RESULT_GRADE_S_PLUS",
+11
+],
+"resultgradess": [
+"RESULT_GRADE_SS",
+12
+],
+"resultgradessplus": [
+"RESULT_GRADE_SS_PLUS",
+13
+],
+"resultgradesss": [
+"RESULT_GRADE_SSS",
+14
+],
+"resultgradesssplus": [
+"RESULT_GRADE_SSS_PLUS",
+15
+],
+"resultgradessss": [
+"RESULT_GRADE_SSSS",
+16
+],
+"resultgradessssplus": [
+"RESULT_GRADE_SSSS_PLUS",
+17
+],
+"resultgradesssss": [
+"RESULT_GRADE_SSSSS",
+18
+],
+"resultgradesssssplus": [
+"RESULT_GRADE_SSSSS_PLUS",
+19
+],
+"resultgradeunknown": [
+"RESULT_GRADE_UNKNOWN",
+0
+],
+"skillrarityr": [
+"SKILL_RARITY_R",
+1
+],
+"skillraritysr": [
+"SKILL_RARITY_SR",
+2
+],
+"skillrarityssr": [
+"SKILL_RARITY_SSR",
+3
+],
+"skillrarityunknown": [
+"SKILL_RARITY_UNKNOWN",
+0
+],
+"skillrarityur": [
+"SKILL_RARITY_UR",
+4
+],
+"supportcardlevellimitrank1": [
+"SUPPORT_CARD_LEVEL_LIMIT_RANK_1",
+1
+],
+"supportcardlevellimitrank2": [
+"SUPPORT_CARD_LEVEL_LIMIT_RANK_2",
+2
+],
+"supportcardlevellimitrank3": [
+"SUPPORT_CARD_LEVEL_LIMIT_RANK_3",
+3
+],
+"supportcardlevellimitrank4": [
+"SUPPORT_CARD_LEVEL_LIMIT_RANK_4",
+4
+],
+"supportcardlevellimitrankunknown": [
+"SUPPORT_CARD_LEVEL_LIMIT_RANK_UNKNOWN",
+0
+],
+"supportcardrarityr": [
+"SUPPORT_CARD_RARITY_R",
+1
+],
+"supportcardraritysr": [
+"SUPPORT_CARD_RARITY_SR",
+2
+],
+"supportcardrarityssr": [
+"SUPPORT_CARD_RARITY_SSR",
+3
+],
+"supportcardrarityunknown": [
+"SUPPORT_CARD_RARITY_UNKNOWN",
+0
+],
+"supportcardtypeassist": [
+"SUPPORT_CARD_TYPE_ASSIST",
+4
+],
+"supportcardtypedance": [
+"SUPPORT_CARD_TYPE_DANCE",
+2
+],
+"supportcardtypeunknown": [
+"SUPPORT_CARD_TYPE_UNKNOWN",
+0
+],
+"supportcardtypevisual": [
+"SUPPORT_CARD_TYPE_VISUAL",
+3
+],
+"supportcardtypevocal": [
+"SUPPORT_CARD_TYPE_VOCAL",
+1
+],
+"tourprogressphasetypeexamend": [
+"TOUR_PROGRESS_PHASE_TYPE_EXAM_END",
+2
+],
+"tourprogressphasetypeprogress": [
+"TOUR_PROGRESS_PHASE_TYPE_PROGRESS",
+1
+],
+"tourprogressphasetypeunknown": [
+"TOUR_PROGRESS_PHASE_TYPE_UNKNOWN",
+0
+]
+},
+"format": "gkms.master_schema.v1",
+"tables": {
+"Character": {
+"keys": [
+"id"
+],
+"kinds": {
+"achievementIds/[]": "other",
+"alphabetFirstName": "other",
+"alphabetLastName": "other",
+"changeCostumeConditionSetId": "other",
+"characterTrueEndBonusId": "other",
+"dearnessMissionGroupId": "other",
+"dearnessStoryUnlockItemId": "other",
+"firstName": "other",
+"id": "other",
+"idolCardIds/[]": "other",
+"isPlayable": "bool",
+"lastName": "other",
+"liveCostumeHeadId": "other",
+"liveCostumeId": "other",
+"masterAchievementId": "other",
+"normalCostumeHeadId": "other",
+"normalCostumeId": "other",
+"order": "int",
+"otherStoryIds/[]": "other",
+"personalityType": "enum",
+"potentialRank1VoiceAssetId": "other",
+"potentialRank3VoiceAssetId": "other",
+"potentialRank4VoiceAssetId": "other",
+"produceCardIds/[]": "other",
+"produceHighScorePositionX": "other",
+"produceHighScorePositionY": "other",
+"produceHighScoreRushPositionX": "other",
+"produceHighScoreRushPositionY": "other",
+"rosterDetailPositionX": "other",
+"rosterDetailPositionY": "other",
+"standingListPositionY": "other",
+"storyPositionX": "other",
+"storyPositionY": "other",
+"supportCardIds/[]": "other",
+"trainingCostumeHeadId": "other",
+"trainingCostumeId": "other",
+"useProduceCardVoiceAssetId": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"EffectGroup": {
+"keys": [
+"id"
+],
+"kinds": {
+"examEffectType": "enum",
+"examEffectTypes/[]": "enum",
+"hiddenFilter": "bool",
+"id": "other",
+"name": "other",
+"order": "int",
+"produceEffectType": "enum",
+"produceEffectTypes/[]": "enum"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ExamInitialDeck": {
+"keys": [
+"id"
+],
+"kinds": {
+"id": "other",
+"produceCardIds/[]": "other",
+"produceCardUpgradeCounts/[]": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ExamSetting": {
+"keys": [
+"id"
+],
+"kinds": {
+"examAutoPlayEnableVersion": "int",
+"examAutoPlaySearchCommandLimit": "int",
+"examAutoPlaySearchCommandPlanLimits/[]": "int",
+"examBlockAddDownPermil": "int",
+"examBuffConsumptionAddPermil": "int",
+"examBuffConsumptionDownPermil": "int",
+"examConcentrationLessonValueMultiplePermil": "int",
+"examConcentrationLessonValueMultiplePermil1": "int",
+"examConcentrationLessonValueMultiplePermil2": "int",
+"examConcentrationStaminaMultiplePermil1": "int",
+"examConcentrationStaminaMultiplePermil2": "int",
+"examConcentrationStaminaPenetrateReduce2": "int",
+"examFullPowerLessonValueMultiplePermil": "int",
+"examFullPowerPointReduceCancelDisable": "bool",
+"examGimmickParameterDebuffPermil": "int",
+"examLessonValueMultipleDependReviewOrAggressiveMaxPermil": "int",
+"examLessonValueMultipleDependReviewOrAggressiveMultiplePermil": "int",
+"examMetamorphoseAfterBuffValueReduce": "int",
+"examMetamorphoseAfterParameterUpPermil": "int",
+"examMetamorphoseBeforeBuffValueAdd": "int",
+"examMetamorphoseBeforeParameterDownPermil": "int",
+"examMetamorphoseBeforeTurnPermil": "int",
+"examParameterBuffMultiplePerTurnPermil": "int",
+"examParameterBuffPermil": "int",
+"examPreservationLessonValueMultiplePermil1": "int",
+"examPreservationLessonValueMultiplePermil2": "int",
+"examPreservationStaminaMultiplePermil1": "int",
+"examPreservationStaminaMultiplePermil2": "int",
+"examStaminaConsumptionAddDownPermil": "int",
+"examStaminaConsumptionAddPermil": "int",
+"examStaminaConsumptionDownAddPermil": "int",
+"examStaminaConsumptionDownPermil": "int",
+"examStaminaReduceChange": "int",
+"examTurnEndRecoveryStamina": "int",
+"fixMoveCardShuffleDeckEnable": "bool",
+"fullPowerPlayableValueAdd": "int",
+"handLimit": "int",
+"holdLimit": "int",
+"id": "other",
+"overPreservationReleaseBlockAdd": "int",
+"overPreservationReleaseEnthusiastic": "int",
+"overPreservationReleasePlayableValueAdd": "int",
+"overPreservationReleaseToFullPowerGrowEffectLessonAdd": "int",
+"preservationReleaseBlockAdd2": "int",
+"preservationReleaseEnthusiastic1": "int",
+"preservationReleaseEnthusiastic2": "int",
+"preservationReleasePlayableValueAdd1": "int",
+"preservationReleasePlayableValueAdd2": "int",
+"produceExamPanicStaminaCandidates/[]": "int",
+"turnStartDistribute": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"IdolCard": {
+"keys": [
+"id"
+],
+"kinds": {
+"achievementIds/[]": "other",
+"additionalAnotherCostumeHeadIds/[]": "other",
+"additionalAnotherCostumeIds/[]": "other",
+"afterProduceItemId": "other",
+"anotherCostumeHeadId": "other",
+"anotherCostumeId": "other",
+"assetId": "other",
+"beforeProduceItemId": "other",
+"characterId": "other",
+"disableIdolCardCharacterPiece": "bool",
+"examEffectType": "enum",
+"examInitialDeckId": "other",
+"id": "other",
+"idolCardLevelLimitId": "other",
+"idolCardLevelLimitProduceSkillId": "other",
+"idolCardLevelLimitStatusUpId": "other",
+"idolCardPotentialId": "other",
+"idolCardPotentialProduceSkillId": "other",
+"idolCardPrimaStellaProduceSkillId": "other",
+"maxIdolCardLevelLimitRank": "enum",
+"name": "other",
+"order": "int",
+"originalIdolCardSkinId": "other",
+"planType": "enum",
+"potentialRankVoiceAssetId": "other",
+"primaStellaAchievementId": "other",
+"primaStellaConsumptionSetId": "other",
+"primaStellaVoiceAssetId": "other",
+"produceCardId": "other",
+"produceChallengeSlotId": "other",
+"produceDance": "int",
+"produceDanceGrowthRatePermil": "int",
+"produceScheduleFrontVoiceGroupId": "other",
+"produceSelectVoiceAssetId": "other",
+"produceStamina": "int",
+"produceStepAuditionDifficultyId": "other",
+"produceStoryIds/[]": "other",
+"produceVisual": "int",
+"produceVisualGrowthRatePermil": "int",
+"produceVocal": "int",
+"produceVocalGrowthRatePermil": "int",
+"rarity": "enum",
+"secondProduceCardId": "other",
+"showExamEffectType": "enum",
+"usePrimaStellaProduceCardVoiceAssetId": "other",
+"useProduceCardVoiceAssetId": "other",
+"useSecondProduceCardVoiceAssetId": "other",
+"viewStartTime": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"IdolCardLevelLimit": {
+"keys": [
+"id",
+"rank"
+],
+"kinds": {
+"consumptionSetId": "other",
+"id": "other",
+"rank": "enum"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"Rank"
+]
+},
+"IdolCardLevelLimitProduceSkill": {
+"keys": [
+"id",
+"rank"
+],
+"kinds": {
+"id": "other",
+"order": "int",
+"produceSkillId": "other",
+"produceSkillLevel": "int",
+"rank": "enum"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"Rank"
+]
+},
+"IdolCardLevelLimitStatusUp": {
+"keys": [
+"id",
+"rank"
+],
+"kinds": {
+"effectTypes/[]": "enum",
+"effectValue": "int",
+"id": "other",
+"isIllustrationChange": "bool",
+"produceDance": "int",
+"produceVisual": "int",
+"produceVocal": "int",
+"rank": "enum"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"Rank"
+]
+},
+"IdolCardPotential": {
+"keys": [
+"id",
+"rank"
+],
+"kinds": {
+"anotherCostumeProvide": "bool",
+"consumptionPiece": "int",
+"effectTypes/[]": "enum",
+"effectValue": "int",
+"id": "other",
+"produceDanceGrowthRatePermil": "int",
+"produceVisualGrowthRatePermil": "int",
+"produceVocalGrowthRatePermil": "int",
+"rank": "enum"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"Rank"
+]
+},
+"IdolCardPotentialProduceSkill": {
+"keys": [
+"id",
+"rank"
+],
+"kinds": {
+"id": "other",
+"order": "int",
+"produceSkillId": "other",
+"produceSkillLevel": "int",
+"rank": "enum"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"Rank"
+]
+},
+"Item": {
+"keys": [
+"id"
+],
+"kinds": {
+"acquisitionRouteDescription": "other",
+"assetId": "other",
+"characterId": "other",
+"coinGashaId": "other",
+"commonLimitTime": "int",
+"description": "other",
+"effectValue": "int",
+"endTime": "int",
+"exchangeId": "other",
+"exchangeType": "enum",
+"gashaId": "other",
+"gashas/[]/bannerAssetId": "other",
+"gashas/[]/endTime": "int",
+"gashas/[]/hasFixReward": "bool",
+"gashas/[]/id": "other",
+"gashas/[]/startTime": "int",
+"gashas/[]/viewConditionSetId": "other",
+"id": "other",
+"idolCardRarity": "enum",
+"name": "other",
+"order": "int",
+"produceGrowthPanelSheetId": "other",
+"produceHighScoreEventId": "other",
+"rarity": "enum",
+"researchEventId": "other",
+"sellPrice": "int",
+"shopCoinGashaId": "other",
+"startTime": "int",
+"storyEventId": "other",
+"supportCardRarity": "enum",
+"tourEventId": "other",
+"type": "enum",
+"unlockConditionSetId": "other",
+"viewConditionSetId": "other",
+"viewWithoutPossession": "bool"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"MemoryAbility": {
+"keys": [
+"id",
+"level"
+],
+"kinds": {
+"evaluation": "int",
+"id": "other",
+"isUniqueActivation": "bool",
+"level": "int",
+"produceGroupIds/[]": "other",
+"skillId": "other"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"Level"
+]
+},
+"Produce": {
+"keys": [
+"id"
+],
+"kinds": {
+"actionPointQuantity": "int",
+"assetId": "other",
+"baseStepLevel": "int",
+"challengeViewConditionSetId": "other",
+"easyConditionSetId": "other",
+"easyProduceConditionSetId": "other",
+"easyProduceItemIds/[]": "other",
+"examSettingId": "other",
+"gradientColor1": "other",
+"gradientColor2": "other",
+"id": "other",
+"idolCardParameterGrowthLimit": "int",
+"maxProduceEventCharacterGrowthNumber": "int",
+"maxRefreshCount": "int",
+"name": "other",
+"order": "int",
+"produceNavigationAuditionId": "other",
+"produceNavigationLoseId": "other",
+"produceNavigationNormalId": "other",
+"produceSelectScreenOrderType": "enum",
+"produceSettingId": "other",
+"produceSplitType": "enum",
+"selectionMemoryEmbedProduceCardId": "other",
+"splitPairProduceId": "other",
+"steps": "int",
+"unlockConditionSetId": "other",
+"viewConditionSetId": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceCard": {
+"keys": [
+"id",
+"upgradeCount"
+],
+"kinds": {
+"assetId": "other",
+"category": "enum",
+"costType": "enum",
+"costValue": "int",
+"effectGroupIds/[]": "other",
+"evaluation": "int",
+"forceStamina": "int",
+"id": "other",
+"isCharacterAsset": "bool",
+"isConversion": "bool",
+"isInitial": "bool",
+"isInitialDeckProduceCard": "bool",
+"libraryHidden": "bool",
+"maxCustomizeCount": "int",
+"moveEffectTriggerType": "enum",
+"moveProduceExamEffectIds/[]": "other",
+"name": "other",
+"noDeckDuplication": "bool",
+"order": "int",
+"originCharacterId": "other",
+"originIdolCardId": "other",
+"originPrimaStellaIdolCardId": "other",
+"originSupportCardId": "other",
+"planType": "enum",
+"playEffects/[]/hideIcon": "bool",
+"playEffects/[]/isOncePlayEffect": "bool",
+"playEffects/[]/produceExamEffectId": "other",
+"playEffects/[]/produceExamTriggerId": "other",
+"playMovePositionType": "enum",
+"playProduceExamTriggerId": "other",
+"produceCardCustomizeIds/[]": "other",
+"produceCardStatusEnchantId": "other",
+"produceDescriptions/[]/cost_value": "int",
+"produceDescriptions/[]/effect_count": "int",
+"produceDescriptions/[]/effect_value1": "int",
+"produceDescriptions/[]/effect_value2": "int",
+"produceDescriptions/[]/exam_description_type": "enum",
+"produceDescriptions/[]/exam_effect_type": "enum",
+"produceDescriptions/[]/is_cost": "bool",
+"produceDescriptions/[]/is_only_out_game": "bool",
+"produceDescriptions/[]/origin_produce_card_status_enchant_id": "other",
+"produceDescriptions/[]/origin_produce_exam_effect_id": "other",
+"produceDescriptions/[]/origin_produce_exam_trigger_id": "other",
+"produceDescriptions/[]/produce_card_category": "enum",
+"produceDescriptions/[]/produce_card_grow_effect_type": "enum",
+"produceDescriptions/[]/produce_card_move_position_type": "enum",
+"produceDescriptions/[]/produce_description_type": "enum",
+"produceDescriptions/[]/target_id": "other",
+"produceDescriptions/[]/target_level": "int",
+"produceDescriptions/[]/text": "other",
+"produceDescriptions/[]/turn": "int",
+"rarity": "enum",
+"rentalUnlockProducerLevel": "int",
+"searchTag": "other",
+"stamina": "int",
+"unlockProducerLevel": "int",
+"upgradeCount": "int",
+"viewStartTime": "int",
+"voiceAssetId": "other"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"UpgradeCount"
+]
+},
+"ProduceCardConversion": {
+"keys": [
+"afterProduceCardId",
+"beforeProduceCardId",
+"conditionSetId"
+],
+"kinds": {
+"afterProduceCardId": "other",
+"beforeProduceCardId": "other",
+"conditionSetId": "other",
+"isNotReward": "bool",
+"order": "int"
+},
+"numeric": [
+false,
+false,
+false
+],
+"outer": [
+"BeforeProduceCardId",
+"AfterProduceCardId",
+"ConditionSetId"
+]
+},
+"ProduceCardCustomize": {
+"keys": [
+"customizeCount",
+"id"
+],
+"kinds": {
+"customizeCount": "int",
+"description": "other",
+"id": "other",
+"overwriteProduceCardGrowEffectType": "enum",
+"produceCardGrowEffectIds/[]": "other",
+"producePoint": "int"
+},
+"numeric": [
+true,
+false
+],
+"outer": [
+"CustomizeCount",
+"Id"
+]
+},
+"ProduceCardGrowEffect": {
+"keys": [
+"id"
+],
+"kinds": {
+"effectGroupIds/[]": "other",
+"effectType": "enum",
+"id": "other",
+"playEffectProduceExamTriggerId": "other",
+"playMovePositionType": "enum",
+"playProduceExamEffectId": "other",
+"playProduceExamTriggerId": "other",
+"produceCardStatusEnchantId": "other",
+"targetPlayEffectProduceExamTriggerIds/[]": "other",
+"targetPlayProduceExamEffectIds/[]": "other",
+"value": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceCardPool": {
+"keys": [
+"id"
+],
+"kinds": {
+"id": "other",
+"produceCardRatios/[]/id": "other",
+"produceCardRatios/[]/ratio": "int",
+"produceCardRatios/[]/upgradeCount": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceCardRandomPool": {
+"keys": [
+"id",
+"produceCardId"
+],
+"kinds": {
+"id": "other",
+"produceCardId": "other",
+"ratio": "int",
+"upgradeCount": "int"
+},
+"numeric": [
+false,
+false
+],
+"outer": [
+"Id",
+"ProduceCardId"
+]
+},
+"ProduceCardSearch": {
+"keys": [
+"id"
+],
+"kinds": {
+"cardCategories/[]": "enum",
+"cardPositionType": "enum",
+"cardRarities/[]": "enum",
+"cardSearchTag": "other",
+"effectGroupIds/[]": "other",
+"id": "other",
+"isSelf": "bool",
+"limitCount": "int",
+"orderType": "enum",
+"planType": "enum",
+"produceCardIds/[]": "other",
+"produceCardPoolId": "other",
+"produceCardRandomPoolId": "other",
+"produceDescriptions/[]/exam_effect_type": "enum",
+"produceDescriptions/[]/produce_card_category": "enum",
+"produceDescriptions/[]/produce_description_type": "enum",
+"produceDescriptions/[]/target_id": "other",
+"produceDescriptions/[]/target_level": "int",
+"produceDescriptions/[]/text": "other",
+"staminaMax": "int",
+"staminaMin": "int",
+"staminaMinMaxType": "enum",
+"upgradeCounts/[]": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceCardStatusEnchant": {
+"keys": [
+"id"
+],
+"kinds": {
+"id": "other",
+"produceCardGrowEffectIds/[]": "other",
+"produceDescriptions/[]/exam_effect_type": "enum",
+"produceDescriptions/[]/origin_produce_card_status_enchant_id": "other",
+"produceDescriptions/[]/produce_card_category": "enum",
+"produceDescriptions/[]/produce_card_grow_effect_type": "enum",
+"produceDescriptions/[]/produce_description_type": "enum",
+"produceDescriptions/[]/target_id": "other",
+"produceDescriptions/[]/text": "other",
+"produceExamTriggerId": "other",
+"triggerCount": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceChallengeSlot": {
+"keys": [
+"id",
+"number",
+"produceId"
+],
+"kinds": {
+"id": "other",
+"number": "int",
+"produceId": "other",
+"produceItemChallengeGroupId": "other",
+"unlockDescription": "other"
+},
+"numeric": [
+false,
+false,
+true
+],
+"outer": [
+"Id",
+"ProduceId",
+"Number"
+]
+},
+"ProduceCustomizeItem": {
+"keys": [
+"id"
+],
+"kinds": {
+"assetId1": "other",
+"assetId2": "other",
+"assetId3": "other",
+"assetId4": "other",
+"effectGroupIds/[]": "other",
+"effectType": "enum",
+"id": "other",
+"isBase": "bool",
+"isTerminal": "bool",
+"name": "other",
+"planType": "enum",
+"produceEffectIds/[]": "other",
+"produceEffectTriggerCount": "int",
+"produceTriggerId": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceCustomizeItemRelationship": {
+"keys": [
+"childProduceCustomizeItemId",
+"parentProduceCustomizeItemId"
+],
+"kinds": {
+"childProduceCustomizeItemId": "other",
+"parentProduceCustomizeItemId": "other"
+},
+"numeric": [
+false,
+false
+],
+"outer": [
+"ParentProduceCustomizeItemId",
+"ChildProduceCustomizeItemId"
+]
+},
+"ProduceDrink": {
+"keys": [
+"id"
+],
+"kinds": {
+"assetId": "other",
+"effectGroupIds/[]": "other",
+"id": "other",
+"libraryHidden": "bool",
+"name": "other",
+"order": "int",
+"planType": "enum",
+"produceDescriptions/[]/effect_count": "int",
+"produceDescriptions/[]/effect_value1": "int",
+"produceDescriptions/[]/exam_description_type": "enum",
+"produceDescriptions/[]/exam_effect_type": "enum",
+"produceDescriptions/[]/origin_produce_exam_effect_id": "other",
+"produceDescriptions/[]/produce_card_category": "enum",
+"produceDescriptions/[]/produce_description_type": "enum",
+"produceDescriptions/[]/target_id": "other",
+"produceDescriptions/[]/text": "other",
+"produceDescriptions/[]/turn": "int",
+"produceDrinkEffectIds/[]": "other",
+"rarity": "enum",
+"unlockProducerLevel": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceDrinkEffect": {
+"keys": [
+"id"
+],
+"kinds": {
+"id": "other",
+"produceExamEffectId": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceEffect": {
+"keys": [
+"id"
+],
+"kinds": {
+"effectValueMax": "int",
+"effectValueMin": "int",
+"id": "other",
+"isResearch": "bool",
+"pickCountMax": "int",
+"pickCountMin": "int",
+"pickRangeType": "enum",
+"produceCardSearchId": "other",
+"produceEffectType": "enum",
+"produceExamStatusEnchantId": "other",
+"produceResourceType": "enum",
+"produceRewards/[]/resourceId": "other",
+"produceRewards/[]/resourceLevel": "int",
+"produceRewards/[]/resourceType": "enum"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceEventCharacterGrowth": {
+"keys": [
+"characterId",
+"number"
+],
+"kinds": {
+"characterId": "other",
+"dance": "int",
+"description": "other",
+"number": "int",
+"produceStepEventDetailId": "other",
+"title": "other",
+"visual": "int",
+"vocal": "int"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"CharacterId",
+"Number"
+]
+},
+"ProduceEventSupportCard": {
+"keys": [
+"number",
+"supportCardId"
+],
+"kinds": {
+"number": "int",
+"produceStepEventDetailId": "other",
+"supportCardId": "other",
+"supportCardLevel": "int"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"SupportCardId",
+"Number"
+]
+},
+"ProduceExamBattleConfig": {
+"keys": [
+"id"
+],
+"kinds": {
+"dance": "int",
+"danceBad": "int",
+"danceExcellent": "int",
+"id": "other",
+"produceExamBattleScoreConfigId": "other",
+"turn": "int",
+"visual": "int",
+"visualBad": "int",
+"visualExcellent": "int",
+"vocal": "int",
+"vocalBad": "int",
+"vocalExcellent": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceExamBattleNpcGroup": {
+"keys": [
+"id",
+"number"
+],
+"kinds": {
+"characterId": "other",
+"dancePermil": "int",
+"edScorePermil": "int",
+"id": "other",
+"midScorePermil": "int",
+"number": "int",
+"opScorePermil": "int",
+"produceExamBattleNpcMobId": "other",
+"scoreMax": "int",
+"scoreMin": "int",
+"visualPermil": "int",
+"vocalPermil": "int"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"Number"
+]
+},
+"ProduceExamBattleNpcMob": {
+"keys": [
+"id"
+],
+"kinds": {
+"assetId": "other",
+"id": "other",
+"isBorder": "bool",
+"name": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceExamBattleScoreConfig": {
+"keys": [
+"id",
+"parameter"
+],
+"kinds": {
+"dancePermil": "int",
+"id": "other",
+"parameter": "int",
+"visualPermil": "int",
+"vocalPermil": "int"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"Parameter"
+]
+},
+"ProduceExamEffect": {
+"keys": [
+"id"
+],
+"kinds": {
+"chainProduceExamEffectId": "other",
+"chainProduceExamEffectIds/[]": "other",
+"customizeProduceDescriptions/[]/effect_count": "int",
+"customizeProduceDescriptions/[]/effect_value1": "int",
+"customizeProduceDescriptions/[]/effect_value2": "int",
+"customizeProduceDescriptions/[]/exam_description_type": "enum",
+"customizeProduceDescriptions/[]/exam_effect_type": "enum",
+"customizeProduceDescriptions/[]/origin_produce_exam_effect_id": "other",
+"customizeProduceDescriptions/[]/produce_card_category": "enum",
+"customizeProduceDescriptions/[]/produce_card_grow_effect_type": "enum",
+"customizeProduceDescriptions/[]/produce_description_type": "enum",
+"customizeProduceDescriptions/[]/target_id": "other",
+"customizeProduceDescriptions/[]/target_level": "int",
+"customizeProduceDescriptions/[]/text": "other",
+"customizeProduceDescriptions/[]/turn": "int",
+"effectCount": "int",
+"effectGroupIds/[]": "other",
+"effectTurn": "int",
+"effectType": "enum",
+"effectValue1": "int",
+"effectValue2": "int",
+"id": "other",
+"movePositionType": "enum",
+"pickCountMax": "int",
+"pickCountMin": "int",
+"pickCountReferenceProduceCardSearchId": "other",
+"pickCountType": "enum",
+"pickRangeType": "enum",
+"produceCardGrowEffectIds/[]": "other",
+"produceCardSearchId": "other",
+"produceDescriptions/[]/effect_count": "int",
+"produceDescriptions/[]/effect_value1": "int",
+"produceDescriptions/[]/effect_value2": "int",
+"produceDescriptions/[]/exam_description_type": "enum",
+"produceDescriptions/[]/exam_effect_type": "enum",
+"produceDescriptions/[]/origin_produce_exam_effect_id": "other",
+"produceDescriptions/[]/produce_card_category": "enum",
+"produceDescriptions/[]/produce_card_grow_effect_type": "enum",
+"produceDescriptions/[]/produce_description_type": "enum",
+"produceDescriptions/[]/target_id": "other",
+"produceDescriptions/[]/target_level": "int",
+"produceDescriptions/[]/text": "other",
+"produceDescriptions/[]/turn": "int",
+"produceExamStatusEnchantId": "other",
+"targetProduceCardId": "other",
+"targetUpgradeCount": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceExamGimmickEffectGroup": {
+"keys": [
+"id",
+"priority"
+],
+"kinds": {
+"fieldStatusCheckType": "enum",
+"fieldStatusProduceCardSearchId": "other",
+"fieldStatusType": "enum",
+"fieldStatusValue": "int",
+"id": "other",
+"isPositive": "bool",
+"priority": "int",
+"produceDescriptions/[]/effect_count": "int",
+"produceDescriptions/[]/effect_value1": "int",
+"produceDescriptions/[]/effect_value2": "int",
+"produceDescriptions/[]/exam_description_type": "enum",
+"produceDescriptions/[]/exam_effect_type": "enum",
+"produceDescriptions/[]/origin_produce_exam_effect_id": "other",
+"produceDescriptions/[]/produce_card_category": "enum",
+"produceDescriptions/[]/produce_card_grow_effect_type": "enum",
+"produceDescriptions/[]/produce_description_type": "enum",
+"produceDescriptions/[]/target_id": "other",
+"produceDescriptions/[]/text": "other",
+"produceDescriptions/[]/turn": "int",
+"produceExamEffectId": "other",
+"startTurn": "int"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"Priority"
+]
+},
+"ProduceExamStatusEnchant": {
+"keys": [
+"id"
+],
+"kinds": {
+"id": "other",
+"produceDescriptions/[]/effect_count": "int",
+"produceDescriptions/[]/effect_value1": "int",
+"produceDescriptions/[]/effect_value2": "int",
+"produceDescriptions/[]/exam_description_type": "enum",
+"produceDescriptions/[]/exam_effect_type": "enum",
+"produceDescriptions/[]/origin_produce_exam_effect_id": "other",
+"produceDescriptions/[]/origin_produce_exam_trigger_id": "other",
+"produceDescriptions/[]/produce_card_category": "enum",
+"produceDescriptions/[]/produce_card_grow_effect_type": "enum",
+"produceDescriptions/[]/produce_description_type": "enum",
+"produceDescriptions/[]/target_id": "other",
+"produceDescriptions/[]/target_level": "int",
+"produceDescriptions/[]/text": "other",
+"produceDescriptions/[]/turn": "int",
+"produceExamEffectIds/[]": "other",
+"produceExamTriggerId": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceExamTrigger": {
+"keys": [
+"id"
+],
+"kinds": {
+"effectTypes/[]": "enum",
+"fieldStatusCheckTypes/[]": "enum",
+"fieldStatusProduceCardSearchIds/[]": "other",
+"fieldStatusTypes/[]": "enum",
+"fieldStatusValues/[]": "int",
+"id": "other",
+"lessonType": "enum",
+"lowerSearchCount": "int",
+"phaseTypes/[]": "enum",
+"phaseValues/[]": "int",
+"playEffectProduceDescriptions/[]/exam_effect_type": "enum",
+"playEffectProduceDescriptions/[]/origin_produce_exam_trigger_id": "other",
+"playEffectProduceDescriptions/[]/produce_card_category": "enum",
+"playEffectProduceDescriptions/[]/produce_description_type": "enum",
+"playEffectProduceDescriptions/[]/target_id": "other",
+"playEffectProduceDescriptions/[]/text": "other",
+"playProduceDescriptions/[]/exam_effect_type": "enum",
+"playProduceDescriptions/[]/origin_produce_exam_trigger_id": "other",
+"playProduceDescriptions/[]/produce_card_category": "enum",
+"playProduceDescriptions/[]/produce_description_type": "enum",
+"playProduceDescriptions/[]/target_id": "other",
+"playProduceDescriptions/[]/text": "other",
+"produceCardSearchId": "other",
+"produceDescriptions/[]/exam_effect_type": "enum",
+"produceDescriptions/[]/origin_produce_exam_trigger_id": "other",
+"produceDescriptions/[]/produce_card_category": "enum",
+"produceDescriptions/[]/produce_description_type": "enum",
+"produceDescriptions/[]/target_id": "other",
+"produceDescriptions/[]/text": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceGroup": {
+"keys": [
+"id"
+],
+"kinds": {
+"assetId": "other",
+"description": "other",
+"disableForceLiveCommonEndingLiveType": "enum",
+"failedProduceMemoryAssetId": "other",
+"id": "other",
+"isForceLiveCommon": "bool",
+"limitGrade": "enum",
+"name": "other",
+"order": "int",
+"produceIds/[]": "other",
+"type": "enum",
+"unlockConditionSetId": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceGrowthPanel": {
+"keys": [
+"id",
+"level"
+],
+"kinds": {
+"id": "other",
+"level": "int",
+"order": "int",
+"produceEffectIds/[]": "other",
+"produceGrowthPanelSheetId": "other",
+"produceSplitType": "enum",
+"unlockItemQuantity": "int"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"Level"
+]
+},
+"ProduceGrowthPanelSheet": {
+"keys": [
+"id"
+],
+"kinds": {
+"achievementId": "other",
+"id": "other",
+"missionGroupId": "other",
+"produceType": "enum",
+"unlockItemId": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceInitialDeck": {
+"keys": [
+"examEffectType",
+"examInitialDeckId",
+"produceId"
+],
+"kinds": {
+"examEffectType": "enum",
+"examInitialDeckId": "other",
+"produceId": "other"
+},
+"numeric": [
+false,
+true,
+false
+],
+"outer": [
+"ProduceId",
+"ExamEffectType",
+"ExamInitialDeckId"
+]
+},
+"ProduceItem": {
+"keys": [
+"id"
+],
+"kinds": {
+"assetId": "other",
+"effectGroupIds/[]": "other",
+"evaluation": "int",
+"fireInterval": "int",
+"fireLimit": "int",
+"id": "other",
+"idolCardProduceItemType": "enum",
+"isChallenge": "bool",
+"isEasy": "bool",
+"isExamEffect": "bool",
+"isHighScoreRush": "bool",
+"isResearch": "bool",
+"isUpgraded": "bool",
+"libraryHidden": "bool",
+"name": "other",
+"order": "int",
+"originIdolCardId": "other",
+"originSupportCardId": "other",
+"planType": "enum",
+"produceDescriptions/[]/change_color": "bool",
+"produceDescriptions/[]/effect_count": "int",
+"produceDescriptions/[]/effect_value1": "int",
+"produceDescriptions/[]/effect_value2": "int",
+"produceDescriptions/[]/exam_description_type": "enum",
+"produceDescriptions/[]/exam_effect_type": "enum",
+"produceDescriptions/[]/origin_produce_exam_effect_id": "other",
+"produceDescriptions/[]/origin_produce_exam_trigger_id": "other",
+"produceDescriptions/[]/produce_card_category": "enum",
+"produceDescriptions/[]/produce_card_grow_effect_type": "enum",
+"produceDescriptions/[]/produce_description_type": "enum",
+"produceDescriptions/[]/produce_step_business_type": "enum",
+"produceDescriptions/[]/target_id": "other",
+"produceDescriptions/[]/target_level": "int",
+"produceDescriptions/[]/text": "other",
+"produceDescriptions/[]/turn": "int",
+"produceItemEffectIds/[]": "other",
+"produceTriggerId": "other",
+"rarity": "enum",
+"skills/[]/produceItemEffectId": "other",
+"viewStartTime": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceItemChallengeGroup": {
+"keys": [
+"id",
+"produceItemId"
+],
+"kinds": {
+"auditionParameterGrowthRatePermil": "int",
+"id": "other",
+"lessonLimitUpScore": "int",
+"produceItemId": "other"
+},
+"numeric": [
+false,
+false
+],
+"outer": [
+"Id",
+"ProduceItemId"
+]
+},
+"ProduceItemEffect": {
+"keys": [
+"id"
+],
+"kinds": {
+"effectCount": "int",
+"effectTurn": "int",
+"effectType": "enum",
+"id": "other",
+"produceEffectId": "other",
+"produceExamStatusEnchantId": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceSetting": {
+"keys": [
+"id"
+],
+"kinds": {
+"beforeAuditionRefreshStaminaRecoveryPermil": "int",
+"continueCount": "int",
+"customizeProduceCardCount": "int",
+"examStartAlertStaminaThreshold": "int",
+"id": "other",
+"maxLegendProduceCardCount": "int",
+"produceAuditionTrendAssessmentPermilLower": "int",
+"produceAuditionTrendAssessmentPermilUpper": "int",
+"produceDrinkPossessLimit": "int",
+"produceDrinkPossessMaxLimit": "int",
+"refreshStaminaRecoveryPermil": "int",
+"selectionMemoryNeedProduceCardCount": "int",
+"stepCustomizeStartAlertProducePointThreshold": "int",
+"stepIntervalCustomizeProduceCardCount": "int",
+"stepIntervalUpgradeProduceCardCount": "int",
+"stepSkipStaminaRecoveryPermil": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceSkill": {
+"keys": [
+"id",
+"level"
+],
+"kinds": {
+"activationCount": "int",
+"activationRatePermil1": "int",
+"id": "other",
+"level": "int",
+"planType": "enum",
+"produceDescriptions/[]/change_color": "bool",
+"produceDescriptions/[]/effect_count": "int",
+"produceDescriptions/[]/effect_value1": "int",
+"produceDescriptions/[]/exam_description_type": "enum",
+"produceDescriptions/[]/exam_effect_type": "enum",
+"produceDescriptions/[]/origin_produce_exam_effect_id": "other",
+"produceDescriptions/[]/produce_card_category": "enum",
+"produceDescriptions/[]/produce_card_grow_effect_type": "enum",
+"produceDescriptions/[]/produce_description_type": "enum",
+"produceDescriptions/[]/target_id": "other",
+"produceDescriptions/[]/text": "other",
+"produceDescriptions/[]/turn": "int",
+"produceEffectId1": "other",
+"produceSplitType": "enum",
+"produceTriggerId1": "other",
+"produceType": "enum",
+"rarity": "enum",
+"tag": "other"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"Level"
+]
+},
+"ProduceStepAuditionDifficulty": {
+"keys": [
+"id",
+"number",
+"produceId",
+"stepType"
+],
+"kinds": {
+"auditionType": "enum",
+"baseScore": "int",
+"dearnessLevel": "int",
+"forceEndScore": "int",
+"id": "other",
+"isStaticNpcScore": "bool",
+"isUnlockAnimation": "bool",
+"number": "int",
+"parameterBaseLine": "int",
+"produceExamBattleConfigId": "other",
+"produceExamBattleNpcGroupId": "other",
+"produceExamGimmickEffectGroupId": "other",
+"produceId": "other",
+"rankThreshold": "int",
+"starScoreBonusBaseLine": "int",
+"stepType": "enum",
+"voteCount": "int",
+"voteCountBaseLine": "int"
+},
+"numeric": [
+false,
+true,
+false,
+true
+],
+"outer": [
+"Id",
+"Number",
+"ProduceId",
+"StepType"
+]
+},
+"ProduceStepEventDetail": {
+"keys": [
+"id"
+],
+"kinds": {
+"eventCharacterType": "enum",
+"eventType": "enum",
+"id": "other",
+"isBusinessExcellent": "bool",
+"produceDescriptions/[]/change_color": "bool",
+"produceDescriptions/[]/produce_card_category": "enum",
+"produceDescriptions/[]/produce_description_type": "enum",
+"produceDescriptions/[]/target_id": "other",
+"produceDescriptions/[]/text": "other",
+"produceEffectIds/[]": "other",
+"produceStepEventSuggestionIds/[]": "other",
+"produceStoryGroupId": "other",
+"produceStoryId": "other",
+"suggestionType": "enum",
+"supportCardId": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceStepEventSuggestion": {
+"keys": [
+"id"
+],
+"kinds": {
+"alwaysSuccessful": "bool",
+"failProduceEffectIds/[]": "other",
+"id": "other",
+"produceCardId": "other",
+"produceDescriptions/[]/change_color": "bool",
+"produceDescriptions/[]/produce_card_category": "enum",
+"produceDescriptions/[]/produce_description_type": "enum",
+"produceDescriptions/[]/target_id": "other",
+"produceDescriptions/[]/text": "other",
+"produceEffectIds/[]": "other",
+"producePoint": "int",
+"stamina": "int",
+"stepId": "other",
+"stepType": "enum",
+"successProbabilityPermyriad": "int",
+"successProduceEffectIds/[]": "other",
+"successStepId": "other",
+"successStepType": "enum"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceStepLesson": {
+"keys": [
+"id"
+],
+"kinds": {
+"id": "other",
+"name": "other",
+"produceStepLessonLevelId": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceStepLessonLevel": {
+"keys": [
+"id",
+"progressLevel"
+],
+"kinds": {
+"id": "other",
+"limitTurn": "int",
+"progressLevel": "int",
+"resultTargetValueLimit": "int",
+"successThreshold": "int"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"ProgressLevel"
+]
+},
+"ProduceStepOpenLesson": {
+"keys": [
+"id"
+],
+"kinds": {
+"id": "other",
+"mainParameter": "int",
+"stamina": "int",
+"star": "int",
+"subParameter": "int",
+"subParameterType": "enum"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceStory": {
+"keys": [
+"id"
+],
+"kinds": {
+"advAssetId": "other",
+"id": "other",
+"isBusinessExcellent": "bool",
+"libraryHidden": "bool",
+"order": "int",
+"produceEventHintProduceConditionDescriptions/[]": "other",
+"title": "other",
+"type": "enum",
+"viewConditionSetId": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"ProduceStoryGroup": {
+"keys": [
+"characterId",
+"id"
+],
+"kinds": {
+"characterId": "other",
+"id": "other",
+"produceStoryId": "other"
+},
+"numeric": [
+false,
+false
+],
+"outer": [
+"CharacterId",
+"Id"
+]
+},
+"ProduceTrigger": {
+"keys": [
+"id"
+],
+"kinds": {
+"id": "other",
+"phaseType": "enum"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"Setting": {
+"keys": [
+"id"
+],
+"kinds": {
+"actionPointMaxValue": "int",
+"actionPointRecoveryMinutes": "int",
+"androidFaqURL/classification": "other",
+"androidFaqURL/value": "other",
+"androidInquiryURL/classification": "other",
+"androidInquiryURL/value": "other",
+"badgeEditViewConditionSetID": "other",
+"banWarningMessage": "other",
+"coinGashaNoticeDrawCount": "int",
+"competitionBgmAssetID": "other",
+"competitionDeckNameLengthLimit": "int",
+"competitionDeckProduceCardRecommendRankAdditionValues/[]": "int",
+"competitionExchangeAccessGrade": "int",
+"competitionGradeStayAnimationThresholdGrade": "int",
+"competitionGradeUpgradeAnimationThresholdGrade": "int",
+"competitionMaxContinueCount": "int",
+"competitionMaxDailyPlayCount": "int",
+"competitionMaxDeckCount": "int",
+"competitionNeedProduceCardCount": "int",
+"competitionRecommendDeckBuffCoefficientPermil": "int",
+"dearnessTopConditionSetID": "other",
+"dmmGamesFaqURL/classification": "other",
+"dmmGamesFaqURL/value": "other",
+"dmmGamesInquiryURL/classification": "other",
+"dmmGamesInquiryURL/value": "other",
+"examBattleConditionThresholdMultipleScore": "int",
+"examBattleSubMemoryParameterPermil": "int",
+"examBattleSubMemoryStaminaPermil": "int",
+"fanCountLimit": "int",
+"friendBaseFollowLimitCount": "int",
+"friendCoinMaxDailyAccumulationCount": "int",
+"friendCoinMemoryRentalRewardQuantity": "int",
+"friendCoinSupportCardRentalRewardQuantity": "int",
+"friendFollowerLimitCount": "int",
+"gashaAnimationLogicSwitchConditionSetID": "other",
+"gashaAnimationReversalPickUpProduceIdolSsrPermil": "int",
+"gashaAnimationReversalSsrPermil": "int",
+"gashaPickupStoryCampaignCharacterDearnessLevel": "int",
+"giftDefaultLimitCount": "int",
+"giftHistoryDefaultLimitCount": "int",
+"gradeMissionMissionGroupID": "other",
+"guildDescriptionLengthLimit": "int",
+"guildDonationLimitCount": "int",
+"guildDonationRequestReceiveMaxQuantity": "int",
+"guildJoinRequestLimitCount": "int",
+"guildJoinRequestReceiveLimitCount": "int",
+"guildLeaderMessageLengthLimit": "int",
+"guildMemberLimitCount": "int",
+"guildNameLengthLimit": "int",
+"guildRestrictDonationRequestHour": "int",
+"guildRestrictEstablishHour": "int",
+"guildRestrictJoinHour": "int",
+"gvgRaidAuditionScoreUpLarge": "int",
+"gvgRaidAuditionScoreUpMiddle": "int",
+"gvgRaidScoreEffectLargeThreshold": "int",
+"gvgRaidScoreEffectMiddleThreshold": "int",
+"homeCharacterRandomIdolViewConditionSetID": "other",
+"homeDailyMissionGroupID": "other",
+"homeEventEndTimeDisplayHour": "int",
+"homeWeeklyMissionGroupID": "other",
+"id": "other",
+"idolCardPieceExchangeItemID": "other",
+"idolCardPrimaStellaDearnessLevel": "int",
+"idolCardPrimaStellaLevelLimitRank": "int",
+"initialAchievementID": "other",
+"initialUserMeishiBaseAssetID": "other",
+"initialUserName": "other",
+"invitationEnterCodeConditionSetID": "other",
+"invitationEnterCodeRewardJewelQuantity": "int",
+"invitationEnterCodeRewardProvideConditionSetID": "other",
+"invitationNoticeID": "other",
+"inviteUserActiveMaxCount": "int",
+"iosFaqURL/classification": "other",
+"iosFaqURL/value": "other",
+"iosInquiryURL/classification": "other",
+"iosInquiryURL/value": "other",
+"jewelMaxQuantityForFree": "int",
+"jewelMaxQuantityForPaid": "int",
+"jewelShopID": "other",
+"meishiEditCustomUnlockConditionSetID": "other",
+"meishiEditCustomUpdateUnlockConditionSetID": "other",
+"meishiFolderLimitCount": "int",
+"meishiLimitCount": "int",
+"meishiObjectLimitCount": "int",
+"memoryCreateAbilityRToSsrPermil": "int",
+"memoryCreateAbilityRToUrPermil": "int",
+"memoryCreateAbilitySrToSsrPermil": "int",
+"memoryCreateAbilitySrToUrPermil": "int",
+"memoryCreateAbilitySsrToUrPermil": "int",
+"memoryCreateExamBattleProduceCardSrToSsrPermil": "int",
+"memoryCreateParameterLarge": "int",
+"memoryCreateParameterMiddle": "int",
+"memoryCreateParameterSmall": "int",
+"memoryCreateProduceCardSrToSsrPermil": "int",
+"memoryInheritCustomizeProduceCardEnable": "bool",
+"memoryInheritMaterialLowerResultGrade": "int",
+"memoryLimitCount": "int",
+"memoryPowerParameterCoefficientPermil": "int",
+"memoryPowerProduceResourceEvaluationCoefficientPermil": "int",
+"memoryPowerStaminaCoefficientPermil": "int",
+"memoryReshootingValidateIdolCardTrueEndConditionSetID": "other",
+"missionPassPointExchangeJewel": "int",
+"moneyHomeDisplayPermil": "int",
+"moneyReceivableMinimumMinutes": "int",
+"musicHotDisplayCount": "int",
+"newLabelTTL": "int",
+"officialXURL/classification": "other",
+"officialXURL/value": "other",
+"photoAutoShootingCount": "int",
+"photoBackgroundDefaultBGMAssetID": "other",
+"photoFacialViewConditionSetID": "other",
+"photoIdolViewConditionSetID": "other",
+"photoLimitCount": "int",
+"photoMaxShootingCount": "int",
+"photoNameLengthLimit": "int",
+"photoPoseWaitVoicePlayIntervalSeconds": "int",
+"produce3DTapSkipConditionSetID": "other",
+"produceAuditionScoreUpLarge": "int",
+"produceAuditionScoreUpMiddle": "int",
+"produceAuditionTrendAssessmentPermilSeparateEnable": "bool",
+"produceCardEffectCancelEnable": "bool",
+"produceCardLimitCount": "int",
+"produceContinueItemID": "other",
+"produceDailyFreeContinueCount": "int",
+"produceDailyMemoryRentalLimit": "int",
+"produceDeckNameLengthLimit": "int",
+"produceExamBattleScorePenaltyMaxPermil": "int",
+"produceExamBattleScorePenaltyMinPermil": "int",
+"produceExamProduceCardSuggestMinutes": "int",
+"produceHatsuboshiIdolFestivalFinalTargetProducerLevel": "int",
+"produceLessonParameterUpLarge": "int",
+"produceLessonParameterUpMiddle": "int",
+"produceMaxMemoryDeckCount": "int",
+"produceMaxStaminaLimit": "int",
+"produceMaxSupportCardDeckCount": "int",
+"produceMemoryProduceCardProducerLevelLimitDisable": "bool",
+"produceMemoryRerollCount": "int",
+"produceNextIdolAuditionMasterRankingUnlockConditionSetID": "other",
+"produceNextIdolAuditionProEasyModeConditionSetID": "other",
+"produceParameterInGameDisplayLimit": "int",
+"produceParameterOutGameDisplayLimit": "int",
+"producePictureBookLiveProduceGroupID": "other",
+"producePointLimit": "int",
+"produceRankingDisplayCount": "int",
+"produceScheduleSelectPlaceStaminaThreshold": "int",
+"produceStartShopWarningProducePointQuantity": "int",
+"produceStepShopDiscountRoundDownEnable": "bool",
+"produceSupportCardRecommendLevelCoefficientPermils/[]": "int",
+"produceSupportCardRecommendSpPreferentialCoefficientPermil": "int",
+"produceSupportCardRecommendSpPreferentialSlotCounts/[]": "int",
+"produceSupportCardRecommendTypeNegativeCoefficientPermil": "int",
+"produceSupportCardRecommendTypePreferentialCoefficientPermil": "int",
+"produceSupportCardRecommendTypePreferentialSlotCounts/[]": "int",
+"produceSupportCardRecommendUsageRateRankAdditionValues/[]": "int",
+"producerRankingBGMAssetID": "other",
+"producerRankingCharacterAnimationLowerLimitRank": "int",
+"producerRankingTowerLayerHighScoreViewConditionSetID": "other",
+"producerRankingUnlockConditionSetID": "other",
+"profileBirthdayUpdateIntervalDays": "int",
+"profileCommentLengthLimit": "int",
+"profileNameLengthLimit": "int",
+"profileReport2026Enable": "bool",
+"pushDailyMissionDoNotNotifyNoLoginDay": "int",
+"pushDailyMissionNotifyHour": "int",
+"pushNoLoginNotifyLatestIntervalHour": "int",
+"pushPvpRateRemainingPlayCountDoNotNotifyNoLoginDay": "int",
+"pushPvpRateRemainingPlayCountNotifyHour": "int",
+"pushPvpRateRemainingPlayCountNotifyMinutes": "int",
+"pvpRateDeckNameLengthLimit": "int",
+"pvpRateDeckRecommendFirstPriorityPermil": "int",
+"pvpRateDeckRecommendSecondPriorityPermil": "int",
+"pvpRateExamBattleAllSkipUnlockConditionSetID": "other",
+"pvpRateMaxDeckCount": "int",
+"pvpRateMemoryRecommendParameterCoefficientPermil": "int",
+"pvpRateMemoryRecommendProduceCardCoefficientPermil": "int",
+"pvpRateMemoryRecommendProduceItemCoefficientPermil": "int",
+"pvpRateMemoryRecommendStaminaCoefficientPermil": "int",
+"pvpRateRankingDisplayCount": "int",
+"pvpRateRehearsalViewConditionSetID": "other",
+"pvpRateSameCharacterDeckConditionSetID": "other",
+"researchPointLimit": "int",
+"researchRankingDisplayCount": "int",
+"resetTimingDay": "int",
+"resetTimingHour": "int",
+"resetTimingWeek": "other",
+"rosterIgnoreReportDearnessLevels/[]": "int",
+"sceneTransitionSDCharacterAnimationFirstAssetIDs/[]": "other",
+"sceneTransitionSDCharacterAnimationSecondAssetIDs/[]": "other",
+"sceneTransitionSDCharacterAnimationViewConditionSetID": "other",
+"selectionMemoryLimitCount": "int",
+"seminarExamSettingID": "other",
+"seminarGuidanceViewConditionSetID": "other",
+"seminarInitialParameter": "int",
+"seminarViewConditionSetID": "other",
+"shopExpireEmphasisHour": "int",
+"shopPurchasableLimitAgeThreshold1": "int",
+"shopPurchasableLimitAgeThreshold2": "int",
+"shopPurchasableLimitAmountThreshold1": "int",
+"shopPurchasableLimitAmountThreshold2": "int",
+"shopPurchaseAlertThreshold": "int",
+"storyEventGuildMissionTipAssetIDs/[]": "other",
+"storyEventMainStoryTipsAssetIDs/[]": "other",
+"storyEventPointLimit": "int",
+"storyEventTipsAssetIDs/[]": "other",
+"tourAuditionScoreUpLarge": "int",
+"tourAuditionScoreUpMiddle": "int",
+"tourScoreEffectLargeThreshold": "int",
+"tourScoreEffectMiddleThreshold": "int",
+"tourScoreGradeThreshold": "int",
+"towerExamSettingID": "other",
+"towerRankingDeckDisplayCount": "int",
+"towerRankingDisplayCount": "int",
+"towerViewConditionSetID": "other",
+"tutorialIdolCardSkinSelectRewardID": "other",
+"tutorialSetNameAdvIndex": "int",
+"userBlockLimitCount": "int",
+"userDeleteInquiryURL/classification": "other",
+"userDeleteInquiryURL/value": "other",
+"webStoreLinkURL/classification": "other",
+"webStoreLinkURL/value": "other",
+"webStoreShopBannerAndroidAssetID": "other",
+"webStoreShopBannerIOSAssetID": "other",
+"workExcellentRewardQuantityCoefficientPermil": "int",
+"workFineCharacterMaxCountInDay": "int",
+"workFineFixDays": "int",
+"workFineProbabilityPermil": "int",
+"workSkipConsumeMinutes": "int",
+"workSkipLimit": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"SupportCard": {
+"keys": [
+"id"
+],
+"kinds": {
+"assetId": "other",
+"characterIds/[]": "other",
+"displayScale": "other",
+"exchangeReward/quantity": "int",
+"exchangeReward/resource_id": "other",
+"exchangeReward/resource_type": "enum",
+"gashaSupportAnimationNumber": "int",
+"id": "other",
+"isFree": "bool",
+"name": "other",
+"order": "int",
+"planType": "enum",
+"produceCardUpgradeLessonParameterType": "enum",
+"produceCardUpgradePermil": "int",
+"produceStoryIds/[]": "other",
+"rarity": "enum",
+"supportCardLevelId": "other",
+"supportCardLevelLimitId": "other",
+"type": "enum",
+"upgradeProduceCardProduceDescriptions/[]/produce_description_type": "enum",
+"upgradeProduceCardProduceDescriptions/[]/text": "other",
+"upgradeProduceCardSearchId": "other",
+"viewStartTime": "int"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+},
+"SupportCardBonus": {
+"keys": [
+"level",
+"rarity"
+],
+"kinds": {
+"bonusPermyriad": "int",
+"level": "int",
+"rarity": "enum"
+},
+"numeric": [
+true,
+true
+],
+"outer": [
+"Rarity",
+"Level"
+]
+},
+"SupportCardLevel": {
+"keys": [
+"id",
+"level"
+],
+"kinds": {
+"id": "other",
+"level": "int",
+"totalExp": "int"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"Level"
+]
+},
+"SupportCardLevelLimit": {
+"keys": [
+"id",
+"rank"
+],
+"kinds": {
+"id": "other",
+"levelLimit": "int",
+"rank": "enum"
+},
+"numeric": [
+false,
+true
+],
+"outer": [
+"Id",
+"Rank"
+]
+},
+"SupportCardProduceSkillLevelAssist": {
+"keys": [
+"produceSkillId",
+"produceSkillLevel",
+"supportCardId"
+],
+"kinds": {
+"order": "int",
+"produceSkillId": "other",
+"produceSkillLevel": "int",
+"supportCardId": "other",
+"supportCardLevel": "int"
+},
+"numeric": [
+false,
+true,
+false
+],
+"outer": [
+"ProduceSkillId",
+"ProduceSkillLevel",
+"SupportCardId"
+]
+},
+"SupportCardProduceSkillLevelDance": {
+"keys": [
+"produceSkillId",
+"produceSkillLevel",
+"supportCardId"
+],
+"kinds": {
+"order": "int",
+"produceSkillId": "other",
+"produceSkillLevel": "int",
+"supportCardId": "other",
+"supportCardLevel": "int"
+},
+"numeric": [
+false,
+true,
+false
+],
+"outer": [
+"ProduceSkillId",
+"ProduceSkillLevel",
+"SupportCardId"
+]
+},
+"SupportCardProduceSkillLevelVisual": {
+"keys": [
+"produceSkillId",
+"produceSkillLevel",
+"supportCardId"
+],
+"kinds": {
+"order": "int",
+"produceSkillId": "other",
+"produceSkillLevel": "int",
+"supportCardId": "other",
+"supportCardLevel": "int"
+},
+"numeric": [
+false,
+true,
+false
+],
+"outer": [
+"ProduceSkillId",
+"ProduceSkillLevel",
+"SupportCardId"
+]
+},
+"SupportCardProduceSkillLevelVocal": {
+"keys": [
+"produceSkillId",
+"produceSkillLevel",
+"supportCardId"
+],
+"kinds": {
+"order": "int",
+"produceSkillId": "other",
+"produceSkillLevel": "int",
+"supportCardId": "other",
+"supportCardLevel": "int"
+},
+"numeric": [
+false,
+true,
+false
+],
+"outer": [
+"ProduceSkillId",
+"ProduceSkillLevel",
+"SupportCardId"
+]
+},
+"Tower": {
+"keys": [
+"id"
+],
+"kinds": {
+"achievementId": "other",
+"characterId": "other",
+"id": "other",
+"order": "int",
+"title": "other",
+"unlockConditionSetId": "other",
+"viewConditionSetId": "other"
+},
+"numeric": [
+false
+],
+"outer": [
+"Id"
+]
+}
+}
+}

@@ -1,0 +1,14 @@
+__pycache__/
+*.pyc
+.venv/
+gkms.local.cmd
+GakumasCLI/ro/
+GakumasCLI/native/build/
+GakumasCLI/native/libgkmscore.so
+GakumasCLI/produce/master_extra.json
+GakumasCLI/tools/seed_solver
+GakumasCLI/tools/seed_solver.exe
+GakumasCLI/data/live/
+GakumasCLI/data/hif/
+GKMSPS/data/master_ps.json
+GKMSPS/work/

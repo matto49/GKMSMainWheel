@@ -1,0 +1,350 @@
+{
+ "format": "gkms.ps.draw_models.v1",
+ "interval": {
+  "card_price": {
+   "R": [
+    30,
+    30
+   ],
+   "SR": [
+    50,
+    50
+   ],
+   "SSR": [
+    50,
+    80
+   ]
+  },
+  "card_rarity_permil": {
+   "R": 250,
+   "SR": 500,
+   "SSR": 250
+  },
+  "change_price": {
+   "R": 30,
+   "SR": 50,
+   "SSR": 80
+  },
+  "drink_price": {
+   "R": 50,
+   "SR": 75,
+   "SSR": 100
+  },
+  "drink_ssr_permil": 500,
+  "grade": "B",
+  "refresh_cost": [
+   10,
+   10,
+   20,
+   30,
+   40,
+   50,
+   50
+  ],
+  "source": "recorded runs: shop and interval offers",
+  "ssr_upgraded_permil": 467,
+  "stamina_per_10p": 2,
+  "upgrade_price": [
+   100,
+   125
+  ]
+ },
+ "labels_version": 1,
+ "npc_score": {
+  "grade": "A range + assumption",
+  "rule": "uniform in [scoreMin, scoreMax]"
+ },
+ "offer_rarity": {
+  "grade": "B",
+  "rule": "rarity weights per (produce, source kind), then a card of that rarity uniformly from the pool (card weights inside a rarity are the server's, unknown)",
+  "table": {
+   "produce-007": {
+    "activity2": {
+     "R": 46,
+     "SR": 39,
+     "SSR": 8
+    },
+    "activity3": {
+     "R": 20,
+     "SR": 32,
+     "SSR": 14
+    },
+    "present": {
+     "R": 18,
+     "SR": 44,
+     "SSR": 19
+    },
+    "school1": {
+     "R": 58,
+     "SR": 49,
+     "SSR": 7
+    },
+    "school3": {
+     "R": 18,
+     "SR": 77,
+     "SSR": 16
+    },
+    "shop": {
+     "R": 60,
+     "SR": 76,
+     "SSR": 32
+    }
+   },
+   "produce-008": {
+    "activity": {
+     "R": 8,
+     "SR": 4,
+     "SSR": 6
+    },
+    "interval": {
+     "R": 98,
+     "SR": 187,
+     "SSR": 107
+    },
+    "present": {
+     "R": 6,
+     "SR": 22,
+     "SSR": 17
+    },
+    "school": {
+     "R": 32,
+     "SR": 94,
+     "SSR": 33
+    },
+    "shop": {
+     "R": 12,
+     "SR": 27,
+     "SSR": 37
+    }
+   }
+  }
+ },
+ "offer_upgrade": {
+  "grade": "B",
+  "n": {
+   "produce-007": {
+    "activity2": {
+     "R": [
+      219,
+      198
+     ],
+     "SR": [
+      199,
+      156
+     ],
+     "SSR": [
+      53,
+      23
+     ]
+    },
+    "activity3": {
+     "R": [
+      63,
+      54
+     ],
+     "SR": [
+      62,
+      49
+     ],
+     "SSR": [
+      37,
+      25
+     ]
+    },
+    "present_list": {
+     "R": [
+      348,
+      78
+     ],
+     "SR": [
+      789,
+      205
+     ],
+     "SSR": [
+      297,
+      76
+     ]
+    }
+   },
+   "produce-008": {
+    "activity": {
+     "R": [
+      33,
+      29
+     ],
+     "SR": [
+      32,
+      21
+     ],
+     "SSR": [
+      13,
+      7
+     ]
+    },
+    "present_list": {
+     "R": [
+      135,
+      47
+     ],
+     "SR": [
+      426,
+      96
+     ],
+     "SSR": [
+      243,
+      47
+     ]
+    }
+   }
+  },
+  "permil": {
+   "produce-007": {
+    "activity2": {
+     "R": 904,
+     "SR": 783,
+     "SSR": 433
+    },
+    "activity3": {
+     "R": 857,
+     "SR": 790,
+     "SSR": 675
+    },
+    "present_list": {
+     "R": 224,
+     "SR": 259,
+     "SSR": 255
+    }
+   },
+   "produce-008": {
+    "activity": {
+     "R": 878,
+     "SR": 656,
+     "SSR": 538
+    },
+    "present_list": {
+     "R": 348,
+     "SR": 225,
+     "SSR": 193
+    }
+   }
+  },
+  "rule": "each offered card with an upgraded form is upgraded on its own with the permil of its (produce, kind, rarity); kinds not listed offer unupgraded cards",
+  "source": "recorded runs (GKMSPS/tools/build_ps_data.py OFFER_UPGRADE_COUNTS)"
+ },
+ "shop": {
+  "card_price": {
+   "R": [
+    100,
+    100
+   ],
+   "SR": [
+    50,
+    110
+   ],
+   "SSR": [
+    100,
+    150
+   ]
+  },
+  "card_rarity_by_step": {
+   "produce-007": {
+    "12": {
+     "R": 124,
+     "SR": 105,
+     "SSR": 39
+    },
+    "16": {
+     "R": 64,
+     "SR": 110,
+     "SSR": 66
+    },
+    "19": {
+     "R": 68,
+     "SR": 131,
+     "SSR": 97
+    },
+    "5": {
+     "R": 46,
+     "SR": 52,
+     "SSR": 26
+    }
+   },
+   "produce-008": {
+    "6": {
+     "R": 202,
+     "SR": 348,
+     "SSR": 234
+    }
+   }
+  },
+  "card_unupgraded_by_rarity": {
+   "R": 0,
+   "SR": 77,
+   "SSR": 239
+  },
+  "card_upgraded_by_rarity": {
+   "R": 506,
+   "SR": 670,
+   "SSR": 224
+  },
+  "drink_price": {
+   "R": 50,
+   "SR": 75,
+   "SSR": 100
+  },
+  "drink_rarity": {
+   "produce-007": {
+    "R": 360,
+    "SR": 316,
+    "SSR": 256
+   },
+   "produce-008": {
+    "R": 58,
+    "SR": 328,
+    "SSR": 398
+   }
+  },
+  "grade": "B",
+  "refresh_cost": 0,
+  "sale_permil": 300,
+  "sale_positions": [
+   1,
+   5
+  ],
+  "service_price": [
+   100,
+   125,
+   150,
+   175
+  ]
+ },
+ "source": {
+  "catch_stats": "research data 292df9df5c57: offer rarity by source family",
+  "ps01_measure": "GKMSPS/data/ps01_measure.json"
+ },
+ "sp_lesson": {
+  "base_permil": 100,
+  "grade": "B",
+  "n": 3156,
+  "rule": "chance(min(1000, rate + base)) per lesson candidate"
+ },
+ "starter_delete": {
+  "grade": "A effect + assumption",
+  "rule": "2 of the starter cards in the deck, equal weights"
+ },
+ "sub_attribute": {
+  "grade": "B",
+  "higher_permil": 700,
+  "n": 3156,
+  "rule": "of the two other attributes, the one with the higher audition criterion"
+ },
+ "support_event": {
+  "grade": "B",
+  "rate_permil": {
+   "1": 68,
+   "2": 60,
+   "3": 35
+  },
+  "source": "GakumasCLI/produce/hif_schedule.py RATE / rolls"
+ }
+}

@@ -1,0 +1,1099 @@
+{
+ "schema": "gkms.produce_coverage_baselines.v1",
+ "note": "one recorded H.I.F round per exam effect type (6 sub-types of the 3 plans), the baselines of offer_coverage.py",
+ "baselines": {
+  "PARAMETER_BUFF": {
+   "plan": "PLAN1",
+   "idol_card_id": "i_card-kllj-3-022",
+   "source": "tests/data/hif51_kyon_ProduceHistory.bin step 18 seed 811159082 (to_loadout)",
+   "difficulty_id": "p_step_audition_difficulty-i_card-kllj-3-022",
+   "loadout": {
+    "schema": "gkms.hif_loadout.v1",
+    "idol_card_id": "i_card-kllj-3-022",
+    "round": "final",
+    "produce_id": "produce-008",
+    "parameters": {
+     "1": 1127,
+     "2": 3068,
+     "3": 2832
+    },
+    "score_bonus_permils": {
+     "1": 21050,
+     "2": 42850,
+     "3": 44000
+    },
+    "deck_cards": [
+     {
+      "produce_card_id": "p_card-01-ido-3_246",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-3_006",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-act-3_010",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-00-acc-0_002",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-01-act-2_001",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-2_036",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-01-act-3_184",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-wrapper-p_card-01-act-3_184-b-01",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-01-men-2_037",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-040-g_effect-cost_parameter_buff_reduce-1",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-01-act-2_059",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-100-g_effect-lesson_count_add-1",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-00-men-3_005",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-070-g_effect-stamina_consumption_down_turn_add-2",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-01-act-3_049",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-00-sup-3_152",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-act-3_029",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-3_036",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-00-men-2_012",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-01-men-3_035",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-01-act-1_074",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-2_038",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-act-3_185",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-3_034",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-1_034",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-2_099",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-act-1_069",
+      "current_upgrade_count": 1
+     }
+    ],
+    "include_produce_default": false,
+    "produce_item_ids": [
+     "pitem_01-3-346-1",
+     "pitem_00-3-265-0",
+     "pitem_00-2-004-0",
+     "pitem_01-3-140-0",
+     "pitem_01-3-058-0",
+     "pitem_00-3-352-0",
+     "pitem_01-3-136-0",
+     "pitem_01-3-266-0"
+    ],
+    "starting_stamina": 26,
+    "max_stamina": 45,
+    "seed": 811159082,
+    "drink_ids": [
+     "pdrink_00-2-008",
+     "pdrink_00-2-010",
+     "pdrink_01-3-012",
+     "pdrink_00-2-008"
+    ],
+    "support_cards": [
+     {
+      "support_card_id": "s_card-2-0007",
+      "permil": 56
+     },
+     {
+      "support_card_id": "s_card-3-0099",
+      "permil": 74
+     },
+     {
+      "support_card_id": "s_card-3-0070",
+      "permil": 74
+     },
+     {
+      "support_card_id": "s_card-3-0069",
+      "permil": 74
+     },
+     {
+      "support_card_id": "s_card-3-0030",
+      "permil": 74
+     },
+     {
+      "support_card_id": "s_card-3-0064",
+      "permil": 74
+     }
+    ],
+    "lesson_start_enchant_ids": [
+     "enchant-p_ef-hif_memory-p_card-01-act-2_001-enc02",
+     "enchant-p_ef-hif_memory-p_card-01-men-2_037-enc02",
+     "enchant-p_ef-hif_memory-p_card-01-act-2_059-enc02",
+     "enchant-p_ef-hif_memory-p_card-01-men-2_036-enc02"
+    ],
+    "main_item_enchant_ids": [
+     "enchant-customize_pitem-01-04-3-001_00-04-2-001_01-01-1-001_00-04-4-001-enc01",
+     "enchant-customize_pitem-01-04-3-001_00-04-2-001_01-01-1-001_00-04-4-001-enc01"
+    ]
+   }
+  },
+  "LESSON_BUFF": {
+   "plan": "PLAN1",
+   "idol_card_id": "i_card-ttmr-3-000",
+   "source": "tests/data/hif39_selection.json rounds[2]",
+   "difficulty_id": "p_step_audition_difficulty-ttmr",
+   "loadout": {
+    "schema": "gkms.hif_loadout.v1",
+    "idol_card_id": "i_card-ttmr-3-000",
+    "round": "final",
+    "produce_id": "produce-007",
+    "parameters": {
+     "1": 2218,
+     "2": 1028,
+     "3": 801
+    },
+    "score_bonus_permils": {
+     "1": 34330,
+     "2": 19430,
+     "3": 15570
+    },
+    "deck_cards": [
+     {
+      "produce_card_id": "p_card-01-ido-3_014",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-00-men-2_012",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-act-3_031",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-2_040",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-act-3_049",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-2_098",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-act-2_001",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-040-g_effect-cost_lesson_buff_reduce-1",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-01-men-2_037",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-040-g_effect-cost_parameter_buff_reduce-1",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-01-men-3_006",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-act-3_010",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-01-men-3_035",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-2_099",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-3_036",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-01-men-2_035",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-2_036",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-act-3_030",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-2_038",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-00-sup-3_027",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-01-men-2_011",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-070-g_effect-effect_add-e_effect-exam_lesson-0006-01",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-01-men-2_036",
+      "current_upgrade_count": 0
+     }
+    ],
+    "include_produce_default": false,
+    "produce_item_ids": [
+     "pitem_00-3-018-0",
+     "pitem_00-3-265-0",
+     "pitem_00-3-010-0",
+     "pitem_01-3-351-0",
+     "pitem_00-2-001-0"
+    ],
+    "starting_stamina": 39,
+    "max_stamina": 46,
+    "seed": 1898868765,
+    "drink_ids": [
+     "pdrink_00-2-008",
+     "pdrink_00-2-010",
+     "pdrink_00-2-008"
+    ],
+    "support_cards": [
+     {
+      "support_card_id": "s_card-2-0001",
+      "permil": 56
+     },
+     {
+      "support_card_id": "s_card-3-0039",
+      "permil": 61
+     },
+     {
+      "support_card_id": "s_card-3-0001",
+      "permil": 61
+     },
+     {
+      "support_card_id": "s_card-3-0010",
+      "permil": 64
+     },
+     {
+      "support_card_id": "s_card-3-0107",
+      "permil": 70
+     },
+     {
+      "support_card_id": "s_card-3-0099",
+      "permil": 74
+     }
+    ],
+    "lesson_start_enchant_ids": [
+     "enchant-customize_pitem-01-04-3-001_00-04-2-002_01-01-1-001-enc01",
+     "enchant-p_ef-hif_memory-p_card-01-act-2_001-enc02",
+     "enchant-p_ef-hif_memory-p_card-01-men-2_037-enc02",
+     "enchant-p_ef-hif_memory-p_card-01-men-2_043-enc02",
+     "enchant-p_ef-hif_memory-p_card-01-men-2_036-enc02"
+    ],
+    "main_item_enchant_ids": []
+   }
+  },
+  "REVIEW": {
+   "plan": "PLAN2",
+   "idol_card_id": "i_card-jsna-3-017",
+   "source": "a recorded ranking round, jsna-3-017 R2 385640352",
+   "difficulty_id": "p_step_audition_difficulty-i_card-jsna-3-017",
+   "loadout": {
+    "schema": "gkms.hif_loadout.v1",
+    "idol_card_id": "i_card-jsna-3-017",
+    "round": "final",
+    "produce_id": "produce-008",
+    "audition_number": null,
+    "parameters": {
+     "1": 1552,
+     "2": 2969,
+     "3": 2201
+    },
+    "score_bonus_permils": {
+     "1": 27790,
+     "2": 39400,
+     "3": 37760
+    },
+    "deck_cards": [
+     {
+      "produce_card_id": "p_card-02-ido-3_203",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-ido-3_216",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-sup-3_094",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_056",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_111",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_058",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-040_070-g_effect-review_add-1-g_effect-review_add-4",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-02-act-3_052",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-100-g_effect-p_card-02-act-3_001-enc_1",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-02-act-3_050",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-100-g_effect-p_card-02-act-3_050-enc_1",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_060",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-070-g_effect-review_add-2",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-02-act-3_187",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-wrapper-p_card-02-act-3_187-b-01",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-00-men-3_003",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-00-sup-3_152",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_101",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_100",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-3_040",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_004",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-02-men-3_002",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-040-g_effect-cost_review_reduce-1",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-02-men-3_042",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-02-men-3_004",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-070-g_effect-review_add-3",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-00-acc-0_002",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-02-men-3_043",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-00-acc-0_002",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-02-men-1_076",
+      "current_upgrade_count": 1
+     }
+    ],
+    "include_produce_default": false,
+    "produce_item_ids": [
+     "pitem_02-3-321-0",
+     "pitem_00-3-265-0",
+     "pitem_00-3-352-0",
+     "pitem_02-3-135-0",
+     "pitem_00-2-004-0",
+     "pitem_02-3-262-0",
+     "pitem_02-3-268-0"
+    ],
+    "starting_stamina": 34,
+    "max_stamina": 45,
+    "seed": 385640352,
+    "drink_ids": [
+     "pdrink_00-2-010",
+     "pdrink_00-2-008",
+     "pdrink_02-3-010",
+     "pdrink_00-2-008"
+    ],
+    "support_cards": [
+     {
+      "support_card_id": "s_card-3-0099",
+      "permil": 74
+     },
+     {
+      "support_card_id": "s_card-3-0069",
+      "permil": 74
+     },
+     {
+      "support_card_id": "s_card-3-0040",
+      "permil": 74
+     },
+     {
+      "support_card_id": "s_card-2-0007",
+      "permil": 56
+     },
+     {
+      "support_card_id": "s_card-3-0063",
+      "permil": 67
+     },
+     {
+      "support_card_id": "s_card-3-0079",
+      "permil": 74
+     }
+    ],
+    "lesson_start_enchant_ids": [
+     "enchant-p_ef-hif_memory-p_card-02-men-2_056-enc02",
+     "enchant-p_ef-hif_memory-p_card-02-act-1_070-enc02",
+     "enchant-p_ef-hif_memory-p_card-02-men-2_060-enc02",
+     "enchant-p_ef-hif_memory-p_card-02-men-2_004-enc02"
+    ],
+    "main_item_enchant_ids": [
+     "enchant-customize_pitem-02-04-3-001_00-04-2-001_02-02-1-001_00-04-4-001-enc01",
+     "enchant-customize_pitem-02-04-3-001_00-04-2-001_02-02-1-001_00-04-4-001-enc01"
+    ]
+   }
+  },
+  "CARD_PLAY_AGGRESSIVE": {
+   "plan": "PLAN2",
+   "idol_card_id": "i_card-hume-3-000",
+   "source": "tests/data/hif45_selection.json rounds[1]",
+   "difficulty_id": "p_step_audition_difficulty-i_card-hume-3-000",
+   "loadout": {
+    "schema": "gkms.hif_loadout.v1",
+    "idol_card_id": "i_card-hume-3-000",
+    "round": "final",
+    "produce_id": "produce-007",
+    "parameters": {
+     "1": 1158,
+     "2": 1938,
+     "3": 850
+    },
+    "score_bonus_permils": {
+     "1": 14010,
+     "2": 20910,
+     "3": 10710
+    },
+    "deck_cards": [
+     {
+      "produce_card_id": "p_card-02-ido-3_067",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_004",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_056",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-act-1_037",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-act-1_004",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-3_044",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_111",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-wrapper-p_card-02-men-2_111-b-01",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-02-act-2_062",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-040_070-g_effect-lesson_depend_block_add-200-g_effect-lesson_depend_block_add-600",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-02-men-3_002",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_008",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_052",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-02-act-3_039",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-act-3_001",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-act-3_045",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_100",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_057",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-2_008",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-02-men-1_006",
+      "current_upgrade_count": 1
+     }
+    ],
+    "include_produce_default": false,
+    "produce_item_ids": [
+     "pitem_02-3-031-0",
+     "pitem_00-3-265-0",
+     "pitem_00-3-119-0",
+     "pitem_02-3-262-0"
+    ],
+    "starting_stamina": 32,
+    "max_stamina": 32,
+    "seed": 2045488446,
+    "drink_ids": [
+     "pdrink_00-2-008",
+     "pdrink_02-3-010",
+     "pdrink_02-3-010"
+    ],
+    "support_cards": [
+     {
+      "support_card_id": "s_card-3-0079",
+      "permil": 61
+     },
+     {
+      "support_card_id": "s_card-3-0040",
+      "permil": 61
+     },
+     {
+      "support_card_id": "s_card-3-0049",
+      "permil": 61
+     },
+     {
+      "support_card_id": "s_card-3-0039",
+      "permil": 61
+     },
+     {
+      "support_card_id": "s_card-3-0110",
+      "permil": 74
+     },
+     {
+      "support_card_id": "s_card-3-0069",
+      "permil": 74
+     }
+    ],
+    "lesson_start_enchant_ids": [
+     "enchant-customize_pitem-02-04-3-001_00-04-2-002_02-02-1-001-enc01",
+     "enchant-p_ef-hif_memory-p_card-02-men-2_051-enc02",
+     "enchant-p_ef-hif_memory-p_card-02-men-2_008-enc02",
+     "enchant-p_ef-hif_memory-p_card-02-act-2_062-enc02",
+     "enchant-p_ef-hif_memory-p_card-02-men-1_035-enc02"
+    ],
+    "main_item_enchant_ids": []
+   }
+  },
+  "CONCENTRATION": {
+   "plan": "PLAN3",
+   "idol_card_id": "i_card-shro-3-012",
+   "source": "tests/data/hif80_final_round.json loadout",
+   "difficulty_id": "p_step_audition_difficulty-i_card-shro-3-012",
+   "loadout": {
+    "schema": "gkms.hif_loadout.v1",
+    "idol_card_id": "i_card-shro-3-012",
+    "round": "final",
+    "produce_id": "produce-007",
+    "parameters": {
+     "1": 2012,
+     "2": 963,
+     "3": 972
+    },
+    "score_bonus_permils": {
+     "1": 32090,
+     "2": 19040,
+     "3": 17330
+    },
+    "deck_cards": [
+     {
+      "produce_card_id": "p_card-03-ido-3_135",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-men-0_044",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-men-1_050",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-wrapper-p_card-03-men-1_050-b-01",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-03-men-2_112",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-men-1_039",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-act-3_065",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-men-2_077",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-men-1_050",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-men-3_058",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-men-3_062",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-020-g_effect-cost_reduce-2",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-03-act-2_102",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-wrapper-p_card-03-act-2_102-b-01",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-03-men-3_061",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-act-2_081",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-00-sup-3_027",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-men-2_076",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-men-2_066",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-act-3_056",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-00-men-2_012",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-00-sup-3_093",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-act-3_055",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-03-men-1_039",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-03-men-2_066",
+      "current_upgrade_count": 1
+     }
+    ],
+    "include_produce_default": false,
+    "produce_item_ids": [
+     "pitem_03-3-159-0",
+     "pitem_00-3-265-0",
+     "pitem_03-3-126-0",
+     "pitem_00-3-054-0",
+     "pitem_00-2-001-0"
+    ],
+    "starting_stamina": 21,
+    "max_stamina": 33,
+    "seed": 1231229294,
+    "drink_ids": [
+     "pdrink_00-2-010",
+     "pdrink_00-2-008",
+     "pdrink_00-3-005",
+     "pdrink_00-3-005"
+    ],
+    "support_cards": [
+     {
+      "support_card_id": "s_card-3-0010",
+      "permil": 64
+     },
+     {
+      "support_card_id": "s_card-3-0058",
+      "permil": 61
+     },
+     {
+      "support_card_id": "s_card-3-0039",
+      "permil": 61
+     },
+     {
+      "support_card_id": "s_card-2-0001",
+      "permil": 56
+     },
+     {
+      "support_card_id": "s_card-3-0025",
+      "permil": 67
+     },
+     {
+      "support_card_id": "s_card-3-0001",
+      "permil": 74
+     }
+    ],
+    "lesson_start_enchant_ids": [
+     "enchant-customize_pitem-03-04-3-001_00-04-2-001_03-03-1-001-enc01",
+     "enchant-customize_pitem-03-04-3-001_00-04-2-001_03-03-1-001-enc01",
+     "enchant-p_ef-hif_memory-p_card-03-men-1_050-enc02",
+     "enchant-p_ef-hif_memory-p_card-03-men-2_066-enc02"
+    ],
+    "main_item_enchant_ids": []
+   }
+  },
+  "FULL_POWER": {
+   "plan": "PLAN3",
+   "idol_card_id": "i_card-hmsz-3-000",
+   "source": "tests/data/hif59_ano_final_loadout.json",
+   "difficulty_id": "p_step_audition_difficulty-i_card-hmsz-3-000",
+   "loadout": {
+    "schema": "gkms.hif_loadout.v1",
+    "idol_card_id": "i_card-hmsz-3-000",
+    "round": "final",
+    "produce_id": "produce-007",
+    "parameters": {
+     "1": 1702,
+     "2": 848,
+     "3": 1252
+    },
+    "score_bonus_permils": {
+     "1": 29170,
+     "2": 16050,
+     "3": 21710
+    },
+    "deck_cards": [
+     {
+      "produce_card_id": "p_card-03-ido-3_077",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-00-sup-3_027",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-act-3_057",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-men-2_079",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-men-2_080",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-03-men-3_063",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-act-2_082",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-act-2_071",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-men-2_074",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-act-3_053",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-040-g_effect-play_move_position_type_change-grave",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-03-men-3_062",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-020-g_effect-cost_reduce-2",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-03-men-3_058",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-men-2_066",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-040_070-g_effect-effect_add-e_effect-exam_add_grow_effect-p_card_search-deck_all-all-0_0-g_effect-lesson_add-1-g_effect-effect_add-e_effect-exam_add_grow_effect-p_card_search-deck_all-all-0_0-g_effect-lesson_add-4",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-03-act-2_102",
+      "current_upgrade_count": 1,
+      "customizes": [
+       {
+        "id": "p_card_custom-wrapper-p_card-03-act-2_102-b-01",
+        "customize_count": 1
+       }
+      ]
+     },
+     {
+      "produce_card_id": "p_card-03-act-3_056",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-act-2_070",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-03-men-2_064",
+      "current_upgrade_count": 1
+     },
+     {
+      "produce_card_id": "p_card-03-act-3_054",
+      "current_upgrade_count": 0
+     },
+     {
+      "produce_card_id": "p_card-03-men-1_039",
+      "current_upgrade_count": 0
+     }
+    ],
+    "include_produce_default": false,
+    "produce_item_ids": [
+     "pitem_03-3-133-0",
+     "pitem_00-3-265-0",
+     "pitem_00-3-054-0",
+     "pitem_00-3-352-0",
+     "pitem_00-2-001-0",
+     "pitem_03-3-126-0"
+    ],
+    "starting_stamina": 44,
+    "max_stamina": 44,
+    "seed": 991114779,
+    "drink_ids": [
+     "pdrink_00-2-010",
+     "pdrink_00-2-008",
+     "pdrink_00-2-008",
+     "pdrink_00-3-005"
+    ],
+    "support_cards": [
+     {
+      "support_card_id": "s_card-3-0010",
+      "permil": 64
+     },
+     {
+      "support_card_id": "s_card-3-0058",
+      "permil": 61
+     },
+     {
+      "support_card_id": "s_card-3-0039",
+      "permil": 61
+     },
+     {
+      "support_card_id": "s_card-2-0001",
+      "permil": 56
+     },
+     {
+      "support_card_id": "s_card-3-0025",
+      "permil": 67
+     },
+     {
+      "support_card_id": "s_card-3-0099",
+      "permil": 74
+     }
+    ],
+    "lesson_start_enchant_ids": [
+     "enchant-customize_pitem-03-04-3-001_00-04-2-002_03-03-1-001-enc01",
+     "enchant-p_ef-hif_memory-p_card-03-men-2_079-enc02",
+     "enchant-p_ef-hif_memory-p_card-03-men-2_066-enc02"
+    ],
+    "main_item_enchant_ids": []
+   }
+  }
+ }
+}
